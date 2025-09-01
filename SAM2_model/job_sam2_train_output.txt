@@ -1,0 +1,2082 @@
+
+Starting 
+Running on hosts: gpu1-002
+Running on 1 nodes.
+Running on 1 processors.
+
+PyTorch version: 2.8.0+cu128
+CUDA available: True
+CUDA version: 12.8
+Device count: 1
+Current device: 0
+Device name: NVIDIA A100 80GB PCIe
+Using device: cuda
+[INFO] Using device: cuda
+
+--- Fold 1 ---
+[INFO] Initialized model weights for fold 1
+
+Epoch 1/250
+
+[INFO] Fold 1 | Epoch 1
+[INFO] Train Metrics | Dice: 0.4477 | IoU: 0.3303 | Loss: 0.4239 (BCE: 0.0619, Dice: 0.5791)
+[INFO] Val Metrics   | Dice: 0.7114 | IoU: 0.5765 | Loss: 0.2203 (BCE: 0.0366, Dice: 0.2991)
+[INFO] Best model saved for fold 1 at epoch 1 (Dice: 0.7114)
+
+Epoch 2/250
+
+[INFO] Fold 1 | Epoch 2
+[INFO] Train Metrics | Dice: 0.6466 | IoU: 0.5135 | Loss: 0.2737 (BCE: 0.0620, Dice: 0.3645)
+[INFO] Val Metrics   | Dice: 0.7249 | IoU: 0.5887 | Loss: 0.2139 (BCE: 0.0416, Dice: 0.2878)
+[INFO] Best model saved for fold 1 at epoch 2 (Dice: 0.7249)
+
+Epoch 3/250
+
+[INFO] Fold 1 | Epoch 3
+[INFO] Train Metrics | Dice: 0.6990 | IoU: 0.5667 | Loss: 0.2337 (BCE: 0.0551, Dice: 0.3102)
+[INFO] Val Metrics   | Dice: 0.7392 | IoU: 0.6079 | Loss: 0.1981 (BCE: 0.0425, Dice: 0.2648)
+[INFO] Best model saved for fold 1 at epoch 3 (Dice: 0.7392)
+
+Epoch 4/250
+
+[INFO] Fold 1 | Epoch 4
+[INFO] Train Metrics | Dice: 0.6754 | IoU: 0.5446 | Loss: 0.2511 (BCE: 0.0597, Dice: 0.3331)
+[INFO] Val Metrics   | Dice: 0.7405 | IoU: 0.6089 | Loss: 0.1966 (BCE: 0.0340, Dice: 0.2663)
+[INFO] Best model saved for fold 1 at epoch 4 (Dice: 0.7405)
+
+Epoch 5/250
+[INFO] Saved validation plot: ./val_plots/fold_1_epoch_5_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_1_epoch_5_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_1_epoch_5_val_images.png
+
+[INFO] Fold 1 | Epoch 5
+[INFO] Train Metrics | Dice: 0.6960 | IoU: 0.5688 | Loss: 0.2352 (BCE: 0.0474, Dice: 0.3157)
+[INFO] Val Metrics   | Dice: 0.7437 | IoU: 0.6138 | Loss: 0.1948 (BCE: 0.0367, Dice: 0.2626)
+[INFO] Best model saved for fold 1 at epoch 5 (Dice: 0.7437)
+
+Epoch 6/250
+
+[INFO] Fold 1 | Epoch 6
+[INFO] Train Metrics | Dice: 0.6765 | IoU: 0.5456 | Loss: 0.2488 (BCE: 0.0547, Dice: 0.3320)
+[INFO] Val Metrics   | Dice: 0.7256 | IoU: 0.5926 | Loss: 0.2082 (BCE: 0.0403, Dice: 0.2802)
+
+Epoch 7/250
+
+[INFO] Fold 1 | Epoch 7
+[INFO] Train Metrics | Dice: 0.7163 | IoU: 0.5856 | Loss: 0.2194 (BCE: 0.0453, Dice: 0.2940)
+[INFO] Val Metrics   | Dice: 0.7833 | IoU: 0.6601 | Loss: 0.1641 (BCE: 0.0248, Dice: 0.2238)
+[INFO] Best model saved for fold 1 at epoch 7 (Dice: 0.7833)
+
+Epoch 8/250
+
+[INFO] Fold 1 | Epoch 8
+[INFO] Train Metrics | Dice: 0.7300 | IoU: 0.5989 | Loss: 0.2072 (BCE: 0.0445, Dice: 0.2770)
+[INFO] Val Metrics   | Dice: 0.7624 | IoU: 0.6365 | Loss: 0.1807 (BCE: 0.0291, Dice: 0.2457)
+
+Epoch 9/250
+
+[INFO] Fold 1 | Epoch 9
+[INFO] Train Metrics | Dice: 0.7134 | IoU: 0.5820 | Loss: 0.2207 (BCE: 0.0502, Dice: 0.2938)
+[INFO] Val Metrics   | Dice: 0.7550 | IoU: 0.6256 | Loss: 0.1852 (BCE: 0.0362, Dice: 0.2491)
+
+Epoch 10/250
+[INFO] Saved validation plot: ./val_plots/fold_1_epoch_10_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_1_epoch_10_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_1_epoch_10_val_images.png
+
+[INFO] Fold 1 | Epoch 10
+[INFO] Train Metrics | Dice: 0.7116 | IoU: 0.5834 | Loss: 0.2206 (BCE: 0.0460, Dice: 0.2954)
+[INFO] Val Metrics   | Dice: 0.7622 | IoU: 0.6334 | Loss: 0.1801 (BCE: 0.0327, Dice: 0.2432)
+
+Epoch 11/250
+
+[INFO] Fold 1 | Epoch 11
+[INFO] Train Metrics | Dice: 0.7474 | IoU: 0.6203 | Loss: 0.1931 (BCE: 0.0370, Dice: 0.2601)
+[INFO] Val Metrics   | Dice: 0.7853 | IoU: 0.6625 | Loss: 0.1635 (BCE: 0.0338, Dice: 0.2190)
+[INFO] Best model saved for fold 1 at epoch 11 (Dice: 0.7853)
+
+Epoch 12/250
+
+[INFO] Fold 1 | Epoch 12
+[INFO] Train Metrics | Dice: 0.7459 | IoU: 0.6195 | Loss: 0.1957 (BCE: 0.0420, Dice: 0.2616)
+[INFO] Val Metrics   | Dice: 0.7654 | IoU: 0.6400 | Loss: 0.1784 (BCE: 0.0407, Dice: 0.2375)
+
+Epoch 13/250
+
+[INFO] Fold 1 | Epoch 13
+[INFO] Train Metrics | Dice: 0.7511 | IoU: 0.6258 | Loss: 0.1902 (BCE: 0.0382, Dice: 0.2553)
+[INFO] Val Metrics   | Dice: 0.7836 | IoU: 0.6606 | Loss: 0.1636 (BCE: 0.0282, Dice: 0.2216)
+
+Epoch 14/250
+
+[INFO] Fold 1 | Epoch 14
+[INFO] Train Metrics | Dice: 0.7529 | IoU: 0.6256 | Loss: 0.1890 (BCE: 0.0369, Dice: 0.2542)
+[INFO] Val Metrics   | Dice: 0.7743 | IoU: 0.6465 | Loss: 0.1708 (BCE: 0.0355, Dice: 0.2289)
+
+Epoch 15/250
+[INFO] Saved validation plot: ./val_plots/fold_1_epoch_15_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_1_epoch_15_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_1_epoch_15_val_images.png
+
+[INFO] Fold 1 | Epoch 15
+[INFO] Train Metrics | Dice: 0.7492 | IoU: 0.6192 | Loss: 0.1920 (BCE: 0.0388, Dice: 0.2577)
+[INFO] Val Metrics   | Dice: 0.7819 | IoU: 0.6567 | Loss: 0.1660 (BCE: 0.0364, Dice: 0.2216)
+
+Epoch 16/250
+
+[INFO] Fold 1 | Epoch 16
+[INFO] Train Metrics | Dice: 0.7453 | IoU: 0.6157 | Loss: 0.1947 (BCE: 0.0383, Dice: 0.2617)
+[INFO] Val Metrics   | Dice: 0.7918 | IoU: 0.6673 | Loss: 0.1571 (BCE: 0.0275, Dice: 0.2127)
+[INFO] Best model saved for fold 1 at epoch 16 (Dice: 0.7918)
+
+Epoch 17/250
+
+[INFO] Fold 1 | Epoch 17
+[INFO] Train Metrics | Dice: 0.7645 | IoU: 0.6370 | Loss: 0.1808 (BCE: 0.0392, Dice: 0.2415)
+[INFO] Val Metrics   | Dice: 0.7787 | IoU: 0.6514 | Loss: 0.1674 (BCE: 0.0331, Dice: 0.2250)
+
+Epoch 18/250
+
+[INFO] Fold 1 | Epoch 18
+[INFO] Train Metrics | Dice: 0.7725 | IoU: 0.6461 | Loss: 0.1739 (BCE: 0.0331, Dice: 0.2343)
+[INFO] Val Metrics   | Dice: 0.7764 | IoU: 0.6487 | Loss: 0.1690 (BCE: 0.0306, Dice: 0.2284)
+
+Epoch 19/250
+
+[INFO] Fold 1 | Epoch 19
+[INFO] Train Metrics | Dice: 0.7665 | IoU: 0.6384 | Loss: 0.1808 (BCE: 0.0439, Dice: 0.2395)
+[INFO] Val Metrics   | Dice: 0.7865 | IoU: 0.6613 | Loss: 0.1618 (BCE: 0.0289, Dice: 0.2187)
+
+Epoch 20/250
+[INFO] Saved validation plot: ./val_plots/fold_1_epoch_20_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_1_epoch_20_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_1_epoch_20_val_images.png
+
+[INFO] Fold 1 | Epoch 20
+[INFO] Train Metrics | Dice: 0.7729 | IoU: 0.6469 | Loss: 0.1738 (BCE: 0.0370, Dice: 0.2325)
+[INFO] Val Metrics   | Dice: 0.7774 | IoU: 0.6548 | Loss: 0.1678 (BCE: 0.0282, Dice: 0.2276)
+
+Epoch 21/250
+
+[INFO] Fold 1 | Epoch 21
+[INFO] Train Metrics | Dice: 0.7688 | IoU: 0.6434 | Loss: 0.1762 (BCE: 0.0332, Dice: 0.2375)
+[INFO] Val Metrics   | Dice: 0.7836 | IoU: 0.6634 | Loss: 0.1631 (BCE: 0.0288, Dice: 0.2206)
+
+Epoch 22/250
+
+[INFO] Fold 1 | Epoch 22
+[INFO] Train Metrics | Dice: 0.7849 | IoU: 0.6642 | Loss: 0.1649 (BCE: 0.0321, Dice: 0.2218)
+[INFO] Val Metrics   | Dice: 0.7639 | IoU: 0.6383 | Loss: 0.1786 (BCE: 0.0330, Dice: 0.2410)
+
+Epoch 23/250
+
+[INFO] Fold 1 | Epoch 23
+[INFO] Train Metrics | Dice: 0.7871 | IoU: 0.6663 | Loss: 0.1629 (BCE: 0.0336, Dice: 0.2183)
+[INFO] Val Metrics   | Dice: 0.7907 | IoU: 0.6701 | Loss: 0.1583 (BCE: 0.0250, Dice: 0.2154)
+
+Epoch 24/250
+
+[INFO] Fold 1 | Epoch 24
+[INFO] Train Metrics | Dice: 0.7849 | IoU: 0.6635 | Loss: 0.1642 (BCE: 0.0319, Dice: 0.2209)
+[INFO] Val Metrics   | Dice: 0.7792 | IoU: 0.6577 | Loss: 0.1673 (BCE: 0.0302, Dice: 0.2261)
+
+Epoch 25/250
+[INFO] Saved validation plot: ./val_plots/fold_1_epoch_25_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_1_epoch_25_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_1_epoch_25_val_images.png
+
+[INFO] Fold 1 | Epoch 25
+[INFO] Train Metrics | Dice: 0.7885 | IoU: 0.6688 | Loss: 0.1624 (BCE: 0.0343, Dice: 0.2173)
+[INFO] Val Metrics   | Dice: 0.7967 | IoU: 0.6766 | Loss: 0.1545 (BCE: 0.0326, Dice: 0.2067)
+[INFO] Best model saved for fold 1 at epoch 25 (Dice: 0.7967)
+
+Epoch 26/250
+
+[INFO] Fold 1 | Epoch 26
+[INFO] Train Metrics | Dice: 0.7884 | IoU: 0.6671 | Loss: 0.1620 (BCE: 0.0319, Dice: 0.2178)
+[INFO] Val Metrics   | Dice: 0.7944 | IoU: 0.6734 | Loss: 0.1558 (BCE: 0.0299, Dice: 0.2098)
+
+Epoch 27/250
+
+[INFO] Fold 1 | Epoch 27
+[INFO] Train Metrics | Dice: 0.7842 | IoU: 0.6613 | Loss: 0.1659 (BCE: 0.0349, Dice: 0.2220)
+[INFO] Val Metrics   | Dice: 0.8088 | IoU: 0.6907 | Loss: 0.1453 (BCE: 0.0230, Dice: 0.1977)
+[INFO] Best model saved for fold 1 at epoch 27 (Dice: 0.8088)
+
+Epoch 28/250
+
+[INFO] Fold 1 | Epoch 28
+[INFO] Train Metrics | Dice: 0.7892 | IoU: 0.6707 | Loss: 0.1617 (BCE: 0.0347, Dice: 0.2161)
+[INFO] Val Metrics   | Dice: 0.7773 | IoU: 0.6534 | Loss: 0.1699 (BCE: 0.0394, Dice: 0.2258)
+
+Epoch 29/250
+
+[INFO] Fold 1 | Epoch 29
+[INFO] Train Metrics | Dice: 0.7838 | IoU: 0.6619 | Loss: 0.1653 (BCE: 0.0329, Dice: 0.2221)
+[INFO] Val Metrics   | Dice: 0.8017 | IoU: 0.6825 | Loss: 0.1501 (BCE: 0.0243, Dice: 0.2040)
+
+Epoch 30/250
+[INFO] Saved validation plot: ./val_plots/fold_1_epoch_30_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_1_epoch_30_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_1_epoch_30_val_images.png
+
+[INFO] Fold 1 | Epoch 30
+[INFO] Train Metrics | Dice: 0.8021 | IoU: 0.6819 | Loss: 0.1519 (BCE: 0.0334, Dice: 0.2027)
+[INFO] Val Metrics   | Dice: 0.7893 | IoU: 0.6654 | Loss: 0.1601 (BCE: 0.0316, Dice: 0.2152)
+
+Epoch 31/250
+
+[INFO] Fold 1 | Epoch 31
+[INFO] Train Metrics | Dice: 0.8091 | IoU: 0.6945 | Loss: 0.1458 (BCE: 0.0269, Dice: 0.1967)
+[INFO] Val Metrics   | Dice: 0.7966 | IoU: 0.6759 | Loss: 0.1544 (BCE: 0.0322, Dice: 0.2067)
+
+Epoch 32/250
+
+[INFO] Fold 1 | Epoch 32
+[INFO] Train Metrics | Dice: 0.7949 | IoU: 0.6769 | Loss: 0.1567 (BCE: 0.0292, Dice: 0.2113)
+[INFO] Val Metrics   | Dice: 0.7853 | IoU: 0.6624 | Loss: 0.1628 (BCE: 0.0315, Dice: 0.2191)
+
+Epoch 33/250
+
+[INFO] Fold 1 | Epoch 33
+[INFO] Train Metrics | Dice: 0.8001 | IoU: 0.6824 | Loss: 0.1546 (BCE: 0.0383, Dice: 0.2045)
+[INFO] Val Metrics   | Dice: 0.7892 | IoU: 0.6677 | Loss: 0.1592 (BCE: 0.0271, Dice: 0.2159)
+
+Epoch 34/250
+
+[INFO] Fold 1 | Epoch 34
+[INFO] Train Metrics | Dice: 0.8089 | IoU: 0.6902 | Loss: 0.1469 (BCE: 0.0293, Dice: 0.1973)
+[INFO] Val Metrics   | Dice: 0.7898 | IoU: 0.6717 | Loss: 0.1593 (BCE: 0.0301, Dice: 0.2147)
+
+Epoch 35/250
+[INFO] Saved validation plot: ./val_plots/fold_1_epoch_35_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_1_epoch_35_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_1_epoch_35_val_images.png
+
+[INFO] Fold 1 | Epoch 35
+[INFO] Train Metrics | Dice: 0.7958 | IoU: 0.6782 | Loss: 0.1567 (BCE: 0.0314, Dice: 0.2104)
+[INFO] Val Metrics   | Dice: 0.7947 | IoU: 0.6763 | Loss: 0.1555 (BCE: 0.0303, Dice: 0.2091)
+
+Epoch 36/250
+
+[INFO] Fold 1 | Epoch 36
+[INFO] Train Metrics | Dice: 0.7909 | IoU: 0.6702 | Loss: 0.1605 (BCE: 0.0329, Dice: 0.2151)
+[INFO] Val Metrics   | Dice: 0.8023 | IoU: 0.6849 | Loss: 0.1494 (BCE: 0.0234, Dice: 0.2034)
+
+Epoch 37/250
+
+[INFO] Fold 1 | Epoch 37
+[INFO] Train Metrics | Dice: 0.8080 | IoU: 0.6919 | Loss: 0.1471 (BCE: 0.0323, Dice: 0.1964)
+[INFO] Val Metrics   | Dice: 0.8069 | IoU: 0.6916 | Loss: 0.1458 (BCE: 0.0271, Dice: 0.1966)
+
+Epoch 38/250
+
+[INFO] Fold 1 | Epoch 38
+[INFO] Train Metrics | Dice: 0.8108 | IoU: 0.6956 | Loss: 0.1450 (BCE: 0.0290, Dice: 0.1947)
+[INFO] Val Metrics   | Dice: 0.8092 | IoU: 0.6934 | Loss: 0.1450 (BCE: 0.0292, Dice: 0.1946)
+[INFO] Best model saved for fold 1 at epoch 38 (Dice: 0.8092)
+
+Epoch 39/250
+
+[INFO] Fold 1 | Epoch 39
+[INFO] Train Metrics | Dice: 0.8034 | IoU: 0.6860 | Loss: 0.1510 (BCE: 0.0317, Dice: 0.2021)
+[INFO] Val Metrics   | Dice: 0.8054 | IoU: 0.6888 | Loss: 0.1468 (BCE: 0.0263, Dice: 0.1984)
+
+Epoch 40/250
+[INFO] Saved validation plot: ./val_plots/fold_1_epoch_40_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_1_epoch_40_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_1_epoch_40_val_images.png
+
+[INFO] Fold 1 | Epoch 40
+[INFO] Train Metrics | Dice: 0.7998 | IoU: 0.6824 | Loss: 0.1528 (BCE: 0.0300, Dice: 0.2055)
+[INFO] Val Metrics   | Dice: 0.8106 | IoU: 0.6957 | Loss: 0.1435 (BCE: 0.0252, Dice: 0.1942)
+[INFO] Best model saved for fold 1 at epoch 40 (Dice: 0.8106)
+
+Epoch 41/250
+
+[INFO] Fold 1 | Epoch 41
+[INFO] Train Metrics | Dice: 0.8164 | IoU: 0.7026 | Loss: 0.1405 (BCE: 0.0278, Dice: 0.1889)
+[INFO] Val Metrics   | Dice: 0.8024 | IoU: 0.6846 | Loss: 0.1499 (BCE: 0.0290, Dice: 0.2017)
+
+Epoch 42/250
+
+[INFO] Fold 1 | Epoch 42
+[INFO] Train Metrics | Dice: 0.8196 | IoU: 0.7048 | Loss: 0.1385 (BCE: 0.0295, Dice: 0.1852)
+[INFO] Val Metrics   | Dice: 0.8076 | IoU: 0.6892 | Loss: 0.1459 (BCE: 0.0258, Dice: 0.1973)
+
+Epoch 43/250
+
+[INFO] Fold 1 | Epoch 43
+[INFO] Train Metrics | Dice: 0.8023 | IoU: 0.6862 | Loss: 0.1507 (BCE: 0.0293, Dice: 0.2028)
+[INFO] Val Metrics   | Dice: 0.8086 | IoU: 0.6923 | Loss: 0.1448 (BCE: 0.0257, Dice: 0.1958)
+
+Epoch 44/250
+
+[INFO] Fold 1 | Epoch 44
+[INFO] Train Metrics | Dice: 0.8149 | IoU: 0.7011 | Loss: 0.1416 (BCE: 0.0284, Dice: 0.1902)
+[INFO] Val Metrics   | Dice: 0.7719 | IoU: 0.6434 | Loss: 0.1729 (BCE: 0.0387, Dice: 0.2305)
+
+Epoch 45/250
+[INFO] Saved validation plot: ./val_plots/fold_1_epoch_45_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_1_epoch_45_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_1_epoch_45_val_images.png
+
+[INFO] Fold 1 | Epoch 45
+[INFO] Train Metrics | Dice: 0.8181 | IoU: 0.7047 | Loss: 0.1395 (BCE: 0.0264, Dice: 0.1880)
+[INFO] Val Metrics   | Dice: 0.8020 | IoU: 0.6842 | Loss: 0.1500 (BCE: 0.0291, Dice: 0.2018)
+
+Epoch 46/250
+
+[INFO] Fold 1 | Epoch 46
+[INFO] Train Metrics | Dice: 0.8143 | IoU: 0.7005 | Loss: 0.1420 (BCE: 0.0285, Dice: 0.1907)
+[INFO] Val Metrics   | Dice: 0.8016 | IoU: 0.6844 | Loss: 0.1507 (BCE: 0.0321, Dice: 0.2016)
+
+Epoch 47/250
+
+[INFO] Fold 1 | Epoch 47
+[INFO] Train Metrics | Dice: 0.8126 | IoU: 0.7005 | Loss: 0.1437 (BCE: 0.0312, Dice: 0.1919)
+[INFO] Val Metrics   | Dice: 0.8091 | IoU: 0.6933 | Loss: 0.1444 (BCE: 0.0273, Dice: 0.1946)
+
+Epoch 48/250
+
+[INFO] Fold 1 | Epoch 48
+[INFO] Train Metrics | Dice: 0.8149 | IoU: 0.7014 | Loss: 0.1417 (BCE: 0.0283, Dice: 0.1902)
+[INFO] Val Metrics   | Dice: 0.8042 | IoU: 0.6863 | Loss: 0.1480 (BCE: 0.0264, Dice: 0.2001)
+
+Epoch 49/250
+
+[INFO] Fold 1 | Epoch 49
+[INFO] Train Metrics | Dice: 0.8256 | IoU: 0.7166 | Loss: 0.1340 (BCE: 0.0279, Dice: 0.1794)
+[INFO] Val Metrics   | Dice: 0.8101 | IoU: 0.6925 | Loss: 0.1449 (BCE: 0.0273, Dice: 0.1953)
+
+Epoch 50/250
+[INFO] Saved validation plot: ./val_plots/fold_1_epoch_50_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_1_epoch_50_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_1_epoch_50_val_images.png
+
+[INFO] Fold 1 | Epoch 50
+[INFO] Train Metrics | Dice: 0.8210 | IoU: 0.7082 | Loss: 0.1370 (BCE: 0.0282, Dice: 0.1836)
+[INFO] Val Metrics   | Dice: 0.7766 | IoU: 0.6489 | Loss: 0.1703 (BCE: 0.0382, Dice: 0.2269)
+
+Epoch 51/250
+
+[INFO] Fold 1 | Epoch 51
+[INFO] Train Metrics | Dice: 0.8162 | IoU: 0.7051 | Loss: 0.1409 (BCE: 0.0291, Dice: 0.1888)
+[INFO] Val Metrics   | Dice: 0.8012 | IoU: 0.6839 | Loss: 0.1511 (BCE: 0.0301, Dice: 0.2030)
+
+Epoch 52/250
+
+[INFO] Fold 1 | Epoch 52
+[INFO] Train Metrics | Dice: 0.8342 | IoU: 0.7256 | Loss: 0.1277 (BCE: 0.0277, Dice: 0.1706)
+[INFO] Val Metrics   | Dice: 0.7950 | IoU: 0.6736 | Loss: 0.1558 (BCE: 0.0274, Dice: 0.2109)
+
+Epoch 53/250
+
+[INFO] Fold 1 | Epoch 53
+[INFO] Train Metrics | Dice: 0.8207 | IoU: 0.7098 | Loss: 0.1377 (BCE: 0.0292, Dice: 0.1842)
+[INFO] Val Metrics   | Dice: 0.8137 | IoU: 0.6991 | Loss: 0.1412 (BCE: 0.0280, Dice: 0.1897)
+[INFO] Best model saved for fold 1 at epoch 53 (Dice: 0.8137)
+
+Epoch 54/250
+
+[INFO] Fold 1 | Epoch 54
+[INFO] Train Metrics | Dice: 0.8276 | IoU: 0.7173 | Loss: 0.1327 (BCE: 0.0269, Dice: 0.1780)
+[INFO] Val Metrics   | Dice: 0.7972 | IoU: 0.6786 | Loss: 0.1547 (BCE: 0.0355, Dice: 0.2058)
+
+Epoch 55/250
+[INFO] Saved validation plot: ./val_plots/fold_1_epoch_55_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_1_epoch_55_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_1_epoch_55_val_images.png
+
+[INFO] Fold 1 | Epoch 55
+[INFO] Train Metrics | Dice: 0.8179 | IoU: 0.7060 | Loss: 0.1397 (BCE: 0.0298, Dice: 0.1869)
+[INFO] Val Metrics   | Dice: 0.8088 | IoU: 0.6906 | Loss: 0.1445 (BCE: 0.0264, Dice: 0.1951)
+
+Epoch 56/250
+
+[INFO] Fold 1 | Epoch 56
+[INFO] Train Metrics | Dice: 0.8207 | IoU: 0.7078 | Loss: 0.1372 (BCE: 0.0268, Dice: 0.1845)
+[INFO] Val Metrics   | Dice: 0.8057 | IoU: 0.6882 | Loss: 0.1474 (BCE: 0.0302, Dice: 0.1977)
+
+Epoch 57/250
+
+[INFO] Fold 1 | Epoch 57
+[INFO] Train Metrics | Dice: 0.8352 | IoU: 0.7291 | Loss: 0.1266 (BCE: 0.0257, Dice: 0.1698)
+[INFO] Val Metrics   | Dice: 0.8126 | IoU: 0.6960 | Loss: 0.1426 (BCE: 0.0314, Dice: 0.1902)
+
+Epoch 58/250
+
+[INFO] Fold 1 | Epoch 58
+[INFO] Train Metrics | Dice: 0.8241 | IoU: 0.7165 | Loss: 0.1339 (BCE: 0.0269, Dice: 0.1798)
+[INFO] Val Metrics   | Dice: 0.7985 | IoU: 0.6777 | Loss: 0.1518 (BCE: 0.0285, Dice: 0.2047)
+
+Epoch 59/250
+
+[INFO] Fold 1 | Epoch 59
+[INFO] Train Metrics | Dice: 0.8386 | IoU: 0.7327 | Loss: 0.1234 (BCE: 0.0244, Dice: 0.1658)
+[INFO] Val Metrics   | Dice: 0.8082 | IoU: 0.6926 | Loss: 0.1450 (BCE: 0.0296, Dice: 0.1945)
+
+Epoch 60/250
+[INFO] Saved validation plot: ./val_plots/fold_1_epoch_60_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_1_epoch_60_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_1_epoch_60_val_images.png
+
+[INFO] Fold 1 | Epoch 60
+[INFO] Train Metrics | Dice: 0.8357 | IoU: 0.7288 | Loss: 0.1259 (BCE: 0.0261, Dice: 0.1687)
+[INFO] Val Metrics   | Dice: 0.8152 | IoU: 0.6992 | Loss: 0.1400 (BCE: 0.0281, Dice: 0.1879)
+[INFO] Best model saved for fold 1 at epoch 60 (Dice: 0.8152)
+
+Epoch 61/250
+
+[INFO] Fold 1 | Epoch 61
+[INFO] Train Metrics | Dice: 0.8370 | IoU: 0.7329 | Loss: 0.1248 (BCE: 0.0234, Dice: 0.1683)
+[INFO] Val Metrics   | Dice: 0.8115 | IoU: 0.6970 | Loss: 0.1435 (BCE: 0.0304, Dice: 0.1919)
+
+Epoch 62/250
+
+[INFO] Fold 1 | Epoch 62
+[INFO] Train Metrics | Dice: 0.8363 | IoU: 0.7293 | Loss: 0.1258 (BCE: 0.0282, Dice: 0.1677)
+[INFO] Val Metrics   | Dice: 0.7975 | IoU: 0.6806 | Loss: 0.1537 (BCE: 0.0310, Dice: 0.2062)
+
+Epoch 63/250
+
+[INFO] Fold 1 | Epoch 63
+[INFO] Train Metrics | Dice: 0.8422 | IoU: 0.7398 | Loss: 0.1209 (BCE: 0.0238, Dice: 0.1625)
+[INFO] Val Metrics   | Dice: 0.8180 | IoU: 0.7034 | Loss: 0.1380 (BCE: 0.0279, Dice: 0.1852)
+[INFO] Best model saved for fold 1 at epoch 63 (Dice: 0.8180)
+
+Epoch 64/250
+
+[INFO] Fold 1 | Epoch 64
+[INFO] Train Metrics | Dice: 0.8387 | IoU: 0.7322 | Loss: 0.1237 (BCE: 0.0272, Dice: 0.1651)
+[INFO] Val Metrics   | Dice: 0.8091 | IoU: 0.6921 | Loss: 0.1439 (BCE: 0.0282, Dice: 0.1935)
+
+Epoch 65/250
+[INFO] Saved validation plot: ./val_plots/fold_1_epoch_65_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_1_epoch_65_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_1_epoch_65_val_images.png
+
+[INFO] Fold 1 | Epoch 65
+[INFO] Train Metrics | Dice: 0.8358 | IoU: 0.7287 | Loss: 0.1265 (BCE: 0.0267, Dice: 0.1692)
+[INFO] Val Metrics   | Dice: 0.8117 | IoU: 0.6948 | Loss: 0.1422 (BCE: 0.0247, Dice: 0.1926)
+
+Epoch 66/250
+
+[INFO] Fold 1 | Epoch 66
+[INFO] Train Metrics | Dice: 0.8364 | IoU: 0.7295 | Loss: 0.1253 (BCE: 0.0245, Dice: 0.1684)
+[INFO] Val Metrics   | Dice: 0.8003 | IoU: 0.6872 | Loss: 0.1520 (BCE: 0.0320, Dice: 0.2034)
+
+Epoch 67/250
+
+[INFO] Fold 1 | Epoch 67
+[INFO] Train Metrics | Dice: 0.8402 | IoU: 0.7364 | Loss: 0.1225 (BCE: 0.0261, Dice: 0.1638)
+[INFO] Val Metrics   | Dice: 0.8169 | IoU: 0.7034 | Loss: 0.1385 (BCE: 0.0255, Dice: 0.1869)
+
+Epoch 68/250
+
+[INFO] Fold 1 | Epoch 68
+[INFO] Train Metrics | Dice: 0.8432 | IoU: 0.7420 | Loss: 0.1202 (BCE: 0.0239, Dice: 0.1615)
+[INFO] Val Metrics   | Dice: 0.8013 | IoU: 0.6850 | Loss: 0.1517 (BCE: 0.0325, Dice: 0.2028)
+
+Epoch 69/250
+
+[INFO] Fold 1 | Epoch 69
+[INFO] Train Metrics | Dice: 0.8447 | IoU: 0.7436 | Loss: 0.1217 (BCE: 0.0316, Dice: 0.1603)
+[INFO] Val Metrics   | Dice: 0.8208 | IoU: 0.7072 | Loss: 0.1359 (BCE: 0.0278, Dice: 0.1822)
+[INFO] Best model saved for fold 1 at epoch 69 (Dice: 0.8208)
+
+Epoch 70/250
+[INFO] Saved validation plot: ./val_plots/fold_1_epoch_70_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_1_epoch_70_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_1_epoch_70_val_images.png
+
+[INFO] Fold 1 | Epoch 70
+[INFO] Train Metrics | Dice: 0.8388 | IoU: 0.7344 | Loss: 0.1243 (BCE: 0.0274, Dice: 0.1659)
+[INFO] Val Metrics   | Dice: 0.8009 | IoU: 0.6843 | Loss: 0.1504 (BCE: 0.0284, Dice: 0.2027)
+
+Epoch 71/250
+
+[INFO] Fold 1 | Epoch 71
+[INFO] Train Metrics | Dice: 0.8419 | IoU: 0.7356 | Loss: 0.1217 (BCE: 0.0242, Dice: 0.1635)
+[INFO] Val Metrics   | Dice: 0.8154 | IoU: 0.7010 | Loss: 0.1401 (BCE: 0.0291, Dice: 0.1877)
+
+Epoch 72/250
+
+[INFO] Fold 1 | Epoch 72
+[INFO] Train Metrics | Dice: 0.8370 | IoU: 0.7298 | Loss: 0.1252 (BCE: 0.0253, Dice: 0.1680)
+[INFO] Val Metrics   | Dice: 0.8019 | IoU: 0.6846 | Loss: 0.1508 (BCE: 0.0321, Dice: 0.2016)
+
+Epoch 73/250
+
+[INFO] Fold 1 | Epoch 73
+[INFO] Train Metrics | Dice: 0.8448 | IoU: 0.7404 | Loss: 0.1192 (BCE: 0.0252, Dice: 0.1594)
+[INFO] Val Metrics   | Dice: 0.8247 | IoU: 0.7123 | Loss: 0.1330 (BCE: 0.0256, Dice: 0.1790)
+[INFO] Best model saved for fold 1 at epoch 73 (Dice: 0.8247)
+
+Epoch 74/250
+
+[INFO] Fold 1 | Epoch 74
+[INFO] Train Metrics | Dice: 0.8522 | IoU: 0.7523 | Loss: 0.1134 (BCE: 0.0231, Dice: 0.1521)
+[INFO] Val Metrics   | Dice: 0.8071 | IoU: 0.6912 | Loss: 0.1466 (BCE: 0.0311, Dice: 0.1961)
+
+Epoch 75/250
+[INFO] Saved validation plot: ./val_plots/fold_1_epoch_75_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_1_epoch_75_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_1_epoch_75_val_images.png
+
+[INFO] Fold 1 | Epoch 75
+[INFO] Train Metrics | Dice: 0.8513 | IoU: 0.7498 | Loss: 0.1141 (BCE: 0.0234, Dice: 0.1530)
+[INFO] Val Metrics   | Dice: 0.8154 | IoU: 0.7005 | Loss: 0.1397 (BCE: 0.0291, Dice: 0.1871)
+
+Epoch 76/250
+
+[INFO] Fold 1 | Epoch 76
+[INFO] Train Metrics | Dice: 0.8567 | IoU: 0.7584 | Loss: 0.1100 (BCE: 0.0223, Dice: 0.1475)
+[INFO] Val Metrics   | Dice: 0.8205 | IoU: 0.7078 | Loss: 0.1357 (BCE: 0.0255, Dice: 0.1829)
+
+Epoch 77/250
+
+[INFO] Fold 1 | Epoch 77
+[INFO] Train Metrics | Dice: 0.8543 | IoU: 0.7539 | Loss: 0.1119 (BCE: 0.0231, Dice: 0.1499)
+[INFO] Val Metrics   | Dice: 0.8080 | IoU: 0.6913 | Loss: 0.1456 (BCE: 0.0280, Dice: 0.1960)
+
+Epoch 78/250
+
+[INFO] Fold 1 | Epoch 78
+[INFO] Train Metrics | Dice: 0.8528 | IoU: 0.7518 | Loss: 0.1133 (BCE: 0.0247, Dice: 0.1513)
+[INFO] Val Metrics   | Dice: 0.8211 | IoU: 0.7094 | Loss: 0.1366 (BCE: 0.0312, Dice: 0.1818)
+
+Epoch 79/250
+
+[INFO] Fold 1 | Epoch 79
+[INFO] Train Metrics | Dice: 0.8636 | IoU: 0.7662 | Loss: 0.1048 (BCE: 0.0208, Dice: 0.1408)
+[INFO] Val Metrics   | Dice: 0.8148 | IoU: 0.7009 | Loss: 0.1407 (BCE: 0.0310, Dice: 0.1877)
+
+Epoch 80/250
+[INFO] Saved validation plot: ./val_plots/fold_1_epoch_80_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_1_epoch_80_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_1_epoch_80_val_images.png
+
+[INFO] Fold 1 | Epoch 80
+[INFO] Train Metrics | Dice: 0.8642 | IoU: 0.7678 | Loss: 0.1042 (BCE: 0.0227, Dice: 0.1391)
+[INFO] Val Metrics   | Dice: 0.8231 | IoU: 0.7118 | Loss: 0.1342 (BCE: 0.0257, Dice: 0.1807)
+
+Epoch 81/250
+
+[INFO] Fold 1 | Epoch 81
+[INFO] Train Metrics | Dice: 0.8619 | IoU: 0.7650 | Loss: 0.1064 (BCE: 0.0211, Dice: 0.1429)
+[INFO] Val Metrics   | Dice: 0.8218 | IoU: 0.7093 | Loss: 0.1355 (BCE: 0.0298, Dice: 0.1808)
+
+Epoch 82/250
+
+[INFO] Fold 1 | Epoch 82
+[INFO] Train Metrics | Dice: 0.8634 | IoU: 0.7677 | Loss: 0.1050 (BCE: 0.0229, Dice: 0.1401)
+[INFO] Val Metrics   | Dice: 0.8211 | IoU: 0.7091 | Loss: 0.1354 (BCE: 0.0262, Dice: 0.1823)
+
+Epoch 83/250
+
+[INFO] Fold 1 | Epoch 83
+[INFO] Train Metrics | Dice: 0.8636 | IoU: 0.7708 | Loss: 0.1044 (BCE: 0.0200, Dice: 0.1406)
+[INFO] Val Metrics   | Dice: 0.8159 | IoU: 0.7014 | Loss: 0.1395 (BCE: 0.0288, Dice: 0.1870)
+
+Epoch 84/250
+
+[INFO] Fold 1 | Epoch 84
+[INFO] Train Metrics | Dice: 0.8684 | IoU: 0.7748 | Loss: 0.1011 (BCE: 0.0202, Dice: 0.1357)
+[INFO] Val Metrics   | Dice: 0.8151 | IoU: 0.7026 | Loss: 0.1401 (BCE: 0.0288, Dice: 0.1877)
+
+Epoch 85/250
+[INFO] Saved validation plot: ./val_plots/fold_1_epoch_85_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_1_epoch_85_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_1_epoch_85_val_images.png
+
+[INFO] Fold 1 | Epoch 85
+[INFO] Train Metrics | Dice: 0.8706 | IoU: 0.7770 | Loss: 0.0995 (BCE: 0.0217, Dice: 0.1328)
+[INFO] Val Metrics   | Dice: 0.8078 | IoU: 0.6955 | Loss: 0.1457 (BCE: 0.0300, Dice: 0.1953)
+
+Epoch 86/250
+
+[INFO] Fold 1 | Epoch 86
+[INFO] Train Metrics | Dice: 0.8535 | IoU: 0.7579 | Loss: 0.1119 (BCE: 0.0210, Dice: 0.1508)
+[INFO] Val Metrics   | Dice: 0.8019 | IoU: 0.6853 | Loss: 0.1506 (BCE: 0.0325, Dice: 0.2012)
+
+Epoch 87/250
+
+[INFO] Fold 1 | Epoch 87
+[INFO] Train Metrics | Dice: 0.8676 | IoU: 0.7731 | Loss: 0.1016 (BCE: 0.0218, Dice: 0.1358)
+[INFO] Val Metrics   | Dice: 0.8128 | IoU: 0.6983 | Loss: 0.1425 (BCE: 0.0319, Dice: 0.1899)
+
+Epoch 88/250
+
+[INFO] Fold 1 | Epoch 88
+[INFO] Train Metrics | Dice: 0.8695 | IoU: 0.7787 | Loss: 0.1000 (BCE: 0.0198, Dice: 0.1344)
+[INFO] Val Metrics   | Dice: 0.8125 | IoU: 0.6999 | Loss: 0.1421 (BCE: 0.0293, Dice: 0.1904)
+
+Epoch 89/250
+
+[INFO] Fold 1 | Epoch 89
+[INFO] Train Metrics | Dice: 0.8672 | IoU: 0.7734 | Loss: 0.1020 (BCE: 0.0213, Dice: 0.1366)
+[INFO] Val Metrics   | Dice: 0.8078 | IoU: 0.6930 | Loss: 0.1450 (BCE: 0.0274, Dice: 0.1954)
+
+Epoch 90/250
+[INFO] Saved validation plot: ./val_plots/fold_1_epoch_90_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_1_epoch_90_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_1_epoch_90_val_images.png
+
+[INFO] Fold 1 | Epoch 90
+[INFO] Train Metrics | Dice: 0.8608 | IoU: 0.7673 | Loss: 0.1068 (BCE: 0.0222, Dice: 0.1431)
+[INFO] Val Metrics   | Dice: 0.8107 | IoU: 0.6964 | Loss: 0.1445 (BCE: 0.0353, Dice: 0.1913)
+
+Epoch 91/250
+
+[INFO] Fold 1 | Epoch 91
+[INFO] Train Metrics | Dice: 0.8651 | IoU: 0.7715 | Loss: 0.1038 (BCE: 0.0222, Dice: 0.1388)
+[INFO] Val Metrics   | Dice: 0.8104 | IoU: 0.6964 | Loss: 0.1435 (BCE: 0.0303, Dice: 0.1921)
+
+Epoch 92/250
+
+[INFO] Fold 1 | Epoch 92
+[INFO] Train Metrics | Dice: 0.8723 | IoU: 0.7791 | Loss: 0.0980 (BCE: 0.0200, Dice: 0.1315)
+[INFO] Val Metrics   | Dice: 0.8180 | IoU: 0.7075 | Loss: 0.1382 (BCE: 0.0287, Dice: 0.1852)
+
+Epoch 93/250
+
+[INFO] Fold 1 | Epoch 93
+[INFO] Train Metrics | Dice: 0.8739 | IoU: 0.7835 | Loss: 0.0971 (BCE: 0.0205, Dice: 0.1299)
+[INFO] Val Metrics   | Dice: 0.8142 | IoU: 0.6993 | Loss: 0.1413 (BCE: 0.0316, Dice: 0.1882)
+
+Epoch 94/250
+
+[INFO] Fold 1 | Epoch 94
+[INFO] Train Metrics | Dice: 0.8737 | IoU: 0.7834 | Loss: 0.0971 (BCE: 0.0194, Dice: 0.1304)
+[INFO] Val Metrics   | Dice: 0.8125 | IoU: 0.6991 | Loss: 0.1428 (BCE: 0.0326, Dice: 0.1900)
+
+Epoch 95/250
+[INFO] Saved validation plot: ./val_plots/fold_1_epoch_95_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_1_epoch_95_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_1_epoch_95_val_images.png
+
+[INFO] Fold 1 | Epoch 95
+[INFO] Train Metrics | Dice: 0.8710 | IoU: 0.7799 | Loss: 0.0994 (BCE: 0.0217, Dice: 0.1327)
+[INFO] Val Metrics   | Dice: 0.8110 | IoU: 0.6979 | Loss: 0.1436 (BCE: 0.0320, Dice: 0.1914)
+
+Epoch 96/250
+
+[INFO] Fold 1 | Epoch 96
+[INFO] Train Metrics | Dice: 0.8756 | IoU: 0.7852 | Loss: 0.0954 (BCE: 0.0190, Dice: 0.1282)
+[INFO] Val Metrics   | Dice: 0.8140 | IoU: 0.7008 | Loss: 0.1416 (BCE: 0.0318, Dice: 0.1886)
+
+Epoch 97/250
+
+[INFO] Fold 1 | Epoch 97
+[INFO] Train Metrics | Dice: 0.8807 | IoU: 0.7930 | Loss: 0.0917 (BCE: 0.0190, Dice: 0.1229)
+[INFO] Val Metrics   | Dice: 0.8151 | IoU: 0.7032 | Loss: 0.1401 (BCE: 0.0281, Dice: 0.1880)
+
+Epoch 98/250
+
+[INFO] Fold 1 | Epoch 98
+[INFO] Train Metrics | Dice: 0.8796 | IoU: 0.7925 | Loss: 0.0923 (BCE: 0.0182, Dice: 0.1241)
+[INFO] Val Metrics   | Dice: 0.8180 | IoU: 0.7069 | Loss: 0.1381 (BCE: 0.0305, Dice: 0.1842)
+[INFO] Early stopping at epoch 98
+[INFO] Saved loss plot: ./plots/fold_1_loss_plot.png
+[INFO] Saved dice plot: ./plots/fold_1_dice_plot.png
+[INFO] Fold 1 execution time: 0h 33m 27s
+
+--- Fold 2 ---
+[INFO] Initialized model weights for fold 2
+
+Epoch 1/250
+
+[INFO] Fold 2 | Epoch 1
+[INFO] Train Metrics | Dice: 0.4654 | IoU: 0.3454 | Loss: 0.4111 (BCE: 0.0580, Dice: 0.5625)
+[INFO] Val Metrics   | Dice: 0.7188 | IoU: 0.5891 | Loss: 0.2155 (BCE: 0.0422, Dice: 0.2898)
+[INFO] Best model saved for fold 2 at epoch 1 (Dice: 0.7188)
+
+Epoch 2/250
+
+[INFO] Fold 2 | Epoch 2
+[INFO] Train Metrics | Dice: 0.6727 | IoU: 0.5366 | Loss: 0.2513 (BCE: 0.0543, Dice: 0.3357)
+[INFO] Val Metrics   | Dice: 0.7617 | IoU: 0.6378 | Loss: 0.1856 (BCE: 0.0482, Dice: 0.2444)
+[INFO] Best model saved for fold 2 at epoch 2 (Dice: 0.7617)
+
+Epoch 3/250
+
+[INFO] Fold 2 | Epoch 3
+[INFO] Train Metrics | Dice: 0.6582 | IoU: 0.5253 | Loss: 0.2621 (BCE: 0.0511, Dice: 0.3525)
+[INFO] Val Metrics   | Dice: 0.5185 | IoU: 0.3707 | Loss: 0.3796 (BCE: 0.1114, Dice: 0.4945)
+
+Epoch 4/250
+
+[INFO] Fold 2 | Epoch 4
+[INFO] Train Metrics | Dice: 0.6610 | IoU: 0.5186 | Loss: 0.2593 (BCE: 0.0517, Dice: 0.3482)
+[INFO] Val Metrics   | Dice: 0.7395 | IoU: 0.6059 | Loss: 0.1992 (BCE: 0.0356, Dice: 0.2693)
+
+Epoch 5/250
+[INFO] Saved validation plot: ./val_plots/fold_2_epoch_5_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_2_epoch_5_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_2_epoch_5_val_images.png
+
+[INFO] Fold 2 | Epoch 5
+[INFO] Train Metrics | Dice: 0.6755 | IoU: 0.5394 | Loss: 0.2486 (BCE: 0.0538, Dice: 0.3321)
+[INFO] Val Metrics   | Dice: 0.7687 | IoU: 0.6415 | Loss: 0.1779 (BCE: 0.0351, Dice: 0.2392)
+[INFO] Best model saved for fold 2 at epoch 5 (Dice: 0.7687)
+
+Epoch 6/250
+
+[INFO] Fold 2 | Epoch 6
+[INFO] Train Metrics | Dice: 0.7010 | IoU: 0.5634 | Loss: 0.2285 (BCE: 0.0460, Dice: 0.3067)
+[INFO] Val Metrics   | Dice: 0.7888 | IoU: 0.6671 | Loss: 0.1629 (BCE: 0.0270, Dice: 0.2211)
+[INFO] Best model saved for fold 2 at epoch 6 (Dice: 0.7888)
+
+Epoch 7/250
+
+[INFO] Fold 2 | Epoch 7
+[INFO] Train Metrics | Dice: 0.7141 | IoU: 0.5801 | Loss: 0.2203 (BCE: 0.0494, Dice: 0.2936)
+[INFO] Val Metrics   | Dice: 0.8021 | IoU: 0.6819 | Loss: 0.1523 (BCE: 0.0262, Dice: 0.2063)
+[INFO] Best model saved for fold 2 at epoch 7 (Dice: 0.8021)
+
+Epoch 8/250
+
+[INFO] Fold 2 | Epoch 8
+[INFO] Train Metrics | Dice: 0.7069 | IoU: 0.5723 | Loss: 0.2232 (BCE: 0.0441, Dice: 0.2999)
+[INFO] Val Metrics   | Dice: 0.7708 | IoU: 0.6400 | Loss: 0.1769 (BCE: 0.0339, Dice: 0.2381)
+
+Epoch 9/250
+
+[INFO] Fold 2 | Epoch 9
+[INFO] Train Metrics | Dice: 0.7104 | IoU: 0.5769 | Loss: 0.2200 (BCE: 0.0414, Dice: 0.2966)
+[INFO] Val Metrics   | Dice: 0.7775 | IoU: 0.6518 | Loss: 0.1699 (BCE: 0.0402, Dice: 0.2255)
+
+Epoch 10/250
+[INFO] Saved validation plot: ./val_plots/fold_2_epoch_10_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_2_epoch_10_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_2_epoch_10_val_images.png
+
+[INFO] Fold 2 | Epoch 10
+[INFO] Train Metrics | Dice: 0.7281 | IoU: 0.5940 | Loss: 0.2070 (BCE: 0.0397, Dice: 0.2787)
+[INFO] Val Metrics   | Dice: 0.7951 | IoU: 0.6763 | Loss: 0.1575 (BCE: 0.0349, Dice: 0.2101)
+
+Epoch 11/250
+
+[INFO] Fold 2 | Epoch 11
+[INFO] Train Metrics | Dice: 0.7397 | IoU: 0.6062 | Loss: 0.1996 (BCE: 0.0398, Dice: 0.2682)
+[INFO] Val Metrics   | Dice: 0.7583 | IoU: 0.6286 | Loss: 0.1858 (BCE: 0.0410, Dice: 0.2478)
+
+Epoch 12/250
+
+[INFO] Fold 2 | Epoch 12
+[INFO] Train Metrics | Dice: 0.7018 | IoU: 0.5639 | Loss: 0.2288 (BCE: 0.0491, Dice: 0.3058)
+[INFO] Val Metrics   | Dice: 0.7843 | IoU: 0.6618 | Loss: 0.1655 (BCE: 0.0373, Dice: 0.2205)
+
+Epoch 13/250
+
+[INFO] Fold 2 | Epoch 13
+[INFO] Train Metrics | Dice: 0.7417 | IoU: 0.6063 | Loss: 0.1972 (BCE: 0.0383, Dice: 0.2653)
+[INFO] Val Metrics   | Dice: 0.8016 | IoU: 0.6840 | Loss: 0.1515 (BCE: 0.0310, Dice: 0.2032)
+
+Epoch 14/250
+
+[INFO] Fold 2 | Epoch 14
+[INFO] Train Metrics | Dice: 0.7573 | IoU: 0.6304 | Loss: 0.1858 (BCE: 0.0375, Dice: 0.2494)
+[INFO] Val Metrics   | Dice: 0.7720 | IoU: 0.6460 | Loss: 0.1743 (BCE: 0.0354, Dice: 0.2338)
+
+Epoch 15/250
+[INFO] Saved validation plot: ./val_plots/fold_2_epoch_15_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_2_epoch_15_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_2_epoch_15_val_images.png
+
+[INFO] Fold 2 | Epoch 15
+[INFO] Train Metrics | Dice: 0.7430 | IoU: 0.6113 | Loss: 0.1966 (BCE: 0.0415, Dice: 0.2630)
+[INFO] Val Metrics   | Dice: 0.7875 | IoU: 0.6638 | Loss: 0.1631 (BCE: 0.0276, Dice: 0.2211)
+
+Epoch 16/250
+
+[INFO] Fold 2 | Epoch 16
+[INFO] Train Metrics | Dice: 0.7399 | IoU: 0.6063 | Loss: 0.1990 (BCE: 0.0390, Dice: 0.2676)
+[INFO] Val Metrics   | Dice: 0.7473 | IoU: 0.6220 | Loss: 0.1939 (BCE: 0.0462, Dice: 0.2572)
+
+Epoch 17/250
+
+[INFO] Fold 2 | Epoch 17
+[INFO] Train Metrics | Dice: 0.7479 | IoU: 0.6161 | Loss: 0.1928 (BCE: 0.0386, Dice: 0.2589)
+[INFO] Val Metrics   | Dice: 0.7978 | IoU: 0.6784 | Loss: 0.1554 (BCE: 0.0298, Dice: 0.2093)
+
+Epoch 18/250
+
+[INFO] Fold 2 | Epoch 18
+[INFO] Train Metrics | Dice: 0.7574 | IoU: 0.6279 | Loss: 0.1866 (BCE: 0.0381, Dice: 0.2502)
+[INFO] Val Metrics   | Dice: 0.7849 | IoU: 0.6608 | Loss: 0.1639 (BCE: 0.0343, Dice: 0.2194)
+
+Epoch 19/250
+
+[INFO] Fold 2 | Epoch 19
+[INFO] Train Metrics | Dice: 0.7589 | IoU: 0.6303 | Loss: 0.1842 (BCE: 0.0370, Dice: 0.2473)
+[INFO] Val Metrics   | Dice: 0.8030 | IoU: 0.6839 | Loss: 0.1505 (BCE: 0.0319, Dice: 0.2013)
+[INFO] Best model saved for fold 2 at epoch 19 (Dice: 0.8030)
+
+Epoch 20/250
+[INFO] Saved validation plot: ./val_plots/fold_2_epoch_20_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_2_epoch_20_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_2_epoch_20_val_images.png
+
+[INFO] Fold 2 | Epoch 20
+[INFO] Train Metrics | Dice: 0.7872 | IoU: 0.6618 | Loss: 0.1629 (BCE: 0.0315, Dice: 0.2192)
+[INFO] Val Metrics   | Dice: 0.7994 | IoU: 0.6826 | Loss: 0.1522 (BCE: 0.0311, Dice: 0.2042)
+
+Epoch 21/250
+
+[INFO] Fold 2 | Epoch 21
+[INFO] Train Metrics | Dice: 0.7587 | IoU: 0.6315 | Loss: 0.1865 (BCE: 0.0448, Dice: 0.2473)
+[INFO] Val Metrics   | Dice: 0.7976 | IoU: 0.6791 | Loss: 0.1549 (BCE: 0.0267, Dice: 0.2099)
+
+Epoch 22/250
+
+[INFO] Fold 2 | Epoch 22
+[INFO] Train Metrics | Dice: 0.7614 | IoU: 0.6330 | Loss: 0.1825 (BCE: 0.0332, Dice: 0.2465)
+[INFO] Val Metrics   | Dice: 0.7968 | IoU: 0.6746 | Loss: 0.1551 (BCE: 0.0310, Dice: 0.2082)
+
+Epoch 23/250
+
+[INFO] Fold 2 | Epoch 23
+[INFO] Train Metrics | Dice: 0.7772 | IoU: 0.6536 | Loss: 0.1699 (BCE: 0.0336, Dice: 0.2283)
+[INFO] Val Metrics   | Dice: 0.8137 | IoU: 0.6986 | Loss: 0.1425 (BCE: 0.0228, Dice: 0.1938)
+[INFO] Best model saved for fold 2 at epoch 23 (Dice: 0.8137)
+
+Epoch 24/250
+
+[INFO] Fold 2 | Epoch 24
+[INFO] Train Metrics | Dice: 0.7766 | IoU: 0.6520 | Loss: 0.1710 (BCE: 0.0343, Dice: 0.2295)
+[INFO] Val Metrics   | Dice: 0.8105 | IoU: 0.6956 | Loss: 0.1445 (BCE: 0.0266, Dice: 0.1950)
+
+Epoch 25/250
+[INFO] Saved validation plot: ./val_plots/fold_2_epoch_25_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_2_epoch_25_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_2_epoch_25_val_images.png
+
+[INFO] Fold 2 | Epoch 25
+[INFO] Train Metrics | Dice: 0.7662 | IoU: 0.6441 | Loss: 0.1805 (BCE: 0.0419, Dice: 0.2398)
+[INFO] Val Metrics   | Dice: 0.8127 | IoU: 0.6979 | Loss: 0.1427 (BCE: 0.0275, Dice: 0.1920)
+
+Epoch 26/250
+
+[INFO] Fold 2 | Epoch 26
+[INFO] Train Metrics | Dice: 0.7853 | IoU: 0.6609 | Loss: 0.1652 (BCE: 0.0345, Dice: 0.2212)
+[INFO] Val Metrics   | Dice: 0.8135 | IoU: 0.6998 | Loss: 0.1421 (BCE: 0.0275, Dice: 0.1912)
+
+Epoch 27/250
+
+[INFO] Fold 2 | Epoch 27
+[INFO] Train Metrics | Dice: 0.7611 | IoU: 0.6335 | Loss: 0.1819 (BCE: 0.0365, Dice: 0.2443)
+[INFO] Val Metrics   | Dice: 0.8034 | IoU: 0.6871 | Loss: 0.1495 (BCE: 0.0265, Dice: 0.2022)
+
+Epoch 28/250
+
+[INFO] Fold 2 | Epoch 28
+[INFO] Train Metrics | Dice: 0.7727 | IoU: 0.6450 | Loss: 0.1749 (BCE: 0.0355, Dice: 0.2347)
+[INFO] Val Metrics   | Dice: 0.7797 | IoU: 0.6591 | Loss: 0.1692 (BCE: 0.0433, Dice: 0.2231)
+
+Epoch 29/250
+
+[INFO] Fold 2 | Epoch 29
+[INFO] Train Metrics | Dice: 0.7768 | IoU: 0.6500 | Loss: 0.1708 (BCE: 0.0349, Dice: 0.2290)
+[INFO] Val Metrics   | Dice: 0.8186 | IoU: 0.7063 | Loss: 0.1383 (BCE: 0.0225, Dice: 0.1879)
+[INFO] Best model saved for fold 2 at epoch 29 (Dice: 0.8186)
+
+Epoch 30/250
+[INFO] Saved validation plot: ./val_plots/fold_2_epoch_30_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_2_epoch_30_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_2_epoch_30_val_images.png
+
+[INFO] Fold 2 | Epoch 30
+[INFO] Train Metrics | Dice: 0.7802 | IoU: 0.6566 | Loss: 0.1685 (BCE: 0.0353, Dice: 0.2256)
+[INFO] Val Metrics   | Dice: 0.8174 | IoU: 0.7029 | Loss: 0.1402 (BCE: 0.0280, Dice: 0.1883)
+
+Epoch 31/250
+
+[INFO] Fold 2 | Epoch 31
+[INFO] Train Metrics | Dice: 0.7982 | IoU: 0.6763 | Loss: 0.1548 (BCE: 0.0312, Dice: 0.2077)
+[INFO] Val Metrics   | Dice: 0.8208 | IoU: 0.7081 | Loss: 0.1363 (BCE: 0.0260, Dice: 0.1836)
+[INFO] Best model saved for fold 2 at epoch 31 (Dice: 0.8208)
+
+Epoch 32/250
+
+[INFO] Fold 2 | Epoch 32
+[INFO] Train Metrics | Dice: 0.7797 | IoU: 0.6572 | Loss: 0.1684 (BCE: 0.0366, Dice: 0.2249)
+[INFO] Val Metrics   | Dice: 0.8046 | IoU: 0.6865 | Loss: 0.1496 (BCE: 0.0308, Dice: 0.2005)
+
+Epoch 33/250
+
+[INFO] Fold 2 | Epoch 33
+[INFO] Train Metrics | Dice: 0.7954 | IoU: 0.6760 | Loss: 0.1564 (BCE: 0.0297, Dice: 0.2107)
+[INFO] Val Metrics   | Dice: 0.8274 | IoU: 0.7186 | Loss: 0.1318 (BCE: 0.0258, Dice: 0.1772)
+[INFO] Best model saved for fold 2 at epoch 33 (Dice: 0.8274)
+
+Epoch 34/250
+
+[INFO] Fold 2 | Epoch 34
+[INFO] Train Metrics | Dice: 0.8001 | IoU: 0.6817 | Loss: 0.1527 (BCE: 0.0300, Dice: 0.2053)
+[INFO] Val Metrics   | Dice: 0.8110 | IoU: 0.6936 | Loss: 0.1439 (BCE: 0.0305, Dice: 0.1925)
+
+Epoch 35/250
+[INFO] Saved validation plot: ./val_plots/fold_2_epoch_35_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_2_epoch_35_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_2_epoch_35_val_images.png
+
+[INFO] Fold 2 | Epoch 35
+[INFO] Train Metrics | Dice: 0.7947 | IoU: 0.6736 | Loss: 0.1575 (BCE: 0.0315, Dice: 0.2114)
+[INFO] Val Metrics   | Dice: 0.8177 | IoU: 0.7024 | Loss: 0.1396 (BCE: 0.0275, Dice: 0.1876)
+
+Epoch 36/250
+
+[INFO] Fold 2 | Epoch 36
+[INFO] Train Metrics | Dice: 0.7896 | IoU: 0.6667 | Loss: 0.1607 (BCE: 0.0314, Dice: 0.2161)
+[INFO] Val Metrics   | Dice: 0.8256 | IoU: 0.7158 | Loss: 0.1331 (BCE: 0.0271, Dice: 0.1785)
+
+Epoch 37/250
+
+[INFO] Fold 2 | Epoch 37
+[INFO] Train Metrics | Dice: 0.8189 | IoU: 0.7040 | Loss: 0.1386 (BCE: 0.0277, Dice: 0.1862)
+[INFO] Val Metrics   | Dice: 0.8246 | IoU: 0.7138 | Loss: 0.1336 (BCE: 0.0231, Dice: 0.1810)
+
+Epoch 38/250
+
+[INFO] Fold 2 | Epoch 38
+[INFO] Train Metrics | Dice: 0.8055 | IoU: 0.6849 | Loss: 0.1487 (BCE: 0.0289, Dice: 0.2001)
+[INFO] Val Metrics   | Dice: 0.8153 | IoU: 0.7028 | Loss: 0.1409 (BCE: 0.0318, Dice: 0.1877)
+
+Epoch 39/250
+
+[INFO] Fold 2 | Epoch 39
+[INFO] Train Metrics | Dice: 0.8100 | IoU: 0.6922 | Loss: 0.1453 (BCE: 0.0292, Dice: 0.1951)
+[INFO] Val Metrics   | Dice: 0.8173 | IoU: 0.7066 | Loss: 0.1414 (BCE: 0.0376, Dice: 0.1859)
+
+Epoch 40/250
+[INFO] Saved validation plot: ./val_plots/fold_2_epoch_40_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_2_epoch_40_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_2_epoch_40_val_images.png
+
+[INFO] Fold 2 | Epoch 40
+[INFO] Train Metrics | Dice: 0.8118 | IoU: 0.6935 | Loss: 0.1440 (BCE: 0.0275, Dice: 0.1939)
+[INFO] Val Metrics   | Dice: 0.8238 | IoU: 0.7126 | Loss: 0.1348 (BCE: 0.0272, Dice: 0.1809)
+
+Epoch 41/250
+
+[INFO] Fold 2 | Epoch 41
+[INFO] Train Metrics | Dice: 0.8058 | IoU: 0.6901 | Loss: 0.1481 (BCE: 0.0308, Dice: 0.1983)
+[INFO] Val Metrics   | Dice: 0.8227 | IoU: 0.7127 | Loss: 0.1354 (BCE: 0.0234, Dice: 0.1834)
+
+Epoch 42/250
+
+[INFO] Fold 2 | Epoch 42
+[INFO] Train Metrics | Dice: 0.8089 | IoU: 0.6942 | Loss: 0.1460 (BCE: 0.0277, Dice: 0.1967)
+[INFO] Val Metrics   | Dice: 0.8203 | IoU: 0.7061 | Loss: 0.1374 (BCE: 0.0283, Dice: 0.1842)
+
+Epoch 43/250
+
+[INFO] Fold 2 | Epoch 43
+[INFO] Train Metrics | Dice: 0.8162 | IoU: 0.7040 | Loss: 0.1408 (BCE: 0.0276, Dice: 0.1894)
+[INFO] Val Metrics   | Dice: 0.8188 | IoU: 0.7043 | Loss: 0.1376 (BCE: 0.0277, Dice: 0.1847)
+
+Epoch 44/250
+
+[INFO] Fold 2 | Epoch 44
+[INFO] Train Metrics | Dice: 0.8035 | IoU: 0.6881 | Loss: 0.1499 (BCE: 0.0288, Dice: 0.2018)
+[INFO] Val Metrics   | Dice: 0.8264 | IoU: 0.7168 | Loss: 0.1326 (BCE: 0.0260, Dice: 0.1784)
+
+Epoch 45/250
+[INFO] Saved validation plot: ./val_plots/fold_2_epoch_45_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_2_epoch_45_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_2_epoch_45_val_images.png
+
+[INFO] Fold 2 | Epoch 45
+[INFO] Train Metrics | Dice: 0.7956 | IoU: 0.6776 | Loss: 0.1569 (BCE: 0.0334, Dice: 0.2099)
+[INFO] Val Metrics   | Dice: 0.8239 | IoU: 0.7121 | Loss: 0.1345 (BCE: 0.0266, Dice: 0.1808)
+
+Epoch 46/250
+
+[INFO] Fold 2 | Epoch 46
+[INFO] Train Metrics | Dice: 0.8142 | IoU: 0.7004 | Loss: 0.1425 (BCE: 0.0297, Dice: 0.1908)
+[INFO] Val Metrics   | Dice: 0.8267 | IoU: 0.7181 | Loss: 0.1324 (BCE: 0.0247, Dice: 0.1786)
+
+Epoch 47/250
+
+[INFO] Fold 2 | Epoch 47
+[INFO] Train Metrics | Dice: 0.8247 | IoU: 0.7128 | Loss: 0.1346 (BCE: 0.0290, Dice: 0.1799)
+[INFO] Val Metrics   | Dice: 0.8161 | IoU: 0.6996 | Loss: 0.1401 (BCE: 0.0280, Dice: 0.1881)
+
+Epoch 48/250
+
+[INFO] Fold 2 | Epoch 48
+[INFO] Train Metrics | Dice: 0.8119 | IoU: 0.6965 | Loss: 0.1442 (BCE: 0.0290, Dice: 0.1936)
+[INFO] Val Metrics   | Dice: 0.8243 | IoU: 0.7137 | Loss: 0.1344 (BCE: 0.0310, Dice: 0.1787)
+
+Epoch 49/250
+
+[INFO] Fold 2 | Epoch 49
+[INFO] Train Metrics | Dice: 0.8192 | IoU: 0.7068 | Loss: 0.1382 (BCE: 0.0264, Dice: 0.1860)
+[INFO] Val Metrics   | Dice: 0.8311 | IoU: 0.7225 | Loss: 0.1288 (BCE: 0.0262, Dice: 0.1728)
+[INFO] Best model saved for fold 2 at epoch 49 (Dice: 0.8311)
+
+Epoch 50/250
+[INFO] Saved validation plot: ./val_plots/fold_2_epoch_50_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_2_epoch_50_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_2_epoch_50_val_images.png
+
+[INFO] Fold 2 | Epoch 50
+[INFO] Train Metrics | Dice: 0.8030 | IoU: 0.6857 | Loss: 0.1501 (BCE: 0.0311, Dice: 0.2012)
+[INFO] Val Metrics   | Dice: 0.8356 | IoU: 0.7283 | Loss: 0.1254 (BCE: 0.0233, Dice: 0.1692)
+[INFO] Best model saved for fold 2 at epoch 50 (Dice: 0.8356)
+
+Epoch 51/250
+
+[INFO] Fold 2 | Epoch 51
+[INFO] Train Metrics | Dice: 0.8133 | IoU: 0.6970 | Loss: 0.1430 (BCE: 0.0288, Dice: 0.1920)
+[INFO] Val Metrics   | Dice: 0.8204 | IoU: 0.7084 | Loss: 0.1372 (BCE: 0.0322, Dice: 0.1823)
+
+Epoch 52/250
+
+[INFO] Fold 2 | Epoch 52
+[INFO] Train Metrics | Dice: 0.8271 | IoU: 0.7175 | Loss: 0.1323 (BCE: 0.0258, Dice: 0.1779)
+[INFO] Val Metrics   | Dice: 0.8298 | IoU: 0.7213 | Loss: 0.1297 (BCE: 0.0257, Dice: 0.1743)
+
+Epoch 53/250
+
+[INFO] Fold 2 | Epoch 53
+[INFO] Train Metrics | Dice: 0.8219 | IoU: 0.7081 | Loss: 0.1365 (BCE: 0.0277, Dice: 0.1831)
+[INFO] Val Metrics   | Dice: 0.8153 | IoU: 0.7012 | Loss: 0.1412 (BCE: 0.0317, Dice: 0.1881)
+
+Epoch 54/250
+
+[INFO] Fold 2 | Epoch 54
+[INFO] Train Metrics | Dice: 0.8163 | IoU: 0.7036 | Loss: 0.1408 (BCE: 0.0289, Dice: 0.1887)
+[INFO] Val Metrics   | Dice: 0.8281 | IoU: 0.7180 | Loss: 0.1309 (BCE: 0.0254, Dice: 0.1761)
+
+Epoch 55/250
+[INFO] Saved validation plot: ./val_plots/fold_2_epoch_55_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_2_epoch_55_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_2_epoch_55_val_images.png
+
+[INFO] Fold 2 | Epoch 55
+[INFO] Train Metrics | Dice: 0.8183 | IoU: 0.7055 | Loss: 0.1390 (BCE: 0.0296, Dice: 0.1859)
+[INFO] Val Metrics   | Dice: 0.8284 | IoU: 0.7169 | Loss: 0.1317 (BCE: 0.0288, Dice: 0.1758)
+
+Epoch 56/250
+
+[INFO] Fold 2 | Epoch 56
+[INFO] Train Metrics | Dice: 0.8373 | IoU: 0.7306 | Loss: 0.1242 (BCE: 0.0231, Dice: 0.1675)
+[INFO] Val Metrics   | Dice: 0.8304 | IoU: 0.7192 | Loss: 0.1295 (BCE: 0.0249, Dice: 0.1743)
+
+Epoch 57/250
+
+[INFO] Fold 2 | Epoch 57
+[INFO] Train Metrics | Dice: 0.8380 | IoU: 0.7312 | Loss: 0.1240 (BCE: 0.0245, Dice: 0.1666)
+[INFO] Val Metrics   | Dice: 0.8255 | IoU: 0.7144 | Loss: 0.1330 (BCE: 0.0278, Dice: 0.1781)
+
+Epoch 58/250
+
+[INFO] Fold 2 | Epoch 58
+[INFO] Train Metrics | Dice: 0.8248 | IoU: 0.7148 | Loss: 0.1338 (BCE: 0.0253, Dice: 0.1803)
+[INFO] Val Metrics   | Dice: 0.8398 | IoU: 0.7323 | Loss: 0.1223 (BCE: 0.0225, Dice: 0.1651)
+[INFO] Best model saved for fold 2 at epoch 58 (Dice: 0.8398)
+
+Epoch 59/250
+
+[INFO] Fold 2 | Epoch 59
+[INFO] Train Metrics | Dice: 0.8351 | IoU: 0.7293 | Loss: 0.1259 (BCE: 0.0252, Dice: 0.1691)
+[INFO] Val Metrics   | Dice: 0.8409 | IoU: 0.7344 | Loss: 0.1213 (BCE: 0.0249, Dice: 0.1626)
+[INFO] Best model saved for fold 2 at epoch 59 (Dice: 0.8409)
+
+Epoch 60/250
+[INFO] Saved validation plot: ./val_plots/fold_2_epoch_60_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_2_epoch_60_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_2_epoch_60_val_images.png
+
+[INFO] Fold 2 | Epoch 60
+[INFO] Train Metrics | Dice: 0.8278 | IoU: 0.7196 | Loss: 0.1313 (BCE: 0.0268, Dice: 0.1761)
+[INFO] Val Metrics   | Dice: 0.8337 | IoU: 0.7244 | Loss: 0.1264 (BCE: 0.0242, Dice: 0.1702)
+
+Epoch 61/250
+
+[INFO] Fold 2 | Epoch 61
+[INFO] Train Metrics | Dice: 0.8295 | IoU: 0.7210 | Loss: 0.1303 (BCE: 0.0261, Dice: 0.1749)
+[INFO] Val Metrics   | Dice: 0.8348 | IoU: 0.7257 | Loss: 0.1268 (BCE: 0.0315, Dice: 0.1676)
+
+Epoch 62/250
+
+[INFO] Fold 2 | Epoch 62
+[INFO] Train Metrics | Dice: 0.8399 | IoU: 0.7338 | Loss: 0.1230 (BCE: 0.0253, Dice: 0.1648)
+[INFO] Val Metrics   | Dice: 0.8371 | IoU: 0.7290 | Loss: 0.1247 (BCE: 0.0214, Dice: 0.1689)
+
+Epoch 63/250
+
+[INFO] Fold 2 | Epoch 63
+[INFO] Train Metrics | Dice: 0.8437 | IoU: 0.7403 | Loss: 0.1199 (BCE: 0.0261, Dice: 0.1601)
+[INFO] Val Metrics   | Dice: 0.8334 | IoU: 0.7250 | Loss: 0.1265 (BCE: 0.0250, Dice: 0.1700)
+
+Epoch 64/250
+
+[INFO] Fold 2 | Epoch 64
+[INFO] Train Metrics | Dice: 0.8399 | IoU: 0.7340 | Loss: 0.1225 (BCE: 0.0236, Dice: 0.1649)
+[INFO] Val Metrics   | Dice: 0.8208 | IoU: 0.7079 | Loss: 0.1362 (BCE: 0.0285, Dice: 0.1823)
+
+Epoch 65/250
+[INFO] Saved validation plot: ./val_plots/fold_2_epoch_65_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_2_epoch_65_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_2_epoch_65_val_images.png
+
+[INFO] Fold 2 | Epoch 65
+[INFO] Train Metrics | Dice: 0.8500 | IoU: 0.7475 | Loss: 0.1153 (BCE: 0.0231, Dice: 0.1549)
+[INFO] Val Metrics   | Dice: 0.8386 | IoU: 0.7296 | Loss: 0.1233 (BCE: 0.0262, Dice: 0.1649)
+
+Epoch 66/250
+
+[INFO] Fold 2 | Epoch 66
+[INFO] Train Metrics | Dice: 0.8493 | IoU: 0.7464 | Loss: 0.1154 (BCE: 0.0237, Dice: 0.1546)
+[INFO] Val Metrics   | Dice: 0.8360 | IoU: 0.7273 | Loss: 0.1245 (BCE: 0.0233, Dice: 0.1679)
+
+Epoch 67/250
+
+[INFO] Fold 2 | Epoch 67
+[INFO] Train Metrics | Dice: 0.8450 | IoU: 0.7418 | Loss: 0.1193 (BCE: 0.0241, Dice: 0.1601)
+[INFO] Val Metrics   | Dice: 0.8383 | IoU: 0.7307 | Loss: 0.1231 (BCE: 0.0221, Dice: 0.1663)
+
+Epoch 68/250
+
+[INFO] Fold 2 | Epoch 68
+[INFO] Train Metrics | Dice: 0.8480 | IoU: 0.7435 | Loss: 0.1167 (BCE: 0.0246, Dice: 0.1562)
+[INFO] Val Metrics   | Dice: 0.8380 | IoU: 0.7293 | Loss: 0.1235 (BCE: 0.0264, Dice: 0.1651)
+
+Epoch 69/250
+
+[INFO] Fold 2 | Epoch 69
+[INFO] Train Metrics | Dice: 0.8382 | IoU: 0.7326 | Loss: 0.1240 (BCE: 0.0246, Dice: 0.1665)
+[INFO] Val Metrics   | Dice: 0.8266 | IoU: 0.7146 | Loss: 0.1323 (BCE: 0.0292, Dice: 0.1764)
+
+Epoch 70/250
+[INFO] Saved validation plot: ./val_plots/fold_2_epoch_70_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_2_epoch_70_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_2_epoch_70_val_images.png
+
+[INFO] Fold 2 | Epoch 70
+[INFO] Train Metrics | Dice: 0.8557 | IoU: 0.7566 | Loss: 0.1109 (BCE: 0.0220, Dice: 0.1490)
+[INFO] Val Metrics   | Dice: 0.8278 | IoU: 0.7164 | Loss: 0.1315 (BCE: 0.0232, Dice: 0.1779)
+
+Epoch 71/250
+
+[INFO] Fold 2 | Epoch 71
+[INFO] Train Metrics | Dice: 0.8522 | IoU: 0.7533 | Loss: 0.1131 (BCE: 0.0240, Dice: 0.1513)
+[INFO] Val Metrics   | Dice: 0.8297 | IoU: 0.7213 | Loss: 0.1298 (BCE: 0.0284, Dice: 0.1733)
+
+Epoch 72/250
+
+[INFO] Fold 2 | Epoch 72
+[INFO] Train Metrics | Dice: 0.8553 | IoU: 0.7571 | Loss: 0.1111 (BCE: 0.0218, Dice: 0.1495)
+[INFO] Val Metrics   | Dice: 0.8407 | IoU: 0.7341 | Loss: 0.1218 (BCE: 0.0251, Dice: 0.1632)
+
+Epoch 73/250
+
+[INFO] Fold 2 | Epoch 73
+[INFO] Train Metrics | Dice: 0.8550 | IoU: 0.7539 | Loss: 0.1113 (BCE: 0.0216, Dice: 0.1498)
+[INFO] Val Metrics   | Dice: 0.8234 | IoU: 0.7124 | Loss: 0.1342 (BCE: 0.0291, Dice: 0.1792)
+
+Epoch 74/250
+
+[INFO] Fold 2 | Epoch 74
+[INFO] Train Metrics | Dice: 0.8464 | IoU: 0.7420 | Loss: 0.1179 (BCE: 0.0261, Dice: 0.1573)
+[INFO] Val Metrics   | Dice: 0.8353 | IoU: 0.7274 | Loss: 0.1256 (BCE: 0.0282, Dice: 0.1673)
+
+Epoch 75/250
+[INFO] Saved validation plot: ./val_plots/fold_2_epoch_75_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_2_epoch_75_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_2_epoch_75_val_images.png
+
+[INFO] Fold 2 | Epoch 75
+[INFO] Train Metrics | Dice: 0.8558 | IoU: 0.7562 | Loss: 0.1105 (BCE: 0.0222, Dice: 0.1484)
+[INFO] Val Metrics   | Dice: 0.8315 | IoU: 0.7225 | Loss: 0.1282 (BCE: 0.0253, Dice: 0.1723)
+
+Epoch 76/250
+
+[INFO] Fold 2 | Epoch 76
+[INFO] Train Metrics | Dice: 0.8526 | IoU: 0.7533 | Loss: 0.1129 (BCE: 0.0224, Dice: 0.1517)
+[INFO] Val Metrics   | Dice: 0.8294 | IoU: 0.7190 | Loss: 0.1309 (BCE: 0.0311, Dice: 0.1736)
+
+Epoch 77/250
+
+[INFO] Fold 2 | Epoch 77
+[INFO] Train Metrics | Dice: 0.8508 | IoU: 0.7490 | Loss: 0.1145 (BCE: 0.0245, Dice: 0.1531)
+[INFO] Val Metrics   | Dice: 0.8321 | IoU: 0.7243 | Loss: 0.1279 (BCE: 0.0263, Dice: 0.1715)
+
+Epoch 78/250
+
+[INFO] Fold 2 | Epoch 78
+[INFO] Train Metrics | Dice: 0.8576 | IoU: 0.7595 | Loss: 0.1097 (BCE: 0.0227, Dice: 0.1471)
+[INFO] Val Metrics   | Dice: 0.8256 | IoU: 0.7139 | Loss: 0.1333 (BCE: 0.0311, Dice: 0.1771)
+
+Epoch 79/250
+
+[INFO] Fold 2 | Epoch 79
+[INFO] Train Metrics | Dice: 0.8464 | IoU: 0.7450 | Loss: 0.1172 (BCE: 0.0228, Dice: 0.1577)
+[INFO] Val Metrics   | Dice: 0.8288 | IoU: 0.7166 | Loss: 0.1308 (BCE: 0.0261, Dice: 0.1757)
+
+Epoch 80/250
+[INFO] Saved validation plot: ./val_plots/fold_2_epoch_80_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_2_epoch_80_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_2_epoch_80_val_images.png
+
+[INFO] Fold 2 | Epoch 80
+[INFO] Train Metrics | Dice: 0.8485 | IoU: 0.7472 | Loss: 0.1161 (BCE: 0.0251, Dice: 0.1551)
+[INFO] Val Metrics   | Dice: 0.8383 | IoU: 0.7303 | Loss: 0.1237 (BCE: 0.0283, Dice: 0.1646)
+
+Epoch 81/250
+
+[INFO] Fold 2 | Epoch 81
+[INFO] Train Metrics | Dice: 0.8628 | IoU: 0.7678 | Loss: 0.1054 (BCE: 0.0216, Dice: 0.1413)
+[INFO] Val Metrics   | Dice: 0.8384 | IoU: 0.7309 | Loss: 0.1238 (BCE: 0.0273, Dice: 0.1651)
+
+Epoch 82/250
+
+[INFO] Fold 2 | Epoch 82
+[INFO] Train Metrics | Dice: 0.8608 | IoU: 0.7646 | Loss: 0.1068 (BCE: 0.0210, Dice: 0.1436)
+[INFO] Val Metrics   | Dice: 0.8379 | IoU: 0.7303 | Loss: 0.1239 (BCE: 0.0278, Dice: 0.1650)
+
+Epoch 83/250
+
+[INFO] Fold 2 | Epoch 83
+[INFO] Train Metrics | Dice: 0.8582 | IoU: 0.7621 | Loss: 0.1084 (BCE: 0.0218, Dice: 0.1455)
+[INFO] Val Metrics   | Dice: 0.8361 | IoU: 0.7290 | Loss: 0.1252 (BCE: 0.0280, Dice: 0.1668)
+
+Epoch 84/250
+
+[INFO] Fold 2 | Epoch 84
+[INFO] Train Metrics | Dice: 0.8621 | IoU: 0.7670 | Loss: 0.1057 (BCE: 0.0199, Dice: 0.1425)
+[INFO] Val Metrics   | Dice: 0.8278 | IoU: 0.7174 | Loss: 0.1314 (BCE: 0.0290, Dice: 0.1752)
+[INFO] Early stopping at epoch 84
+[INFO] Saved loss plot: ./plots/fold_2_loss_plot.png
+[INFO] Saved dice plot: ./plots/fold_2_dice_plot.png
+[INFO] Fold 2 execution time: 0h 28m 54s
+
+--- Fold 3 ---
+[INFO] Initialized model weights for fold 3
+
+Epoch 1/250
+
+[INFO] Fold 3 | Epoch 1
+[INFO] Train Metrics | Dice: 0.4620 | IoU: 0.3417 | Loss: 0.4066 (BCE: 0.0598, Dice: 0.5553)
+[INFO] Val Metrics   | Dice: 0.7482 | IoU: 0.6168 | Loss: 0.1943 (BCE: 0.0404, Dice: 0.2603)
+[INFO] Best model saved for fold 3 at epoch 1 (Dice: 0.7482)
+
+Epoch 2/250
+
+[INFO] Fold 3 | Epoch 2
+[INFO] Train Metrics | Dice: 0.6698 | IoU: 0.5386 | Loss: 0.2531 (BCE: 0.0558, Dice: 0.3376)
+[INFO] Val Metrics   | Dice: 0.7057 | IoU: 0.5680 | Loss: 0.2312 (BCE: 0.0417, Dice: 0.3124)
+
+Epoch 3/250
+
+[INFO] Fold 3 | Epoch 3
+[INFO] Train Metrics | Dice: 0.6494 | IoU: 0.5163 | Loss: 0.2686 (BCE: 0.0615, Dice: 0.3573)
+[INFO] Val Metrics   | Dice: 0.7022 | IoU: 0.5616 | Loss: 0.2321 (BCE: 0.0458, Dice: 0.3120)
+
+Epoch 4/250
+
+[INFO] Fold 3 | Epoch 4
+[INFO] Train Metrics | Dice: 0.6823 | IoU: 0.5473 | Loss: 0.2434 (BCE: 0.0491, Dice: 0.3266)
+[INFO] Val Metrics   | Dice: 0.7546 | IoU: 0.6226 | Loss: 0.1900 (BCE: 0.0426, Dice: 0.2531)
+[INFO] Best model saved for fold 3 at epoch 4 (Dice: 0.7546)
+
+Epoch 5/250
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_5_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_5_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_5_val_images.png
+
+[INFO] Fold 3 | Epoch 5
+[INFO] Train Metrics | Dice: 0.7090 | IoU: 0.5755 | Loss: 0.2211 (BCE: 0.0404, Dice: 0.2985)
+[INFO] Val Metrics   | Dice: 0.7797 | IoU: 0.6549 | Loss: 0.1727 (BCE: 0.0374, Dice: 0.2307)
+[INFO] Best model saved for fold 3 at epoch 5 (Dice: 0.7797)
+
+Epoch 6/250
+
+[INFO] Fold 3 | Epoch 6
+[INFO] Train Metrics | Dice: 0.7008 | IoU: 0.5649 | Loss: 0.2279 (BCE: 0.0436, Dice: 0.3068)
+[INFO] Val Metrics   | Dice: 0.7347 | IoU: 0.5983 | Loss: 0.2043 (BCE: 0.0514, Dice: 0.2698)
+
+Epoch 7/250
+
+[INFO] Fold 3 | Epoch 7
+[INFO] Train Metrics | Dice: 0.6997 | IoU: 0.5666 | Loss: 0.2298 (BCE: 0.0532, Dice: 0.3055)
+[INFO] Val Metrics   | Dice: 0.7811 | IoU: 0.6566 | Loss: 0.1699 (BCE: 0.0405, Dice: 0.2253)
+[INFO] Best model saved for fold 3 at epoch 7 (Dice: 0.7811)
+
+Epoch 8/250
+
+[INFO] Fold 3 | Epoch 8
+[INFO] Train Metrics | Dice: 0.7338 | IoU: 0.6007 | Loss: 0.2035 (BCE: 0.0358, Dice: 0.2754)
+[INFO] Val Metrics   | Dice: 0.7869 | IoU: 0.6617 | Loss: 0.1658 (BCE: 0.0440, Dice: 0.2180)
+[INFO] Best model saved for fold 3 at epoch 8 (Dice: 0.7869)
+
+Epoch 9/250
+
+[INFO] Fold 3 | Epoch 9
+[INFO] Train Metrics | Dice: 0.7286 | IoU: 0.5952 | Loss: 0.2064 (BCE: 0.0398, Dice: 0.2778)
+[INFO] Val Metrics   | Dice: 0.7813 | IoU: 0.6572 | Loss: 0.1705 (BCE: 0.0425, Dice: 0.2253)
+
+Epoch 10/250
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_10_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_10_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_10_val_images.png
+
+[INFO] Fold 3 | Epoch 10
+[INFO] Train Metrics | Dice: 0.7105 | IoU: 0.5755 | Loss: 0.2204 (BCE: 0.0437, Dice: 0.2961)
+[INFO] Val Metrics   | Dice: 0.7747 | IoU: 0.6491 | Loss: 0.1776 (BCE: 0.0561, Dice: 0.2296)
+
+Epoch 11/250
+
+[INFO] Fold 3 | Epoch 11
+[INFO] Train Metrics | Dice: 0.7362 | IoU: 0.6062 | Loss: 0.2020 (BCE: 0.0410, Dice: 0.2709)
+[INFO] Val Metrics   | Dice: 0.7817 | IoU: 0.6539 | Loss: 0.1714 (BCE: 0.0543, Dice: 0.2216)
+
+Epoch 12/250
+
+[INFO] Fold 3 | Epoch 12
+[INFO] Train Metrics | Dice: 0.7237 | IoU: 0.5925 | Loss: 0.2109 (BCE: 0.0424, Dice: 0.2831)
+[INFO] Val Metrics   | Dice: 0.7615 | IoU: 0.6326 | Loss: 0.1846 (BCE: 0.0436, Dice: 0.2451)
+
+Epoch 13/250
+
+[INFO] Fold 3 | Epoch 13
+[INFO] Train Metrics | Dice: 0.7419 | IoU: 0.6125 | Loss: 0.1973 (BCE: 0.0412, Dice: 0.2642)
+[INFO] Val Metrics   | Dice: 0.7275 | IoU: 0.5877 | Loss: 0.2156 (BCE: 0.0544, Dice: 0.2847)
+
+Epoch 14/250
+
+[INFO] Fold 3 | Epoch 14
+[INFO] Train Metrics | Dice: 0.7396 | IoU: 0.6123 | Loss: 0.1978 (BCE: 0.0370, Dice: 0.2667)
+[INFO] Val Metrics   | Dice: 0.7927 | IoU: 0.6706 | Loss: 0.1627 (BCE: 0.0479, Dice: 0.2119)
+[INFO] Best model saved for fold 3 at epoch 14 (Dice: 0.7927)
+
+Epoch 15/250
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_15_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_15_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_15_val_images.png
+
+[INFO] Fold 3 | Epoch 15
+[INFO] Train Metrics | Dice: 0.7280 | IoU: 0.5959 | Loss: 0.2069 (BCE: 0.0406, Dice: 0.2782)
+[INFO] Val Metrics   | Dice: 0.7732 | IoU: 0.6441 | Loss: 0.1754 (BCE: 0.0477, Dice: 0.2301)
+
+Epoch 16/250
+
+[INFO] Fold 3 | Epoch 16
+[INFO] Train Metrics | Dice: 0.7487 | IoU: 0.6188 | Loss: 0.1914 (BCE: 0.0379, Dice: 0.2572)
+[INFO] Val Metrics   | Dice: 0.7868 | IoU: 0.6606 | Loss: 0.1655 (BCE: 0.0444, Dice: 0.2175)
+
+Epoch 17/250
+
+[INFO] Fold 3 | Epoch 17
+[INFO] Train Metrics | Dice: 0.7540 | IoU: 0.6262 | Loss: 0.1875 (BCE: 0.0364, Dice: 0.2522)
+[INFO] Val Metrics   | Dice: 0.7864 | IoU: 0.6623 | Loss: 0.1671 (BCE: 0.0493, Dice: 0.2176)
+
+Epoch 18/250
+
+[INFO] Fold 3 | Epoch 18
+[INFO] Train Metrics | Dice: 0.7673 | IoU: 0.6401 | Loss: 0.1780 (BCE: 0.0370, Dice: 0.2385)
+[INFO] Val Metrics   | Dice: 0.7870 | IoU: 0.6625 | Loss: 0.1652 (BCE: 0.0429, Dice: 0.2176)
+
+Epoch 19/250
+
+[INFO] Fold 3 | Epoch 19
+[INFO] Train Metrics | Dice: 0.7790 | IoU: 0.6555 | Loss: 0.1676 (BCE: 0.0304, Dice: 0.2264)
+[INFO] Val Metrics   | Dice: 0.7883 | IoU: 0.6635 | Loss: 0.1636 (BCE: 0.0438, Dice: 0.2150)
+
+Epoch 20/250
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_20_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_20_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_20_val_images.png
+
+[INFO] Fold 3 | Epoch 20
+[INFO] Train Metrics | Dice: 0.7656 | IoU: 0.6388 | Loss: 0.1783 (BCE: 0.0343, Dice: 0.2400)
+[INFO] Val Metrics   | Dice: 0.7900 | IoU: 0.6659 | Loss: 0.1622 (BCE: 0.0427, Dice: 0.2134)
+
+Epoch 21/250
+
+[INFO] Fold 3 | Epoch 21
+[INFO] Train Metrics | Dice: 0.7747 | IoU: 0.6472 | Loss: 0.1716 (BCE: 0.0298, Dice: 0.2323)
+[INFO] Val Metrics   | Dice: 0.8024 | IoU: 0.6830 | Loss: 0.1539 (BCE: 0.0409, Dice: 0.2024)
+[INFO] Best model saved for fold 3 at epoch 21 (Dice: 0.8024)
+
+Epoch 22/250
+
+[INFO] Fold 3 | Epoch 22
+[INFO] Train Metrics | Dice: 0.7811 | IoU: 0.6568 | Loss: 0.1670 (BCE: 0.0331, Dice: 0.2244)
+[INFO] Val Metrics   | Dice: 0.7993 | IoU: 0.6767 | Loss: 0.1560 (BCE: 0.0411, Dice: 0.2052)
+
+Epoch 23/250
+
+[INFO] Fold 3 | Epoch 23
+[INFO] Train Metrics | Dice: 0.7871 | IoU: 0.6650 | Loss: 0.1618 (BCE: 0.0296, Dice: 0.2184)
+[INFO] Val Metrics   | Dice: 0.8016 | IoU: 0.6837 | Loss: 0.1551 (BCE: 0.0423, Dice: 0.2035)
+
+Epoch 24/250
+
+[INFO] Fold 3 | Epoch 24
+[INFO] Train Metrics | Dice: 0.7707 | IoU: 0.6459 | Loss: 0.1750 (BCE: 0.0362, Dice: 0.2344)
+[INFO] Val Metrics   | Dice: 0.8035 | IoU: 0.6840 | Loss: 0.1539 (BCE: 0.0441, Dice: 0.2009)
+[INFO] Best model saved for fold 3 at epoch 24 (Dice: 0.8035)
+
+Epoch 25/250
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_25_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_25_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_25_val_images.png
+
+[INFO] Fold 3 | Epoch 25
+[INFO] Train Metrics | Dice: 0.7932 | IoU: 0.6712 | Loss: 0.1576 (BCE: 0.0320, Dice: 0.2115)
+[INFO] Val Metrics   | Dice: 0.8123 | IoU: 0.6958 | Loss: 0.1464 (BCE: 0.0364, Dice: 0.1935)
+[INFO] Best model saved for fold 3 at epoch 25 (Dice: 0.8123)
+
+Epoch 26/250
+
+[INFO] Fold 3 | Epoch 26
+[INFO] Train Metrics | Dice: 0.7900 | IoU: 0.6685 | Loss: 0.1604 (BCE: 0.0311, Dice: 0.2158)
+[INFO] Val Metrics   | Dice: 0.8129 | IoU: 0.6966 | Loss: 0.1460 (BCE: 0.0398, Dice: 0.1916)
+[INFO] Best model saved for fold 3 at epoch 26 (Dice: 0.8129)
+
+Epoch 27/250
+
+[INFO] Fold 3 | Epoch 27
+[INFO] Train Metrics | Dice: 0.7912 | IoU: 0.6677 | Loss: 0.1593 (BCE: 0.0316, Dice: 0.2140)
+[INFO] Val Metrics   | Dice: 0.7997 | IoU: 0.6787 | Loss: 0.1572 (BCE: 0.0487, Dice: 0.2038)
+
+Epoch 28/250
+
+[INFO] Fold 3 | Epoch 28
+[INFO] Train Metrics | Dice: 0.8007 | IoU: 0.6834 | Loss: 0.1518 (BCE: 0.0281, Dice: 0.2048)
+[INFO] Val Metrics   | Dice: 0.7982 | IoU: 0.6790 | Loss: 0.1573 (BCE: 0.0454, Dice: 0.2053)
+
+Epoch 29/250
+
+[INFO] Fold 3 | Epoch 29
+[INFO] Train Metrics | Dice: 0.7878 | IoU: 0.6652 | Loss: 0.1612 (BCE: 0.0294, Dice: 0.2177)
+[INFO] Val Metrics   | Dice: 0.7998 | IoU: 0.6811 | Loss: 0.1581 (BCE: 0.0484, Dice: 0.2051)
+
+Epoch 30/250
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_30_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_30_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_30_val_images.png
+
+[INFO] Fold 3 | Epoch 30
+[INFO] Train Metrics | Dice: 0.7890 | IoU: 0.6686 | Loss: 0.1619 (BCE: 0.0360, Dice: 0.2159)
+[INFO] Val Metrics   | Dice: 0.8016 | IoU: 0.6832 | Loss: 0.1557 (BCE: 0.0338, Dice: 0.2079)
+
+Epoch 31/250
+
+[INFO] Fold 3 | Epoch 31
+[INFO] Train Metrics | Dice: 0.7831 | IoU: 0.6629 | Loss: 0.1650 (BCE: 0.0301, Dice: 0.2228)
+[INFO] Val Metrics   | Dice: 0.8039 | IoU: 0.6854 | Loss: 0.1538 (BCE: 0.0480, Dice: 0.1992)
+
+Epoch 32/250
+
+[INFO] Fold 3 | Epoch 32
+[INFO] Train Metrics | Dice: 0.8030 | IoU: 0.6859 | Loss: 0.1494 (BCE: 0.0263, Dice: 0.2021)
+[INFO] Val Metrics   | Dice: 0.8000 | IoU: 0.6801 | Loss: 0.1591 (BCE: 0.0559, Dice: 0.2033)
+
+Epoch 33/250
+
+[INFO] Fold 3 | Epoch 33
+[INFO] Train Metrics | Dice: 0.8014 | IoU: 0.6861 | Loss: 0.1509 (BCE: 0.0274, Dice: 0.2039)
+[INFO] Val Metrics   | Dice: 0.7777 | IoU: 0.6561 | Loss: 0.1767 (BCE: 0.0614, Dice: 0.2261)
+
+Epoch 34/250
+
+[INFO] Fold 3 | Epoch 34
+[INFO] Train Metrics | Dice: 0.8011 | IoU: 0.6833 | Loss: 0.1518 (BCE: 0.0302, Dice: 0.2040)
+[INFO] Val Metrics   | Dice: 0.7998 | IoU: 0.6802 | Loss: 0.1566 (BCE: 0.0431, Dice: 0.2053)
+
+Epoch 35/250
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_35_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_35_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_35_val_images.png
+
+[INFO] Fold 3 | Epoch 35
+[INFO] Train Metrics | Dice: 0.8002 | IoU: 0.6804 | Loss: 0.1523 (BCE: 0.0286, Dice: 0.2053)
+[INFO] Val Metrics   | Dice: 0.8073 | IoU: 0.6888 | Loss: 0.1514 (BCE: 0.0459, Dice: 0.1966)
+
+Epoch 36/250
+
+[INFO] Fold 3 | Epoch 36
+[INFO] Train Metrics | Dice: 0.8106 | IoU: 0.6943 | Loss: 0.1438 (BCE: 0.0269, Dice: 0.1940)
+[INFO] Val Metrics   | Dice: 0.8062 | IoU: 0.6885 | Loss: 0.1531 (BCE: 0.0483, Dice: 0.1980)
+
+Epoch 37/250
+
+[INFO] Fold 3 | Epoch 37
+[INFO] Train Metrics | Dice: 0.8096 | IoU: 0.6934 | Loss: 0.1454 (BCE: 0.0271, Dice: 0.1961)
+[INFO] Val Metrics   | Dice: 0.8088 | IoU: 0.6925 | Loss: 0.1517 (BCE: 0.0518, Dice: 0.1945)
+
+Epoch 38/250
+
+[INFO] Fold 3 | Epoch 38
+[INFO] Train Metrics | Dice: 0.8128 | IoU: 0.6976 | Loss: 0.1428 (BCE: 0.0276, Dice: 0.1922)
+[INFO] Val Metrics   | Dice: 0.8054 | IoU: 0.6877 | Loss: 0.1556 (BCE: 0.0587, Dice: 0.1971)
+
+Epoch 39/250
+
+[INFO] Fold 3 | Epoch 39
+[INFO] Train Metrics | Dice: 0.8221 | IoU: 0.7098 | Loss: 0.1362 (BCE: 0.0277, Dice: 0.1828)
+[INFO] Val Metrics   | Dice: 0.8087 | IoU: 0.6911 | Loss: 0.1518 (BCE: 0.0485, Dice: 0.1960)
+
+Epoch 40/250
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_40_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_40_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_40_val_images.png
+
+[INFO] Fold 3 | Epoch 40
+[INFO] Train Metrics | Dice: 0.8201 | IoU: 0.7086 | Loss: 0.1371 (BCE: 0.0256, Dice: 0.1849)
+[INFO] Val Metrics   | Dice: 0.8032 | IoU: 0.6859 | Loss: 0.1576 (BCE: 0.0596, Dice: 0.1996)
+
+Epoch 41/250
+
+[INFO] Fold 3 | Epoch 41
+[INFO] Train Metrics | Dice: 0.7992 | IoU: 0.6811 | Loss: 0.1538 (BCE: 0.0346, Dice: 0.2048)
+[INFO] Val Metrics   | Dice: 0.8140 | IoU: 0.7010 | Loss: 0.1464 (BCE: 0.0425, Dice: 0.1909)
+[INFO] Best model saved for fold 3 at epoch 41 (Dice: 0.8140)
+
+Epoch 42/250
+
+[INFO] Fold 3 | Epoch 42
+[INFO] Train Metrics | Dice: 0.8148 | IoU: 0.7021 | Loss: 0.1409 (BCE: 0.0260, Dice: 0.1901)
+[INFO] Val Metrics   | Dice: 0.8156 | IoU: 0.7022 | Loss: 0.1453 (BCE: 0.0473, Dice: 0.1873)
+[INFO] Best model saved for fold 3 at epoch 42 (Dice: 0.8156)
+
+Epoch 43/250
+
+[INFO] Fold 3 | Epoch 43
+[INFO] Train Metrics | Dice: 0.8211 | IoU: 0.7110 | Loss: 0.1365 (BCE: 0.0279, Dice: 0.1831)
+[INFO] Val Metrics   | Dice: 0.8073 | IoU: 0.6898 | Loss: 0.1503 (BCE: 0.0403, Dice: 0.1975)
+
+Epoch 44/250
+
+[INFO] Fold 3 | Epoch 44
+[INFO] Train Metrics | Dice: 0.8138 | IoU: 0.7040 | Loss: 0.1415 (BCE: 0.0262, Dice: 0.1909)
+[INFO] Val Metrics   | Dice: 0.8014 | IoU: 0.6814 | Loss: 0.1556 (BCE: 0.0468, Dice: 0.2023)
+
+Epoch 45/250
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_45_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_45_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_45_val_images.png
+
+[INFO] Fold 3 | Epoch 45
+[INFO] Train Metrics | Dice: 0.8204 | IoU: 0.7064 | Loss: 0.1365 (BCE: 0.0247, Dice: 0.1844)
+[INFO] Val Metrics   | Dice: 0.8136 | IoU: 0.6999 | Loss: 0.1463 (BCE: 0.0429, Dice: 0.1906)
+
+Epoch 46/250
+
+[INFO] Fold 3 | Epoch 46
+[INFO] Train Metrics | Dice: 0.8304 | IoU: 0.7211 | Loss: 0.1299 (BCE: 0.0255, Dice: 0.1747)
+[INFO] Val Metrics   | Dice: 0.8007 | IoU: 0.6805 | Loss: 0.1583 (BCE: 0.0549, Dice: 0.2026)
+
+Epoch 47/250
+
+[INFO] Fold 3 | Epoch 47
+[INFO] Train Metrics | Dice: 0.8264 | IoU: 0.7196 | Loss: 0.1320 (BCE: 0.0245, Dice: 0.1781)
+[INFO] Val Metrics   | Dice: 0.8039 | IoU: 0.6848 | Loss: 0.1536 (BCE: 0.0442, Dice: 0.2005)
+
+Epoch 48/250
+
+[INFO] Fold 3 | Epoch 48
+[INFO] Train Metrics | Dice: 0.8334 | IoU: 0.7258 | Loss: 0.1270 (BCE: 0.0242, Dice: 0.1710)
+[INFO] Val Metrics   | Dice: 0.8113 | IoU: 0.6961 | Loss: 0.1473 (BCE: 0.0429, Dice: 0.1920)
+
+Epoch 49/250
+
+[INFO] Fold 3 | Epoch 49
+[INFO] Train Metrics | Dice: 0.8179 | IoU: 0.7071 | Loss: 0.1385 (BCE: 0.0261, Dice: 0.1866)
+[INFO] Val Metrics   | Dice: 0.8212 | IoU: 0.7092 | Loss: 0.1408 (BCE: 0.0418, Dice: 0.1832)
+[INFO] Best model saved for fold 3 at epoch 49 (Dice: 0.8212)
+
+Epoch 50/250
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_50_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_50_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_50_val_images.png
+
+[INFO] Fold 3 | Epoch 50
+[INFO] Train Metrics | Dice: 0.8232 | IoU: 0.7142 | Loss: 0.1343 (BCE: 0.0259, Dice: 0.1807)
+[INFO] Val Metrics   | Dice: 0.8122 | IoU: 0.6965 | Loss: 0.1470 (BCE: 0.0450, Dice: 0.1907)
+
+Epoch 51/250
+
+[INFO] Fold 3 | Epoch 51
+[INFO] Train Metrics | Dice: 0.8305 | IoU: 0.7204 | Loss: 0.1290 (BCE: 0.0218, Dice: 0.1749)
+[INFO] Val Metrics   | Dice: 0.8061 | IoU: 0.6883 | Loss: 0.1510 (BCE: 0.0433, Dice: 0.1971)
+
+Epoch 52/250
+
+[INFO] Fold 3 | Epoch 52
+[INFO] Train Metrics | Dice: 0.8363 | IoU: 0.7286 | Loss: 0.1247 (BCE: 0.0235, Dice: 0.1680)
+[INFO] Val Metrics   | Dice: 0.8135 | IoU: 0.6989 | Loss: 0.1458 (BCE: 0.0441, Dice: 0.1894)
+
+Epoch 53/250
+
+[INFO] Fold 3 | Epoch 53
+[INFO] Train Metrics | Dice: 0.8394 | IoU: 0.7332 | Loss: 0.1225 (BCE: 0.0238, Dice: 0.1648)
+[INFO] Val Metrics   | Dice: 0.8083 | IoU: 0.6919 | Loss: 0.1498 (BCE: 0.0428, Dice: 0.1956)
+
+Epoch 54/250
+
+[INFO] Fold 3 | Epoch 54
+[INFO] Train Metrics | Dice: 0.8280 | IoU: 0.7198 | Loss: 0.1316 (BCE: 0.0266, Dice: 0.1766)
+[INFO] Val Metrics   | Dice: 0.8173 | IoU: 0.7038 | Loss: 0.1430 (BCE: 0.0430, Dice: 0.1858)
+
+Epoch 55/250
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_55_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_55_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_55_val_images.png
+
+[INFO] Fold 3 | Epoch 55
+[INFO] Train Metrics | Dice: 0.8382 | IoU: 0.7314 | Loss: 0.1234 (BCE: 0.0227, Dice: 0.1665)
+[INFO] Val Metrics   | Dice: 0.8002 | IoU: 0.6796 | Loss: 0.1561 (BCE: 0.0473, Dice: 0.2028)
+
+Epoch 56/250
+
+[INFO] Fold 3 | Epoch 56
+[INFO] Train Metrics | Dice: 0.8288 | IoU: 0.7208 | Loss: 0.1305 (BCE: 0.0240, Dice: 0.1761)
+[INFO] Val Metrics   | Dice: 0.7942 | IoU: 0.6734 | Loss: 0.1598 (BCE: 0.0472, Dice: 0.2081)
+
+Epoch 57/250
+
+[INFO] Fold 3 | Epoch 57
+[INFO] Train Metrics | Dice: 0.8396 | IoU: 0.7341 | Loss: 0.1227 (BCE: 0.0244, Dice: 0.1648)
+[INFO] Val Metrics   | Dice: 0.8124 | IoU: 0.6964 | Loss: 0.1469 (BCE: 0.0401, Dice: 0.1926)
+
+Epoch 58/250
+
+[INFO] Fold 3 | Epoch 58
+[INFO] Train Metrics | Dice: 0.8475 | IoU: 0.7447 | Loss: 0.1164 (BCE: 0.0222, Dice: 0.1567)
+[INFO] Val Metrics   | Dice: 0.8154 | IoU: 0.7011 | Loss: 0.1451 (BCE: 0.0461, Dice: 0.1875)
+
+Epoch 59/250
+
+[INFO] Fold 3 | Epoch 59
+[INFO] Train Metrics | Dice: 0.8458 | IoU: 0.7414 | Loss: 0.1182 (BCE: 0.0231, Dice: 0.1590)
+[INFO] Val Metrics   | Dice: 0.8111 | IoU: 0.6955 | Loss: 0.1491 (BCE: 0.0490, Dice: 0.1921)
+
+Epoch 60/250
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_60_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_60_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_60_val_images.png
+
+[INFO] Fold 3 | Epoch 60
+[INFO] Train Metrics | Dice: 0.8460 | IoU: 0.7437 | Loss: 0.1176 (BCE: 0.0222, Dice: 0.1585)
+[INFO] Val Metrics   | Dice: 0.8079 | IoU: 0.6917 | Loss: 0.1507 (BCE: 0.0468, Dice: 0.1952)
+
+Epoch 61/250
+
+[INFO] Fold 3 | Epoch 61
+[INFO] Train Metrics | Dice: 0.8480 | IoU: 0.7461 | Loss: 0.1160 (BCE: 0.0223, Dice: 0.1562)
+[INFO] Val Metrics   | Dice: 0.8099 | IoU: 0.6923 | Loss: 0.1501 (BCE: 0.0503, Dice: 0.1929)
+
+Epoch 62/250
+
+[INFO] Fold 3 | Epoch 62
+[INFO] Train Metrics | Dice: 0.8414 | IoU: 0.7375 | Loss: 0.1209 (BCE: 0.0234, Dice: 0.1627)
+[INFO] Val Metrics   | Dice: 0.8177 | IoU: 0.7029 | Loss: 0.1436 (BCE: 0.0469, Dice: 0.1850)
+
+Epoch 63/250
+
+[INFO] Fold 3 | Epoch 63
+[INFO] Train Metrics | Dice: 0.8364 | IoU: 0.7309 | Loss: 0.1248 (BCE: 0.0237, Dice: 0.1682)
+[INFO] Val Metrics   | Dice: 0.8131 | IoU: 0.6977 | Loss: 0.1477 (BCE: 0.0493, Dice: 0.1898)
+
+Epoch 64/250
+
+[INFO] Fold 3 | Epoch 64
+[INFO] Train Metrics | Dice: 0.8443 | IoU: 0.7403 | Loss: 0.1187 (BCE: 0.0232, Dice: 0.1597)
+[INFO] Val Metrics   | Dice: 0.8041 | IoU: 0.6878 | Loss: 0.1550 (BCE: 0.0523, Dice: 0.1990)
+
+Epoch 65/250
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_65_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_65_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_65_val_images.png
+
+[INFO] Fold 3 | Epoch 65
+[INFO] Train Metrics | Dice: 0.8394 | IoU: 0.7366 | Loss: 0.1219 (BCE: 0.0216, Dice: 0.1648)
+[INFO] Val Metrics   | Dice: 0.8201 | IoU: 0.7079 | Loss: 0.1410 (BCE: 0.0427, Dice: 0.1831)
+
+Epoch 66/250
+
+[INFO] Fold 3 | Epoch 66
+[INFO] Train Metrics | Dice: 0.8450 | IoU: 0.7430 | Loss: 0.1182 (BCE: 0.0230, Dice: 0.1589)
+[INFO] Val Metrics   | Dice: 0.8102 | IoU: 0.6956 | Loss: 0.1493 (BCE: 0.0466, Dice: 0.1933)
+
+Epoch 67/250
+
+[INFO] Fold 3 | Epoch 67
+[INFO] Train Metrics | Dice: 0.8420 | IoU: 0.7385 | Loss: 0.1203 (BCE: 0.0223, Dice: 0.1623)
+[INFO] Val Metrics   | Dice: 0.8141 | IoU: 0.6990 | Loss: 0.1465 (BCE: 0.0444, Dice: 0.1902)
+
+Epoch 68/250
+
+[INFO] Fold 3 | Epoch 68
+[INFO] Train Metrics | Dice: 0.8492 | IoU: 0.7468 | Loss: 0.1150 (BCE: 0.0226, Dice: 0.1546)
+[INFO] Val Metrics   | Dice: 0.8171 | IoU: 0.7036 | Loss: 0.1435 (BCE: 0.0439, Dice: 0.1861)
+
+Epoch 69/250
+
+[INFO] Fold 3 | Epoch 69
+[INFO] Train Metrics | Dice: 0.8532 | IoU: 0.7514 | Loss: 0.1118 (BCE: 0.0202, Dice: 0.1510)
+[INFO] Val Metrics   | Dice: 0.8162 | IoU: 0.7028 | Loss: 0.1444 (BCE: 0.0447, Dice: 0.1872)
+
+Epoch 70/250
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_70_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_70_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_70_val_images.png
+
+[INFO] Fold 3 | Epoch 70
+[INFO] Train Metrics | Dice: 0.8492 | IoU: 0.7504 | Loss: 0.1147 (BCE: 0.0209, Dice: 0.1549)
+[INFO] Val Metrics   | Dice: 0.8157 | IoU: 0.7026 | Loss: 0.1456 (BCE: 0.0482, Dice: 0.1874)
+
+Epoch 71/250
+
+[INFO] Fold 3 | Epoch 71
+[INFO] Train Metrics | Dice: 0.8511 | IoU: 0.7504 | Loss: 0.1135 (BCE: 0.0217, Dice: 0.1529)
+[INFO] Val Metrics   | Dice: 0.8129 | IoU: 0.6977 | Loss: 0.1468 (BCE: 0.0451, Dice: 0.1904)
+
+Epoch 72/250
+
+[INFO] Fold 3 | Epoch 72
+[INFO] Train Metrics | Dice: 0.8568 | IoU: 0.7586 | Loss: 0.1095 (BCE: 0.0220, Dice: 0.1470)
+[INFO] Val Metrics   | Dice: 0.8255 | IoU: 0.7154 | Loss: 0.1382 (BCE: 0.0463, Dice: 0.1776)
+[INFO] Best model saved for fold 3 at epoch 72 (Dice: 0.8255)
+
+Epoch 73/250
+
+[INFO] Fold 3 | Epoch 73
+[INFO] Train Metrics | Dice: 0.8642 | IoU: 0.7691 | Loss: 0.1036 (BCE: 0.0188, Dice: 0.1399)
+[INFO] Val Metrics   | Dice: 0.8156 | IoU: 0.7014 | Loss: 0.1458 (BCE: 0.0502, Dice: 0.1868)
+
+Epoch 74/250
+
+[INFO] Fold 3 | Epoch 74
+[INFO] Train Metrics | Dice: 0.8588 | IoU: 0.7621 | Loss: 0.1075 (BCE: 0.0213, Dice: 0.1445)
+[INFO] Val Metrics   | Dice: 0.8075 | IoU: 0.6911 | Loss: 0.1509 (BCE: 0.0468, Dice: 0.1956)
+
+Epoch 75/250
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_75_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_75_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_75_val_images.png
+
+[INFO] Fold 3 | Epoch 75
+[INFO] Train Metrics | Dice: 0.8556 | IoU: 0.7579 | Loss: 0.1099 (BCE: 0.0196, Dice: 0.1486)
+[INFO] Val Metrics   | Dice: 0.8230 | IoU: 0.7120 | Loss: 0.1408 (BCE: 0.0490, Dice: 0.1801)
+
+Epoch 76/250
+
+[INFO] Fold 3 | Epoch 76
+[INFO] Train Metrics | Dice: 0.8491 | IoU: 0.7512 | Loss: 0.1147 (BCE: 0.0214, Dice: 0.1546)
+[INFO] Val Metrics   | Dice: 0.8223 | IoU: 0.7113 | Loss: 0.1421 (BCE: 0.0518, Dice: 0.1809)
+
+Epoch 77/250
+
+[INFO] Fold 3 | Epoch 77
+[INFO] Train Metrics | Dice: 0.8585 | IoU: 0.7614 | Loss: 0.1079 (BCE: 0.0205, Dice: 0.1454)
+[INFO] Val Metrics   | Dice: 0.8200 | IoU: 0.7067 | Loss: 0.1410 (BCE: 0.0426, Dice: 0.1832)
+
+Epoch 78/250
+
+[INFO] Fold 3 | Epoch 78
+[INFO] Train Metrics | Dice: 0.8647 | IoU: 0.7690 | Loss: 0.1035 (BCE: 0.0203, Dice: 0.1392)
+[INFO] Val Metrics   | Dice: 0.8236 | IoU: 0.7114 | Loss: 0.1404 (BCE: 0.0505, Dice: 0.1789)
+
+Epoch 79/250
+
+[INFO] Fold 3 | Epoch 79
+[INFO] Train Metrics | Dice: 0.8601 | IoU: 0.7627 | Loss: 0.1061 (BCE: 0.0181, Dice: 0.1439)
+[INFO] Val Metrics   | Dice: 0.8218 | IoU: 0.7102 | Loss: 0.1430 (BCE: 0.0540, Dice: 0.1811)
+
+Epoch 80/250
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_80_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_80_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_80_val_images.png
+
+[INFO] Fold 3 | Epoch 80
+[INFO] Train Metrics | Dice: 0.8651 | IoU: 0.7701 | Loss: 0.1031 (BCE: 0.0210, Dice: 0.1382)
+[INFO] Val Metrics   | Dice: 0.8247 | IoU: 0.7134 | Loss: 0.1391 (BCE: 0.0443, Dice: 0.1797)
+
+Epoch 81/250
+
+[INFO] Fold 3 | Epoch 81
+[INFO] Train Metrics | Dice: 0.8750 | IoU: 0.7842 | Loss: 0.0959 (BCE: 0.0184, Dice: 0.1291)
+[INFO] Val Metrics   | Dice: 0.8212 | IoU: 0.7087 | Loss: 0.1419 (BCE: 0.0480, Dice: 0.1821)
+
+Epoch 82/250
+
+[INFO] Fold 3 | Epoch 82
+[INFO] Train Metrics | Dice: 0.8683 | IoU: 0.7754 | Loss: 0.1007 (BCE: 0.0196, Dice: 0.1354)
+[INFO] Val Metrics   | Dice: 0.8192 | IoU: 0.7060 | Loss: 0.1452 (BCE: 0.0561, Dice: 0.1834)
+
+Epoch 83/250
+
+[INFO] Fold 3 | Epoch 83
+[INFO] Train Metrics | Dice: 0.8678 | IoU: 0.7738 | Loss: 0.1011 (BCE: 0.0205, Dice: 0.1357)
+[INFO] Val Metrics   | Dice: 0.8181 | IoU: 0.7038 | Loss: 0.1429 (BCE: 0.0427, Dice: 0.1858)
+
+Epoch 84/250
+
+[INFO] Fold 3 | Epoch 84
+[INFO] Train Metrics | Dice: 0.8666 | IoU: 0.7718 | Loss: 0.1020 (BCE: 0.0188, Dice: 0.1376)
+[INFO] Val Metrics   | Dice: 0.8207 | IoU: 0.7081 | Loss: 0.1449 (BCE: 0.0616, Dice: 0.1806)
+
+Epoch 85/250
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_85_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_85_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_85_val_images.png
+
+[INFO] Fold 3 | Epoch 85
+[INFO] Train Metrics | Dice: 0.8738 | IoU: 0.7828 | Loss: 0.0969 (BCE: 0.0219, Dice: 0.1291)
+[INFO] Val Metrics   | Dice: 0.8212 | IoU: 0.7098 | Loss: 0.1406 (BCE: 0.0444, Dice: 0.1819)
+
+Epoch 86/250
+
+[INFO] Fold 3 | Epoch 86
+[INFO] Train Metrics | Dice: 0.8687 | IoU: 0.7768 | Loss: 0.1001 (BCE: 0.0179, Dice: 0.1353)
+[INFO] Val Metrics   | Dice: 0.8159 | IoU: 0.7024 | Loss: 0.1452 (BCE: 0.0491, Dice: 0.1864)
+
+Epoch 87/250
+
+[INFO] Fold 3 | Epoch 87
+[INFO] Train Metrics | Dice: 0.8705 | IoU: 0.7804 | Loss: 0.0990 (BCE: 0.0203, Dice: 0.1327)
+[INFO] Val Metrics   | Dice: 0.8227 | IoU: 0.7117 | Loss: 0.1393 (BCE: 0.0446, Dice: 0.1800)
+
+Epoch 88/250
+
+[INFO] Fold 3 | Epoch 88
+[INFO] Train Metrics | Dice: 0.8720 | IoU: 0.7806 | Loss: 0.0977 (BCE: 0.0179, Dice: 0.1320)
+[INFO] Val Metrics   | Dice: 0.8194 | IoU: 0.7084 | Loss: 0.1435 (BCE: 0.0494, Dice: 0.1839)
+
+Epoch 89/250
+
+[INFO] Fold 3 | Epoch 89
+[INFO] Train Metrics | Dice: 0.8811 | IoU: 0.7922 | Loss: 0.0912 (BCE: 0.0178, Dice: 0.1226)
+[INFO] Val Metrics   | Dice: 0.8187 | IoU: 0.7059 | Loss: 0.1436 (BCE: 0.0503, Dice: 0.1836)
+
+Epoch 90/250
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_90_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_90_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_90_val_images.png
+
+[INFO] Fold 3 | Epoch 90
+[INFO] Train Metrics | Dice: 0.8852 | IoU: 0.8003 | Loss: 0.0877 (BCE: 0.0164, Dice: 0.1182)
+[INFO] Val Metrics   | Dice: 0.8299 | IoU: 0.7211 | Loss: 0.1355 (BCE: 0.0484, Dice: 0.1728)
+[INFO] Best model saved for fold 3 at epoch 90 (Dice: 0.8299)
+
+Epoch 91/250
+
+[INFO] Fold 3 | Epoch 91
+[INFO] Train Metrics | Dice: 0.8721 | IoU: 0.7843 | Loss: 0.0974 (BCE: 0.0182, Dice: 0.1313)
+[INFO] Val Metrics   | Dice: 0.8288 | IoU: 0.7199 | Loss: 0.1352 (BCE: 0.0455, Dice: 0.1736)
+
+Epoch 92/250
+
+[INFO] Fold 3 | Epoch 92
+[INFO] Train Metrics | Dice: 0.8739 | IoU: 0.7829 | Loss: 0.0964 (BCE: 0.0186, Dice: 0.1298)
+[INFO] Val Metrics   | Dice: 0.8304 | IoU: 0.7221 | Loss: 0.1335 (BCE: 0.0425, Dice: 0.1725)
+[INFO] Best model saved for fold 3 at epoch 92 (Dice: 0.8304)
+
+Epoch 93/250
+
+[INFO] Fold 3 | Epoch 93
+[INFO] Train Metrics | Dice: 0.8808 | IoU: 0.7935 | Loss: 0.0911 (BCE: 0.0161, Dice: 0.1232)
+[INFO] Val Metrics   | Dice: 0.8252 | IoU: 0.7146 | Loss: 0.1383 (BCE: 0.0483, Dice: 0.1770)
+
+Epoch 94/250
+
+[INFO] Fold 3 | Epoch 94
+[INFO] Train Metrics | Dice: 0.8752 | IoU: 0.7856 | Loss: 0.0954 (BCE: 0.0194, Dice: 0.1280)
+[INFO] Val Metrics   | Dice: 0.8279 | IoU: 0.7213 | Loss: 0.1361 (BCE: 0.0449, Dice: 0.1752)
+
+Epoch 95/250
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_95_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_95_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_95_val_images.png
+
+[INFO] Fold 3 | Epoch 95
+[INFO] Train Metrics | Dice: 0.8792 | IoU: 0.7920 | Loss: 0.0921 (BCE: 0.0173, Dice: 0.1242)
+[INFO] Val Metrics   | Dice: 0.8234 | IoU: 0.7137 | Loss: 0.1394 (BCE: 0.0459, Dice: 0.1794)
+
+Epoch 96/250
+
+[INFO] Fold 3 | Epoch 96
+[INFO] Train Metrics | Dice: 0.8847 | IoU: 0.8008 | Loss: 0.0882 (BCE: 0.0182, Dice: 0.1182)
+[INFO] Val Metrics   | Dice: 0.8339 | IoU: 0.7272 | Loss: 0.1322 (BCE: 0.0469, Dice: 0.1687)
+[INFO] Best model saved for fold 3 at epoch 96 (Dice: 0.8339)
+
+Epoch 97/250
+
+[INFO] Fold 3 | Epoch 97
+[INFO] Train Metrics | Dice: 0.8875 | IoU: 0.8036 | Loss: 0.0860 (BCE: 0.0157, Dice: 0.1162)
+[INFO] Val Metrics   | Dice: 0.8219 | IoU: 0.7113 | Loss: 0.1397 (BCE: 0.0447, Dice: 0.1804)
+
+Epoch 98/250
+
+[INFO] Fold 3 | Epoch 98
+[INFO] Train Metrics | Dice: 0.8838 | IoU: 0.7993 | Loss: 0.0887 (BCE: 0.0179, Dice: 0.1191)
+[INFO] Val Metrics   | Dice: 0.8272 | IoU: 0.7178 | Loss: 0.1377 (BCE: 0.0505, Dice: 0.1750)
+
+Epoch 99/250
+
+[INFO] Fold 3 | Epoch 99
+[INFO] Train Metrics | Dice: 0.8874 | IoU: 0.8033 | Loss: 0.0859 (BCE: 0.0162, Dice: 0.1158)
+[INFO] Val Metrics   | Dice: 0.8273 | IoU: 0.7173 | Loss: 0.1368 (BCE: 0.0462, Dice: 0.1756)
+
+Epoch 100/250
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_100_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_100_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_100_val_images.png
+
+[INFO] Fold 3 | Epoch 100
+[INFO] Train Metrics | Dice: 0.8871 | IoU: 0.8035 | Loss: 0.0864 (BCE: 0.0169, Dice: 0.1162)
+[INFO] Val Metrics   | Dice: 0.8215 | IoU: 0.7108 | Loss: 0.1411 (BCE: 0.0472, Dice: 0.1813)
+
+Epoch 101/250
+
+[INFO] Fold 3 | Epoch 101
+[INFO] Train Metrics | Dice: 0.8807 | IoU: 0.7958 | Loss: 0.0907 (BCE: 0.0159, Dice: 0.1227)
+[INFO] Val Metrics   | Dice: 0.8273 | IoU: 0.7189 | Loss: 0.1369 (BCE: 0.0486, Dice: 0.1748)
+
+Epoch 102/250
+
+[INFO] Fold 3 | Epoch 102
+[INFO] Train Metrics | Dice: 0.8918 | IoU: 0.8101 | Loss: 0.0828 (BCE: 0.0159, Dice: 0.1115)
+[INFO] Val Metrics   | Dice: 0.8271 | IoU: 0.7185 | Loss: 0.1375 (BCE: 0.0498, Dice: 0.1751)
+
+Epoch 103/250
+
+[INFO] Fold 3 | Epoch 103
+[INFO] Train Metrics | Dice: 0.8898 | IoU: 0.8067 | Loss: 0.0841 (BCE: 0.0163, Dice: 0.1131)
+[INFO] Val Metrics   | Dice: 0.8220 | IoU: 0.7123 | Loss: 0.1409 (BCE: 0.0490, Dice: 0.1802)
+
+Epoch 104/250
+
+[INFO] Fold 3 | Epoch 104
+[INFO] Train Metrics | Dice: 0.8897 | IoU: 0.8071 | Loss: 0.0843 (BCE: 0.0158, Dice: 0.1136)
+[INFO] Val Metrics   | Dice: 0.8274 | IoU: 0.7177 | Loss: 0.1367 (BCE: 0.0465, Dice: 0.1754)
+
+Epoch 105/250
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_105_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_105_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_105_val_images.png
+
+[INFO] Fold 3 | Epoch 105
+[INFO] Train Metrics | Dice: 0.8907 | IoU: 0.8095 | Loss: 0.0835 (BCE: 0.0156, Dice: 0.1126)
+[INFO] Val Metrics   | Dice: 0.8283 | IoU: 0.7200 | Loss: 0.1374 (BCE: 0.0528, Dice: 0.1737)
+
+Epoch 106/250
+
+[INFO] Fold 3 | Epoch 106
+[INFO] Train Metrics | Dice: 0.8947 | IoU: 0.8157 | Loss: 0.0803 (BCE: 0.0150, Dice: 0.1082)
+[INFO] Val Metrics   | Dice: 0.8219 | IoU: 0.7111 | Loss: 0.1424 (BCE: 0.0545, Dice: 0.1801)
+
+Epoch 107/250
+
+[INFO] Fold 3 | Epoch 107
+[INFO] Train Metrics | Dice: 0.8856 | IoU: 0.8029 | Loss: 0.0873 (BCE: 0.0168, Dice: 0.1175)
+[INFO] Val Metrics   | Dice: 0.8267 | IoU: 0.7173 | Loss: 0.1374 (BCE: 0.0476, Dice: 0.1759)
+
+Epoch 108/250
+
+[INFO] Fold 3 | Epoch 108
+[INFO] Train Metrics | Dice: 0.8924 | IoU: 0.8114 | Loss: 0.0821 (BCE: 0.0146, Dice: 0.1110)
+[INFO] Val Metrics   | Dice: 0.8277 | IoU: 0.7184 | Loss: 0.1380 (BCE: 0.0529, Dice: 0.1744)
+
+Epoch 109/250
+
+[INFO] Fold 3 | Epoch 109
+[INFO] Train Metrics | Dice: 0.8952 | IoU: 0.8164 | Loss: 0.0802 (BCE: 0.0160, Dice: 0.1078)
+[INFO] Val Metrics   | Dice: 0.8291 | IoU: 0.7206 | Loss: 0.1371 (BCE: 0.0530, Dice: 0.1731)
+
+Epoch 110/250
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_110_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_110_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_110_val_images.png
+
+[INFO] Fold 3 | Epoch 110
+[INFO] Train Metrics | Dice: 0.8886 | IoU: 0.8075 | Loss: 0.0848 (BCE: 0.0151, Dice: 0.1147)
+[INFO] Val Metrics   | Dice: 0.8303 | IoU: 0.7218 | Loss: 0.1362 (BCE: 0.0525, Dice: 0.1720)
+
+Epoch 111/250
+
+[INFO] Fold 3 | Epoch 111
+[INFO] Train Metrics | Dice: 0.8962 | IoU: 0.8189 | Loss: 0.0792 (BCE: 0.0141, Dice: 0.1070)
+[INFO] Val Metrics   | Dice: 0.8299 | IoU: 0.7222 | Loss: 0.1347 (BCE: 0.0466, Dice: 0.1725)
+
+Epoch 112/250
+
+[INFO] Fold 3 | Epoch 112
+[INFO] Train Metrics | Dice: 0.9003 | IoU: 0.8233 | Loss: 0.0764 (BCE: 0.0153, Dice: 0.1026)
+[INFO] Val Metrics   | Dice: 0.8288 | IoU: 0.7192 | Loss: 0.1369 (BCE: 0.0516, Dice: 0.1735)
+
+Epoch 113/250
+
+[INFO] Fold 3 | Epoch 113
+[INFO] Train Metrics | Dice: 0.8940 | IoU: 0.8152 | Loss: 0.0807 (BCE: 0.0153, Dice: 0.1088)
+[INFO] Val Metrics   | Dice: 0.8305 | IoU: 0.7223 | Loss: 0.1343 (BCE: 0.0471, Dice: 0.1717)
+
+Epoch 114/250
+
+[INFO] Fold 3 | Epoch 114
+[INFO] Train Metrics | Dice: 0.8989 | IoU: 0.8212 | Loss: 0.0773 (BCE: 0.0141, Dice: 0.1044)
+[INFO] Val Metrics   | Dice: 0.8301 | IoU: 0.7238 | Loss: 0.1369 (BCE: 0.0549, Dice: 0.1721)
+
+Epoch 115/250
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_115_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_115_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_115_val_images.png
+
+[INFO] Fold 3 | Epoch 115
+[INFO] Train Metrics | Dice: 0.9009 | IoU: 0.8251 | Loss: 0.0761 (BCE: 0.0158, Dice: 0.1019)
+[INFO] Val Metrics   | Dice: 0.8329 | IoU: 0.7268 | Loss: 0.1339 (BCE: 0.0509, Dice: 0.1694)
+
+Epoch 116/250
+
+[INFO] Fold 3 | Epoch 116
+[INFO] Train Metrics | Dice: 0.9040 | IoU: 0.8293 | Loss: 0.0736 (BCE: 0.0146, Dice: 0.0990)
+[INFO] Val Metrics   | Dice: 0.8241 | IoU: 0.7144 | Loss: 0.1414 (BCE: 0.0569, Dice: 0.1777)
+
+Epoch 117/250
+
+[INFO] Fold 3 | Epoch 117
+[INFO] Train Metrics | Dice: 0.8973 | IoU: 0.8216 | Loss: 0.0782 (BCE: 0.0142, Dice: 0.1056)
+[INFO] Val Metrics   | Dice: 0.8293 | IoU: 0.7224 | Loss: 0.1367 (BCE: 0.0513, Dice: 0.1733)
+
+Epoch 118/250
+
+[INFO] Fold 3 | Epoch 118
+[INFO] Train Metrics | Dice: 0.8986 | IoU: 0.8228 | Loss: 0.0775 (BCE: 0.0153, Dice: 0.1042)
+[INFO] Val Metrics   | Dice: 0.8332 | IoU: 0.7266 | Loss: 0.1321 (BCE: 0.0456, Dice: 0.1692)
+
+Epoch 119/250
+
+[INFO] Fold 3 | Epoch 119
+[INFO] Train Metrics | Dice: 0.9009 | IoU: 0.8252 | Loss: 0.0756 (BCE: 0.0139, Dice: 0.1021)
+[INFO] Val Metrics   | Dice: 0.8312 | IoU: 0.7240 | Loss: 0.1345 (BCE: 0.0487, Dice: 0.1713)
+
+Epoch 120/250
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_120_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_120_val_images.png
+[INFO] Saved validation plot: ./val_plots/fold_3_epoch_120_val_images.png
+
+[INFO] Fold 3 | Epoch 120
+[INFO] Train Metrics | Dice: 0.8980 | IoU: 0.8197 | Loss: 0.0780 (BCE: 0.0153, Dice: 0.1049)
+[INFO] Val Metrics   | Dice: 0.8314 | IoU: 0.7237 | Loss: 0.1342 (BCE: 0.0486, Dice: 0.1709)
+
+Epoch 121/250
+
+[INFO] Fold 3 | Epoch 121
+[INFO] Train Metrics | Dice: 0.9035 | IoU: 0.8285 | Loss: 0.0740 (BCE: 0.0143, Dice: 0.0996)
+[INFO] Val Metrics   | Dice: 0.8332 | IoU: 0.7262 | Loss: 0.1328 (BCE: 0.0479, Dice: 0.1692)
+[INFO] Early stopping at epoch 121
+[INFO] Saved loss plot: ./plots/fold_3_loss_plot.png
+[INFO] Saved dice plot: ./plots/fold_3_dice_plot.png
+[INFO] Fold 3 execution time: 0h 41m 39s
+[INFO] Total execution time for all folds: 1h 44m 1s
+
+Program finished with exit code 0 
+

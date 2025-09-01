@@ -1,0 +1,255 @@
+
+Starting 
+Running on hosts: gpu1-002
+Running on 1 nodes.
+Running on 1 processors.
+
+--- Evaluating Fold 1 on Test Set ---
+[INFO] Loaded best model for fold 1
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold1_Flight_1BL_0003.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold1_Flight_1CI_0015.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold1_Flight_2BA_0076.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold1_Flight_2BA_0124.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold1_Flight_2BA_0147.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold1_Flight_2CJ_SS_0001.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold1_Flight_3BC_0038.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold1_Flight_3BH_0012.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold1_Flight_3BH_0057.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold1_Flight_3BI_0004.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold1_Flight_3BI_0005.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold1_Flight_3BI_0017.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold1_Flight_3BI_0038.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold1_Flight_3BJ_0015.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold1_Flight_3BJ_0016.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold1_Flight_3BJ_0020.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold1_Flight_3BK_0013.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold1_Flight_3BL_0002.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold1_Flight_3BL_0003.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold1_Flight_3BL_0016.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold1_Flight_3BL_0030.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold1_Flight_3BL_0031.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold1_Flight_3CA_0001.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold1_Flight_3CA_0002.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold1_Flight_3CA_0003.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold1_Flight_3CC_0001.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold1_Flight_3CC_0003.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold1_Flight_3CH_0003.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold1_Flight_3CI_0001.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold1_Flight_3CI_0002.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold1_Ground_1BA_0015.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold1_Ground_1BA_0042.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold1_Ground_1BA_0051.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold1_Ground_1BD_0001.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold1_Ground_1BD_0003.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold1_Ground_1BF_0001.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold1_Ground_1BG_0001.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold1_Ground_1CB_0002.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold1_Ground_1CB_0011.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold1_Ground_1CB_0012.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold1_Ground_1CC_0002.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold1_Ground_1CF_0003.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold1_Ground_1CF_0008.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold1_Ground_1TCB_0002.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold1_Ground_1TCC_0006.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold1_Ground_1TCC_0007.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold1_Ground_1TCD_0005.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold1_Ground_1TCE_0003.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold1_Ground_1TCL_0010.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold1_Ground_3CF_0010.png
+
+[INFO] Fold 1 Test Metrics:
+Dice: 0.8018
+IoU: 0.6857
+Sensitivity: 0.8467
+Specificity: 0.9814
+AUC: 0.9872
+F1: 0.8018
+Accuracy: 0.9661
+
+--- Evaluating Fold 2 on Test Set ---
+[INFO] Loaded best model for fold 2
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold2_Flight_1BL_0003.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold2_Flight_1CI_0015.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold2_Flight_2BA_0076.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold2_Flight_2BA_0124.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold2_Flight_2BA_0147.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold2_Flight_2CJ_SS_0001.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold2_Flight_3BC_0038.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold2_Flight_3BH_0012.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold2_Flight_3BH_0057.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold2_Flight_3BI_0004.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold2_Flight_3BI_0005.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold2_Flight_3BI_0017.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold2_Flight_3BI_0038.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold2_Flight_3BJ_0015.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold2_Flight_3BJ_0016.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold2_Flight_3BJ_0020.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold2_Flight_3BK_0013.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold2_Flight_3BL_0002.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold2_Flight_3BL_0003.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold2_Flight_3BL_0016.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold2_Flight_3BL_0030.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold2_Flight_3BL_0031.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold2_Flight_3CA_0001.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold2_Flight_3CA_0002.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold2_Flight_3CA_0003.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold2_Flight_3CC_0001.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold2_Flight_3CC_0003.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold2_Flight_3CH_0003.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold2_Flight_3CI_0001.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold2_Flight_3CI_0002.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold2_Ground_1BA_0015.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold2_Ground_1BA_0042.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold2_Ground_1BA_0051.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold2_Ground_1BD_0001.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold2_Ground_1BD_0003.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold2_Ground_1BF_0001.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold2_Ground_1BG_0001.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold2_Ground_1CB_0002.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold2_Ground_1CB_0011.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold2_Ground_1CB_0012.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold2_Ground_1CC_0002.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold2_Ground_1CF_0003.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold2_Ground_1CF_0008.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold2_Ground_1TCB_0002.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold2_Ground_1TCC_0006.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold2_Ground_1TCC_0007.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold2_Ground_1TCD_0005.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold2_Ground_1TCE_0003.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold2_Ground_1TCL_0010.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold2_Ground_3CF_0010.png
+
+[INFO] Fold 2 Test Metrics:
+Dice: 0.8196
+IoU: 0.7002
+Sensitivity: 0.8044
+Specificity: 0.9859
+AUC: 0.9869
+F1: 0.8196
+Accuracy: 0.9665
+
+--- Evaluating Fold 3 on Test Set ---
+[INFO] Loaded best model for fold 3
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold3_Flight_1BL_0003.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold3_Flight_1CI_0015.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold3_Flight_2BA_0076.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold3_Flight_2BA_0124.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold3_Flight_2BA_0147.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold3_Flight_2CJ_SS_0001.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold3_Flight_3BC_0038.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold3_Flight_3BH_0012.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold3_Flight_3BH_0057.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold3_Flight_3BI_0004.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold3_Flight_3BI_0005.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold3_Flight_3BI_0017.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold3_Flight_3BI_0038.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold3_Flight_3BJ_0015.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold3_Flight_3BJ_0016.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold3_Flight_3BJ_0020.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold3_Flight_3BK_0013.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold3_Flight_3BL_0002.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold3_Flight_3BL_0003.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold3_Flight_3BL_0016.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold3_Flight_3BL_0030.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold3_Flight_3BL_0031.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold3_Flight_3CA_0001.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold3_Flight_3CA_0002.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold3_Flight_3CA_0003.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold3_Flight_3CC_0001.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold3_Flight_3CC_0003.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold3_Flight_3CH_0003.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold3_Flight_3CI_0001.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold3_Flight_3CI_0002.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold3_Ground_1BA_0015.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold3_Ground_1BA_0042.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold3_Ground_1BA_0051.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold3_Ground_1BD_0001.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold3_Ground_1BD_0003.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold3_Ground_1BF_0001.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold3_Ground_1BG_0001.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold3_Ground_1CB_0002.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold3_Ground_1CB_0011.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold3_Ground_1CB_0012.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold3_Ground_1CC_0002.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold3_Ground_1CF_0003.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold3_Ground_1CF_0008.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold3_Ground_1TCB_0002.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold3_Ground_1TCC_0006.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold3_Ground_1TCC_0007.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold3_Ground_1TCD_0005.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold3_Ground_1TCE_0003.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold3_Ground_1TCL_0010.png
+[INFO] Saved predicted mask: ./sam_predicted_masks/fold3_Ground_3CF_0010.png
+
+[INFO] Fold 3 Test Metrics:
+Dice: 0.8340
+IoU: 0.7233
+Sensitivity: 0.8528
+Specificity: 0.9856
+AUC: 0.9882
+F1: 0.8340
+Accuracy: 0.9707
+
+[INFO] Saving averaged predicted masks
+[INFO] Saved averaged predicted mask: ./sam_predicted_masks/Flight_1BL_0003_avg_pred.png
+[INFO] Saved averaged predicted mask: ./sam_predicted_masks/Flight_1CI_0015_avg_pred.png
+[INFO] Saved averaged predicted mask: ./sam_predicted_masks/Flight_2BA_0076_avg_pred.png
+[INFO] Saved averaged predicted mask: ./sam_predicted_masks/Flight_2BA_0124_avg_pred.png
+[INFO] Saved averaged predicted mask: ./sam_predicted_masks/Flight_2BA_0147_avg_pred.png
+[INFO] Saved averaged predicted mask: ./sam_predicted_masks/Flight_2CJ_SS_0001_avg_pred.png
+[INFO] Saved averaged predicted mask: ./sam_predicted_masks/Flight_3BC_0038_avg_pred.png
+[INFO] Saved averaged predicted mask: ./sam_predicted_masks/Flight_3BH_0012_avg_pred.png
+[INFO] Saved averaged predicted mask: ./sam_predicted_masks/Flight_3BH_0057_avg_pred.png
+[INFO] Saved averaged predicted mask: ./sam_predicted_masks/Flight_3BI_0004_avg_pred.png
+[INFO] Saved averaged predicted mask: ./sam_predicted_masks/Flight_3BI_0005_avg_pred.png
+[INFO] Saved averaged predicted mask: ./sam_predicted_masks/Flight_3BI_0017_avg_pred.png
+[INFO] Saved averaged predicted mask: ./sam_predicted_masks/Flight_3BI_0038_avg_pred.png
+[INFO] Saved averaged predicted mask: ./sam_predicted_masks/Flight_3BJ_0015_avg_pred.png
+[INFO] Saved averaged predicted mask: ./sam_predicted_masks/Flight_3BJ_0016_avg_pred.png
+[INFO] Saved averaged predicted mask: ./sam_predicted_masks/Flight_3BJ_0020_avg_pred.png
+[INFO] Saved averaged predicted mask: ./sam_predicted_masks/Flight_3BK_0013_avg_pred.png
+[INFO] Saved averaged predicted mask: ./sam_predicted_masks/Flight_3BL_0002_avg_pred.png
+[INFO] Saved averaged predicted mask: ./sam_predicted_masks/Flight_3BL_0003_avg_pred.png
+[INFO] Saved averaged predicted mask: ./sam_predicted_masks/Flight_3BL_0016_avg_pred.png
+[INFO] Saved averaged predicted mask: ./sam_predicted_masks/Flight_3BL_0030_avg_pred.png
+[INFO] Saved averaged predicted mask: ./sam_predicted_masks/Flight_3BL_0031_avg_pred.png
+[INFO] Saved averaged predicted mask: ./sam_predicted_masks/Flight_3CA_0001_avg_pred.png
+[INFO] Saved averaged predicted mask: ./sam_predicted_masks/Flight_3CA_0002_avg_pred.png
+[INFO] Saved averaged predicted mask: ./sam_predicted_masks/Flight_3CA_0003_avg_pred.png
+[INFO] Saved averaged predicted mask: ./sam_predicted_masks/Flight_3CC_0001_avg_pred.png
+[INFO] Saved averaged predicted mask: ./sam_predicted_masks/Flight_3CC_0003_avg_pred.png
+[INFO] Saved averaged predicted mask: ./sam_predicted_masks/Flight_3CH_0003_avg_pred.png
+[INFO] Saved averaged predicted mask: ./sam_predicted_masks/Flight_3CI_0001_avg_pred.png
+[INFO] Saved averaged predicted mask: ./sam_predicted_masks/Flight_3CI_0002_avg_pred.png
+[INFO] Saved averaged predicted mask: ./sam_predicted_masks/Ground_1BA_0015_avg_pred.png
+[INFO] Saved averaged predicted mask: ./sam_predicted_masks/Ground_1BA_0042_avg_pred.png
+[INFO] Saved averaged predicted mask: ./sam_predicted_masks/Ground_1BA_0051_avg_pred.png
+[INFO] Saved averaged predicted mask: ./sam_predicted_masks/Ground_1BD_0001_avg_pred.png
+[INFO] Saved averaged predicted mask: ./sam_predicted_masks/Ground_1BD_0003_avg_pred.png
+[INFO] Saved averaged predicted mask: ./sam_predicted_masks/Ground_1BF_0001_avg_pred.png
+[INFO] Saved averaged predicted mask: ./sam_predicted_masks/Ground_1BG_0001_avg_pred.png
+[INFO] Saved averaged predicted mask: ./sam_predicted_masks/Ground_1CB_0002_avg_pred.png
+[INFO] Saved averaged predicted mask: ./sam_predicted_masks/Ground_1CB_0011_avg_pred.png
+[INFO] Saved averaged predicted mask: ./sam_predicted_masks/Ground_1CB_0012_avg_pred.png
+[INFO] Saved averaged predicted mask: ./sam_predicted_masks/Ground_1CC_0002_avg_pred.png
+[INFO] Saved averaged predicted mask: ./sam_predicted_masks/Ground_1CF_0003_avg_pred.png
+[INFO] Saved averaged predicted mask: ./sam_predicted_masks/Ground_1CF_0008_avg_pred.png
+[INFO] Saved averaged predicted mask: ./sam_predicted_masks/Ground_1TCB_0002_avg_pred.png
+[INFO] Saved averaged predicted mask: ./sam_predicted_masks/Ground_1TCC_0006_avg_pred.png
+[INFO] Saved averaged predicted mask: ./sam_predicted_masks/Ground_1TCC_0007_avg_pred.png
+[INFO] Saved averaged predicted mask: ./sam_predicted_masks/Ground_1TCD_0005_avg_pred.png
+[INFO] Saved averaged predicted mask: ./sam_predicted_masks/Ground_1TCE_0003_avg_pred.png
+[INFO] Saved averaged predicted mask: ./sam_predicted_masks/Ground_1TCL_0010_avg_pred.png
+[INFO] Saved averaged predicted mask: ./sam_predicted_masks/Ground_3CF_0010_avg_pred.png
+
+[INFO] Overall Average Test Metrics Across Folds:
+Dice: 0.8185
+IoU: 0.7031
+Sensitivity: 0.8346
+Specificity: 0.9843
+AUC: 0.9869
+F1: 0.8185
+Accuracy: 0.9678
+
+Program finished with exit code 0 
+

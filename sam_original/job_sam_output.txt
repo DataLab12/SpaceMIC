@@ -1,0 +1,548 @@
+
+Starting 
+Running on hosts: gpu1-002
+Running on 1 nodes.
+Running on 1 processors.
+
+PyTorch version: 2.3.1+cu118
+CUDA available: True
+CUDA version: 11.8
+Using device: cuda
+Dataset validation passed for 281 image-mask pairs
+Dataset validation passed for 50 image-mask pairs
+Saved output to corrosion_aug_images/example_5.png
+Fold 1/3
+Epoch [1/250] | Train Loss: 0.6150, Dice: 0.2164, IoU: 0.1309, Dice Loss: 0.8613 || Val Loss: 0.5668, Dice: 0.3629, IoU: 0.2264, Dice Loss: 0.7984
+New best model saved at epoch 1 with Val Dice: 0.3629
+Epoch [2/250] | Train Loss: 0.4514, Dice: 0.4823, IoU: 0.3219, Dice Loss: 0.6207 || Val Loss: 0.3912, Dice: 0.5318, IoU: 0.3686, Dice Loss: 0.5345
+New best model saved at epoch 2 with Val Dice: 0.5318
+Epoch [3/250] | Train Loss: 0.3774, Dice: 0.5532, IoU: 0.3862, Dice Loss: 0.5100 || Val Loss: 0.3219, Dice: 0.6082, IoU: 0.4438, Dice Loss: 0.4350
+New best model saved at epoch 3 with Val Dice: 0.6082
+Epoch [4/250] | Train Loss: 0.3537, Dice: 0.5953, IoU: 0.4280, Dice Loss: 0.4755 || Val Loss: 0.3190, Dice: 0.6137, IoU: 0.4478, Dice Loss: 0.4310
+New best model saved at epoch 4 with Val Dice: 0.6137
+Epoch [5/250] | Train Loss: 0.3298, Dice: 0.6195, IoU: 0.4526, Dice Loss: 0.4457 || Val Loss: 0.2892, Dice: 0.6368, IoU: 0.4729, Dice Loss: 0.3926
+New best model saved at epoch 5 with Val Dice: 0.6368
+Epoch [6/250] | Train Loss: 0.3052, Dice: 0.6456, IoU: 0.4803, Dice Loss: 0.4107 || Val Loss: 0.2875, Dice: 0.6480, IoU: 0.4861, Dice Loss: 0.3886
+New best model saved at epoch 6 with Val Dice: 0.6480
+Epoch [7/250] | Train Loss: 0.2950, Dice: 0.6551, IoU: 0.4907, Dice Loss: 0.3982 || Val Loss: 0.2769, Dice: 0.6585, IoU: 0.4967, Dice Loss: 0.3774
+New best model saved at epoch 7 with Val Dice: 0.6585
+Epoch [8/250] | Train Loss: 0.2800, Dice: 0.6781, IoU: 0.5172, Dice Loss: 0.3784 || Val Loss: 0.2607, Dice: 0.6774, IoU: 0.5166, Dice Loss: 0.3521
+New best model saved at epoch 8 with Val Dice: 0.6774
+Epoch [9/250] | Train Loss: 0.2757, Dice: 0.6762, IoU: 0.5141, Dice Loss: 0.3721 || Val Loss: 0.2557, Dice: 0.6901, IoU: 0.5318, Dice Loss: 0.3494
+New best model saved at epoch 9 with Val Dice: 0.6901
+Epoch [10/250] | Train Loss: 0.2674, Dice: 0.6951, IoU: 0.5356, Dice Loss: 0.3612 || Val Loss: 0.2754, Dice: 0.6571, IoU: 0.4976, Dice Loss: 0.3719
+Epoch [11/250] | Train Loss: 0.2725, Dice: 0.6824, IoU: 0.5239, Dice Loss: 0.3679 || Val Loss: 0.2500, Dice: 0.6924, IoU: 0.5350, Dice Loss: 0.3410
+New best model saved at epoch 11 with Val Dice: 0.6924
+Epoch [12/250] | Train Loss: 0.2695, Dice: 0.6755, IoU: 0.5134, Dice Loss: 0.3630 || Val Loss: 0.2727, Dice: 0.6549, IoU: 0.4929, Dice Loss: 0.3709
+Epoch [13/250] | Train Loss: 0.2640, Dice: 0.6852, IoU: 0.5235, Dice Loss: 0.3557 || Val Loss: 0.2465, Dice: 0.6970, IoU: 0.5395, Dice Loss: 0.3356
+New best model saved at epoch 13 with Val Dice: 0.6970
+Epoch [14/250] | Train Loss: 0.2531, Dice: 0.6944, IoU: 0.5345, Dice Loss: 0.3418 || Val Loss: 0.2443, Dice: 0.6992, IoU: 0.5425, Dice Loss: 0.3328
+New best model saved at epoch 14 with Val Dice: 0.6992
+Epoch [15/250] | Train Loss: 0.2631, Dice: 0.6816, IoU: 0.5201, Dice Loss: 0.3542 || Val Loss: 0.2470, Dice: 0.6790, IoU: 0.5211, Dice Loss: 0.3352
+Epoch [16/250] | Train Loss: 0.2563, Dice: 0.6977, IoU: 0.5381, Dice Loss: 0.3455 || Val Loss: 0.2711, Dice: 0.6705, IoU: 0.5109, Dice Loss: 0.3674
+Epoch [17/250] | Train Loss: 0.2471, Dice: 0.7042, IoU: 0.5462, Dice Loss: 0.3330 || Val Loss: 0.2396, Dice: 0.6995, IoU: 0.5432, Dice Loss: 0.3262
+New best model saved at epoch 17 with Val Dice: 0.6995
+Epoch [18/250] | Train Loss: 0.2409, Dice: 0.7055, IoU: 0.5478, Dice Loss: 0.3260 || Val Loss: 0.2439, Dice: 0.6878, IoU: 0.5287, Dice Loss: 0.3313
+Epoch [19/250] | Train Loss: 0.2504, Dice: 0.7000, IoU: 0.5405, Dice Loss: 0.3387 || Val Loss: 0.2328, Dice: 0.7062, IoU: 0.5511, Dice Loss: 0.3171
+New best model saved at epoch 19 with Val Dice: 0.7062
+Epoch [20/250] | Train Loss: 0.2416, Dice: 0.7206, IoU: 0.5660, Dice Loss: 0.3272 || Val Loss: 0.2352, Dice: 0.7077, IoU: 0.5545, Dice Loss: 0.3193
+New best model saved at epoch 20 with Val Dice: 0.7077
+Epoch [21/250] | Train Loss: 0.2367, Dice: 0.7149, IoU: 0.5582, Dice Loss: 0.3182 || Val Loss: 0.2334, Dice: 0.7062, IoU: 0.5505, Dice Loss: 0.3161
+Epoch [22/250] | Train Loss: 0.2342, Dice: 0.7041, IoU: 0.5461, Dice Loss: 0.3152 || Val Loss: 0.2415, Dice: 0.6763, IoU: 0.5177, Dice Loss: 0.3263
+Epoch [23/250] | Train Loss: 0.2239, Dice: 0.7312, IoU: 0.5794, Dice Loss: 0.3021 || Val Loss: 0.2336, Dice: 0.6984, IoU: 0.5429, Dice Loss: 0.3146
+Epoch [24/250] | Train Loss: 0.2325, Dice: 0.7304, IoU: 0.5786, Dice Loss: 0.3121 || Val Loss: 0.2260, Dice: 0.7129, IoU: 0.5589, Dice Loss: 0.3059
+New best model saved at epoch 24 with Val Dice: 0.7129
+Epoch [25/250] | Train Loss: 0.2303, Dice: 0.7238, IoU: 0.5690, Dice Loss: 0.3096 || Val Loss: 0.2368, Dice: 0.6937, IoU: 0.5380, Dice Loss: 0.3193
+Epoch [26/250] | Train Loss: 0.2246, Dice: 0.7234, IoU: 0.5710, Dice Loss: 0.3026 || Val Loss: 0.2536, Dice: 0.6772, IoU: 0.5177, Dice Loss: 0.3403
+Epoch [27/250] | Train Loss: 0.2253, Dice: 0.7274, IoU: 0.5750, Dice Loss: 0.3032 || Val Loss: 0.2374, Dice: 0.6905, IoU: 0.5343, Dice Loss: 0.3218
+Epoch [28/250] | Train Loss: 0.2232, Dice: 0.7324, IoU: 0.5794, Dice Loss: 0.3009 || Val Loss: 0.2300, Dice: 0.7136, IoU: 0.5589, Dice Loss: 0.3129
+New best model saved at epoch 28 with Val Dice: 0.7136
+Epoch [29/250] | Train Loss: 0.2390, Dice: 0.7090, IoU: 0.5531, Dice Loss: 0.3209 || Val Loss: 0.2303, Dice: 0.7154, IoU: 0.5618, Dice Loss: 0.3129
+New best model saved at epoch 29 with Val Dice: 0.7154
+Epoch [30/250] | Train Loss: 0.2353, Dice: 0.7110, IoU: 0.5539, Dice Loss: 0.3149 || Val Loss: 0.2375, Dice: 0.6978, IoU: 0.5410, Dice Loss: 0.3221
+Epoch [31/250] | Train Loss: 0.2182, Dice: 0.7327, IoU: 0.5807, Dice Loss: 0.2938 || Val Loss: 0.2202, Dice: 0.7167, IoU: 0.5647, Dice Loss: 0.2988
+New best model saved at epoch 31 with Val Dice: 0.7167
+Epoch [32/250] | Train Loss: 0.2234, Dice: 0.7311, IoU: 0.5782, Dice Loss: 0.3009 || Val Loss: 0.2179, Dice: 0.7250, IoU: 0.5737, Dice Loss: 0.2950
+New best model saved at epoch 32 with Val Dice: 0.7250
+Epoch [33/250] | Train Loss: 0.2205, Dice: 0.7297, IoU: 0.5763, Dice Loss: 0.2971 || Val Loss: 0.2220, Dice: 0.7231, IoU: 0.5714, Dice Loss: 0.3001
+Epoch [34/250] | Train Loss: 0.2183, Dice: 0.7295, IoU: 0.5757, Dice Loss: 0.2933 || Val Loss: 0.2282, Dice: 0.7060, IoU: 0.5507, Dice Loss: 0.3067
+Epoch [35/250] | Train Loss: 0.2146, Dice: 0.7391, IoU: 0.5887, Dice Loss: 0.2892 || Val Loss: 0.2264, Dice: 0.7098, IoU: 0.5556, Dice Loss: 0.3040
+Epoch [36/250] | Train Loss: 0.2195, Dice: 0.7286, IoU: 0.5756, Dice Loss: 0.2949 || Val Loss: 0.2116, Dice: 0.7341, IoU: 0.5847, Dice Loss: 0.2878
+New best model saved at epoch 36 with Val Dice: 0.7341
+Epoch [37/250] | Train Loss: 0.2187, Dice: 0.7408, IoU: 0.5899, Dice Loss: 0.2952 || Val Loss: 0.2270, Dice: 0.7206, IoU: 0.5679, Dice Loss: 0.3072
+Epoch [38/250] | Train Loss: 0.2258, Dice: 0.7322, IoU: 0.5799, Dice Loss: 0.3043 || Val Loss: 0.2445, Dice: 0.6847, IoU: 0.5254, Dice Loss: 0.3257
+Epoch [39/250] | Train Loss: 0.2194, Dice: 0.7266, IoU: 0.5736, Dice Loss: 0.2948 || Val Loss: 0.2208, Dice: 0.7198, IoU: 0.5669, Dice Loss: 0.3004
+Epoch [40/250] | Train Loss: 0.2139, Dice: 0.7499, IoU: 0.6022, Dice Loss: 0.2889 || Val Loss: 0.2232, Dice: 0.7201, IoU: 0.5681, Dice Loss: 0.3014
+Epoch [41/250] | Train Loss: 0.2229, Dice: 0.7371, IoU: 0.5864, Dice Loss: 0.2999 || Val Loss: 0.2320, Dice: 0.7111, IoU: 0.5567, Dice Loss: 0.3138
+Epoch [42/250] | Train Loss: 0.2130, Dice: 0.7382, IoU: 0.5871, Dice Loss: 0.2858 || Val Loss: 0.2250, Dice: 0.7143, IoU: 0.5616, Dice Loss: 0.3045
+Epoch [43/250] | Train Loss: 0.2033, Dice: 0.7531, IoU: 0.6063, Dice Loss: 0.2747 || Val Loss: 0.2103, Dice: 0.7359, IoU: 0.5862, Dice Loss: 0.2852
+New best model saved at epoch 43 with Val Dice: 0.7359
+Epoch [44/250] | Train Loss: 0.2131, Dice: 0.7402, IoU: 0.5901, Dice Loss: 0.2863 || Val Loss: 0.2131, Dice: 0.7400, IoU: 0.5919, Dice Loss: 0.2887
+New best model saved at epoch 44 with Val Dice: 0.7400
+Epoch [45/250] | Train Loss: 0.2129, Dice: 0.7364, IoU: 0.5850, Dice Loss: 0.2859 || Val Loss: 0.2159, Dice: 0.7266, IoU: 0.5758, Dice Loss: 0.2915
+Epoch [46/250] | Train Loss: 0.2137, Dice: 0.7423, IoU: 0.5928, Dice Loss: 0.2873 || Val Loss: 0.2204, Dice: 0.7115, IoU: 0.5581, Dice Loss: 0.2978
+Epoch [47/250] | Train Loss: 0.2158, Dice: 0.7406, IoU: 0.5925, Dice Loss: 0.2909 || Val Loss: 0.2208, Dice: 0.7174, IoU: 0.5632, Dice Loss: 0.2984
+Epoch [48/250] | Train Loss: 0.2069, Dice: 0.7573, IoU: 0.6124, Dice Loss: 0.2788 || Val Loss: 0.2188, Dice: 0.7219, IoU: 0.5697, Dice Loss: 0.2952
+Epoch [49/250] | Train Loss: 0.2045, Dice: 0.7489, IoU: 0.6019, Dice Loss: 0.2739 || Val Loss: 0.2115, Dice: 0.7342, IoU: 0.5835, Dice Loss: 0.2866
+Epoch [50/250] | Train Loss: 0.2072, Dice: 0.7444, IoU: 0.5969, Dice Loss: 0.2789 || Val Loss: 0.2202, Dice: 0.7260, IoU: 0.5754, Dice Loss: 0.2971
+Epoch [51/250] | Train Loss: 0.2020, Dice: 0.7571, IoU: 0.6107, Dice Loss: 0.2708 || Val Loss: 0.2113, Dice: 0.7378, IoU: 0.5888, Dice Loss: 0.2861
+Epoch [52/250] | Train Loss: 0.2099, Dice: 0.7408, IoU: 0.5905, Dice Loss: 0.2823 || Val Loss: 0.2156, Dice: 0.7389, IoU: 0.5892, Dice Loss: 0.2927
+Epoch [53/250] | Train Loss: 0.2061, Dice: 0.7502, IoU: 0.6023, Dice Loss: 0.2781 || Val Loss: 0.2173, Dice: 0.7311, IoU: 0.5807, Dice Loss: 0.2929
+Epoch [54/250] | Train Loss: 0.2068, Dice: 0.7475, IoU: 0.5982, Dice Loss: 0.2769 || Val Loss: 0.2140, Dice: 0.7347, IoU: 0.5845, Dice Loss: 0.2901
+Epoch [55/250] | Train Loss: 0.1976, Dice: 0.7562, IoU: 0.6095, Dice Loss: 0.2664 || Val Loss: 0.2124, Dice: 0.7403, IoU: 0.5915, Dice Loss: 0.2862
+New best model saved at epoch 55 with Val Dice: 0.7403
+Epoch [56/250] | Train Loss: 0.2026, Dice: 0.7510, IoU: 0.6036, Dice Loss: 0.2723 || Val Loss: 0.2145, Dice: 0.7339, IoU: 0.5832, Dice Loss: 0.2910
+Epoch [57/250] | Train Loss: 0.2067, Dice: 0.7465, IoU: 0.5980, Dice Loss: 0.2773 || Val Loss: 0.2053, Dice: 0.7454, IoU: 0.5977, Dice Loss: 0.2784
+New best model saved at epoch 57 with Val Dice: 0.7454
+Epoch [58/250] | Train Loss: 0.2051, Dice: 0.7454, IoU: 0.5964, Dice Loss: 0.2765 || Val Loss: 0.2276, Dice: 0.7160, IoU: 0.5628, Dice Loss: 0.3077
+Epoch [59/250] | Train Loss: 0.2041, Dice: 0.7494, IoU: 0.6007, Dice Loss: 0.2737 || Val Loss: 0.2114, Dice: 0.7360, IoU: 0.5872, Dice Loss: 0.2870
+Epoch [60/250] | Train Loss: 0.1941, Dice: 0.7630, IoU: 0.6183, Dice Loss: 0.2619 || Val Loss: 0.2150, Dice: 0.7261, IoU: 0.5757, Dice Loss: 0.2907
+Epoch [61/250] | Train Loss: 0.2058, Dice: 0.7531, IoU: 0.6055, Dice Loss: 0.2760 || Val Loss: 0.2080, Dice: 0.7429, IoU: 0.5951, Dice Loss: 0.2821
+Epoch [62/250] | Train Loss: 0.1984, Dice: 0.7644, IoU: 0.6202, Dice Loss: 0.2667 || Val Loss: 0.2190, Dice: 0.7177, IoU: 0.5650, Dice Loss: 0.2947
+Epoch [63/250] | Train Loss: 0.2015, Dice: 0.7508, IoU: 0.6030, Dice Loss: 0.2715 || Val Loss: 0.2239, Dice: 0.7184, IoU: 0.5655, Dice Loss: 0.3020
+Epoch [64/250] | Train Loss: 0.2038, Dice: 0.7497, IoU: 0.6020, Dice Loss: 0.2734 || Val Loss: 0.2199, Dice: 0.7151, IoU: 0.5612, Dice Loss: 0.2978
+Epoch [65/250] | Train Loss: 0.2000, Dice: 0.7518, IoU: 0.6040, Dice Loss: 0.2705 || Val Loss: 0.2319, Dice: 0.7041, IoU: 0.5484, Dice Loss: 0.3111
+Epoch [66/250] | Train Loss: 0.2086, Dice: 0.7481, IoU: 0.5992, Dice Loss: 0.2797 || Val Loss: 0.2110, Dice: 0.7261, IoU: 0.5742, Dice Loss: 0.2845
+Epoch [67/250] | Train Loss: 0.1964, Dice: 0.7623, IoU: 0.6185, Dice Loss: 0.2642 || Val Loss: 0.2120, Dice: 0.7316, IoU: 0.5812, Dice Loss: 0.2872
+Epoch [68/250] | Train Loss: 0.1973, Dice: 0.7618, IoU: 0.6161, Dice Loss: 0.2650 || Val Loss: 0.2174, Dice: 0.7279, IoU: 0.5771, Dice Loss: 0.2907
+Epoch [69/250] | Train Loss: 0.1977, Dice: 0.7586, IoU: 0.6132, Dice Loss: 0.2655 || Val Loss: 0.2137, Dice: 0.7246, IoU: 0.5731, Dice Loss: 0.2871
+Epoch [70/250] | Train Loss: 0.2046, Dice: 0.7441, IoU: 0.5953, Dice Loss: 0.2749 || Val Loss: 0.2159, Dice: 0.7292, IoU: 0.5777, Dice Loss: 0.2924
+Epoch [71/250] | Train Loss: 0.2035, Dice: 0.7533, IoU: 0.6065, Dice Loss: 0.2754 || Val Loss: 0.2187, Dice: 0.7282, IoU: 0.5778, Dice Loss: 0.2952
+Epoch [72/250] | Train Loss: 0.1955, Dice: 0.7663, IoU: 0.6229, Dice Loss: 0.2631 || Val Loss: 0.2016, Dice: 0.7367, IoU: 0.5880, Dice Loss: 0.2735
+Epoch [73/250] | Train Loss: 0.1989, Dice: 0.7502, IoU: 0.6020, Dice Loss: 0.2673 || Val Loss: 0.2097, Dice: 0.7405, IoU: 0.5924, Dice Loss: 0.2836
+Epoch [74/250] | Train Loss: 0.2099, Dice: 0.7439, IoU: 0.5946, Dice Loss: 0.2817 || Val Loss: 0.2202, Dice: 0.7079, IoU: 0.5528, Dice Loss: 0.2963
+Epoch [75/250] | Train Loss: 0.2002, Dice: 0.7565, IoU: 0.6121, Dice Loss: 0.2701 || Val Loss: 0.2126, Dice: 0.7332, IoU: 0.5838, Dice Loss: 0.2857
+Epoch [76/250] | Train Loss: 0.1875, Dice: 0.7679, IoU: 0.6260, Dice Loss: 0.2514 || Val Loss: 0.2093, Dice: 0.7283, IoU: 0.5774, Dice Loss: 0.2822
+Epoch [77/250] | Train Loss: 0.1996, Dice: 0.7573, IoU: 0.6124, Dice Loss: 0.2669 || Val Loss: 0.2192, Dice: 0.7268, IoU: 0.5750, Dice Loss: 0.2941
+Epoch [78/250] | Train Loss: 0.1996, Dice: 0.7532, IoU: 0.6064, Dice Loss: 0.2692 || Val Loss: 0.2149, Dice: 0.7219, IoU: 0.5714, Dice Loss: 0.2881
+Epoch [79/250] | Train Loss: 0.1999, Dice: 0.7542, IoU: 0.6086, Dice Loss: 0.2683 || Val Loss: 0.2064, Dice: 0.7400, IoU: 0.5920, Dice Loss: 0.2790
+Epoch [80/250] | Train Loss: 0.1996, Dice: 0.7541, IoU: 0.6073, Dice Loss: 0.2692 || Val Loss: 0.2077, Dice: 0.7420, IoU: 0.5938, Dice Loss: 0.2815
+Epoch [81/250] | Train Loss: 0.1969, Dice: 0.7527, IoU: 0.6063, Dice Loss: 0.2643 || Val Loss: 0.2159, Dice: 0.7248, IoU: 0.5744, Dice Loss: 0.2913
+Epoch [82/250] | Train Loss: 0.1942, Dice: 0.7606, IoU: 0.6160, Dice Loss: 0.2619 || Val Loss: 0.2073, Dice: 0.7460, IoU: 0.5983, Dice Loss: 0.2806
+New best model saved at epoch 82 with Val Dice: 0.7460
+Epoch [83/250] | Train Loss: 0.1964, Dice: 0.7594, IoU: 0.6139, Dice Loss: 0.2634 || Val Loss: 0.2065, Dice: 0.7348, IoU: 0.5844, Dice Loss: 0.2776
+Epoch [84/250] | Train Loss: 0.1951, Dice: 0.7492, IoU: 0.6046, Dice Loss: 0.2626 || Val Loss: 0.2201, Dice: 0.7201, IoU: 0.5677, Dice Loss: 0.2976
+Epoch [85/250] | Train Loss: 0.1900, Dice: 0.7639, IoU: 0.6195, Dice Loss: 0.2557 || Val Loss: 0.2123, Dice: 0.7143, IoU: 0.5610, Dice Loss: 0.2823
+Epoch [86/250] | Train Loss: 0.1944, Dice: 0.7633, IoU: 0.6195, Dice Loss: 0.2606 || Val Loss: 0.2123, Dice: 0.7313, IoU: 0.5814, Dice Loss: 0.2853
+Epoch [87/250] | Train Loss: 0.1908, Dice: 0.7657, IoU: 0.6230, Dice Loss: 0.2568 || Val Loss: 0.2115, Dice: 0.7158, IoU: 0.5627, Dice Loss: 0.2841
+Epoch [88/250] | Train Loss: 0.1968, Dice: 0.7510, IoU: 0.6046, Dice Loss: 0.2639 || Val Loss: 0.2370, Dice: 0.7002, IoU: 0.5432, Dice Loss: 0.3132
+Epoch [89/250] | Train Loss: 0.1946, Dice: 0.7548, IoU: 0.6089, Dice Loss: 0.2610 || Val Loss: 0.2047, Dice: 0.7325, IoU: 0.5823, Dice Loss: 0.2748
+Epoch [90/250] | Train Loss: 0.1947, Dice: 0.7532, IoU: 0.6061, Dice Loss: 0.2619 || Val Loss: 0.2128, Dice: 0.7222, IoU: 0.5714, Dice Loss: 0.2862
+Epoch [91/250] | Train Loss: 0.1899, Dice: 0.7704, IoU: 0.6292, Dice Loss: 0.2550 || Val Loss: 0.2054, Dice: 0.7327, IoU: 0.5827, Dice Loss: 0.2765
+Epoch [92/250] | Train Loss: 0.1963, Dice: 0.7552, IoU: 0.6092, Dice Loss: 0.2643 || Val Loss: 0.2091, Dice: 0.7313, IoU: 0.5818, Dice Loss: 0.2791
+Epoch [93/250] | Train Loss: 0.1921, Dice: 0.7670, IoU: 0.6241, Dice Loss: 0.2585 || Val Loss: 0.2054, Dice: 0.7422, IoU: 0.5946, Dice Loss: 0.2768
+Epoch [94/250] | Train Loss: 0.1910, Dice: 0.7747, IoU: 0.6332, Dice Loss: 0.2561 || Val Loss: 0.2021, Dice: 0.7444, IoU: 0.5969, Dice Loss: 0.2728
+Epoch [95/250] | Train Loss: 0.1874, Dice: 0.7736, IoU: 0.6323, Dice Loss: 0.2518 || Val Loss: 0.2067, Dice: 0.7363, IoU: 0.5874, Dice Loss: 0.2776
+Epoch [96/250] | Train Loss: 0.1888, Dice: 0.7644, IoU: 0.6202, Dice Loss: 0.2529 || Val Loss: 0.2093, Dice: 0.7356, IoU: 0.5861, Dice Loss: 0.2818
+Epoch [97/250] | Train Loss: 0.1862, Dice: 0.7743, IoU: 0.6340, Dice Loss: 0.2509 || Val Loss: 0.2048, Dice: 0.7348, IoU: 0.5859, Dice Loss: 0.2771
+Epoch [98/250] | Train Loss: 0.1863, Dice: 0.7632, IoU: 0.6195, Dice Loss: 0.2499 || Val Loss: 0.2028, Dice: 0.7440, IoU: 0.5964, Dice Loss: 0.2747
+Epoch [99/250] | Train Loss: 0.1899, Dice: 0.7650, IoU: 0.6223, Dice Loss: 0.2548 || Val Loss: 0.1974, Dice: 0.7372, IoU: 0.5886, Dice Loss: 0.2660
+Epoch [100/250] | Train Loss: 0.1897, Dice: 0.7720, IoU: 0.6298, Dice Loss: 0.2549 || Val Loss: 0.2020, Dice: 0.7457, IoU: 0.5987, Dice Loss: 0.2718
+Epoch [101/250] | Train Loss: 0.1795, Dice: 0.7788, IoU: 0.6396, Dice Loss: 0.2409 || Val Loss: 0.2066, Dice: 0.7440, IoU: 0.5960, Dice Loss: 0.2775
+Epoch [102/250] | Train Loss: 0.1829, Dice: 0.7743, IoU: 0.6333, Dice Loss: 0.2450 || Val Loss: 0.2125, Dice: 0.7266, IoU: 0.5751, Dice Loss: 0.2850
+Epoch [103/250] | Train Loss: 0.1945, Dice: 0.7612, IoU: 0.6160, Dice Loss: 0.2611 || Val Loss: 0.2065, Dice: 0.7307, IoU: 0.5811, Dice Loss: 0.2784
+Epoch [104/250] | Train Loss: 0.1913, Dice: 0.7623, IoU: 0.6181, Dice Loss: 0.2570 || Val Loss: 0.2146, Dice: 0.7284, IoU: 0.5769, Dice Loss: 0.2894
+Epoch [105/250] | Train Loss: 0.2022, Dice: 0.7432, IoU: 0.5936, Dice Loss: 0.2721 || Val Loss: 0.2272, Dice: 0.6907, IoU: 0.5330, Dice Loss: 0.3046
+Epoch [106/250] | Train Loss: 0.1859, Dice: 0.7742, IoU: 0.6335, Dice Loss: 0.2500 || Val Loss: 0.2196, Dice: 0.7202, IoU: 0.5674, Dice Loss: 0.2948
+Epoch [107/250] | Train Loss: 0.1949, Dice: 0.7560, IoU: 0.6095, Dice Loss: 0.2595 || Val Loss: 0.2020, Dice: 0.7437, IoU: 0.5967, Dice Loss: 0.2737
+Early stopping triggered after 25 epochs without improvement. Best epoch: 82
+Fold 1 training time: 82.71 minutes (4962.5 seconds)
+Fold 2/3
+Epoch [1/250] | Train Loss: 0.6198, Dice: 0.1803, IoU: 0.1070, Dice Loss: 0.8659 || Val Loss: 0.5866, Dice: 0.2186, IoU: 0.1273, Dice Loss: 0.8253
+New best model saved at epoch 1 with Val Dice: 0.2186
+Epoch [2/250] | Train Loss: 0.4967, Dice: 0.4039, IoU: 0.2568, Dice Loss: 0.6775 || Val Loss: 0.3462, Dice: 0.5955, IoU: 0.4328, Dice Loss: 0.4730
+New best model saved at epoch 2 with Val Dice: 0.5955
+Epoch [3/250] | Train Loss: 0.3815, Dice: 0.5358, IoU: 0.3733, Dice Loss: 0.5166 || Val Loss: 0.3055, Dice: 0.6492, IoU: 0.4886, Dice Loss: 0.4112
+New best model saved at epoch 3 with Val Dice: 0.6492
+Epoch [4/250] | Train Loss: 0.3629, Dice: 0.5535, IoU: 0.3889, Dice Loss: 0.4887 || Val Loss: 0.2966, Dice: 0.6539, IoU: 0.4932, Dice Loss: 0.4061
+New best model saved at epoch 4 with Val Dice: 0.6539
+Epoch [5/250] | Train Loss: 0.3418, Dice: 0.5856, IoU: 0.4182, Dice Loss: 0.4628 || Val Loss: 0.2811, Dice: 0.6592, IoU: 0.4981, Dice Loss: 0.3794
+New best model saved at epoch 5 with Val Dice: 0.6592
+Epoch [6/250] | Train Loss: 0.3201, Dice: 0.6095, IoU: 0.4418, Dice Loss: 0.4334 || Val Loss: 0.2954, Dice: 0.6554, IoU: 0.4951, Dice Loss: 0.3991
+Epoch [7/250] | Train Loss: 0.3198, Dice: 0.6185, IoU: 0.4527, Dice Loss: 0.4310 || Val Loss: 0.2630, Dice: 0.6890, IoU: 0.5323, Dice Loss: 0.3555
+New best model saved at epoch 7 with Val Dice: 0.6890
+Epoch [8/250] | Train Loss: 0.2998, Dice: 0.6492, IoU: 0.4827, Dice Loss: 0.4069 || Val Loss: 0.2637, Dice: 0.6841, IoU: 0.5281, Dice Loss: 0.3538
+Epoch [9/250] | Train Loss: 0.2889, Dice: 0.6515, IoU: 0.4858, Dice Loss: 0.3902 || Val Loss: 0.2456, Dice: 0.7070, IoU: 0.5526, Dice Loss: 0.3339
+New best model saved at epoch 9 with Val Dice: 0.7070
+Epoch [10/250] | Train Loss: 0.2739, Dice: 0.6654, IoU: 0.5017, Dice Loss: 0.3709 || Val Loss: 0.2508, Dice: 0.6946, IoU: 0.5393, Dice Loss: 0.3410
+Epoch [11/250] | Train Loss: 0.2764, Dice: 0.6594, IoU: 0.4970, Dice Loss: 0.3743 || Val Loss: 0.2413, Dice: 0.7156, IoU: 0.5644, Dice Loss: 0.3255
+New best model saved at epoch 11 with Val Dice: 0.7156
+Epoch [12/250] | Train Loss: 0.2625, Dice: 0.6872, IoU: 0.5277, Dice Loss: 0.3539 || Val Loss: 0.2536, Dice: 0.7049, IoU: 0.5517, Dice Loss: 0.3434
+Epoch [13/250] | Train Loss: 0.2637, Dice: 0.6765, IoU: 0.5140, Dice Loss: 0.3555 || Val Loss: 0.2294, Dice: 0.7256, IoU: 0.5757, Dice Loss: 0.3125
+New best model saved at epoch 13 with Val Dice: 0.7256
+Epoch [14/250] | Train Loss: 0.2638, Dice: 0.6755, IoU: 0.5135, Dice Loss: 0.3557 || Val Loss: 0.2308, Dice: 0.7181, IoU: 0.5693, Dice Loss: 0.3139
+Epoch [15/250] | Train Loss: 0.2463, Dice: 0.6872, IoU: 0.5263, Dice Loss: 0.3322 || Val Loss: 0.2225, Dice: 0.7296, IoU: 0.5803, Dice Loss: 0.3018
+New best model saved at epoch 15 with Val Dice: 0.7296
+Epoch [16/250] | Train Loss: 0.2487, Dice: 0.6937, IoU: 0.5359, Dice Loss: 0.3353 || Val Loss: 0.2214, Dice: 0.7352, IoU: 0.5884, Dice Loss: 0.3008
+New best model saved at epoch 16 with Val Dice: 0.7352
+Epoch [17/250] | Train Loss: 0.2442, Dice: 0.7040, IoU: 0.5463, Dice Loss: 0.3299 || Val Loss: 0.2366, Dice: 0.7169, IoU: 0.5646, Dice Loss: 0.3197
+Epoch [18/250] | Train Loss: 0.2429, Dice: 0.6995, IoU: 0.5406, Dice Loss: 0.3265 || Val Loss: 0.2419, Dice: 0.7231, IoU: 0.5711, Dice Loss: 0.3270
+Epoch [19/250] | Train Loss: 0.2458, Dice: 0.6936, IoU: 0.5340, Dice Loss: 0.3327 || Val Loss: 0.2168, Dice: 0.7409, IoU: 0.5931, Dice Loss: 0.2954
+New best model saved at epoch 19 with Val Dice: 0.7409
+Epoch [20/250] | Train Loss: 0.2358, Dice: 0.6996, IoU: 0.5429, Dice Loss: 0.3168 || Val Loss: 0.2340, Dice: 0.7205, IoU: 0.5683, Dice Loss: 0.3177
+Epoch [21/250] | Train Loss: 0.2299, Dice: 0.7125, IoU: 0.5554, Dice Loss: 0.3114 || Val Loss: 0.2147, Dice: 0.7395, IoU: 0.5929, Dice Loss: 0.2888
+Epoch [22/250] | Train Loss: 0.2328, Dice: 0.7152, IoU: 0.5594, Dice Loss: 0.3127 || Val Loss: 0.2388, Dice: 0.7137, IoU: 0.5618, Dice Loss: 0.3221
+Epoch [23/250] | Train Loss: 0.2346, Dice: 0.7042, IoU: 0.5493, Dice Loss: 0.3161 || Val Loss: 0.2341, Dice: 0.7169, IoU: 0.5655, Dice Loss: 0.3173
+Epoch [24/250] | Train Loss: 0.2323, Dice: 0.7020, IoU: 0.5440, Dice Loss: 0.3118 || Val Loss: 0.2270, Dice: 0.7292, IoU: 0.5810, Dice Loss: 0.3091
+Epoch [25/250] | Train Loss: 0.2282, Dice: 0.7217, IoU: 0.5672, Dice Loss: 0.3081 || Val Loss: 0.2307, Dice: 0.7270, IoU: 0.5779, Dice Loss: 0.3100
+Epoch [26/250] | Train Loss: 0.2269, Dice: 0.7137, IoU: 0.5574, Dice Loss: 0.3050 || Val Loss: 0.2212, Dice: 0.7317, IoU: 0.5829, Dice Loss: 0.2973
+Epoch [27/250] | Train Loss: 0.2293, Dice: 0.7116, IoU: 0.5541, Dice Loss: 0.3086 || Val Loss: 0.2335, Dice: 0.7142, IoU: 0.5632, Dice Loss: 0.3126
+Epoch [28/250] | Train Loss: 0.2269, Dice: 0.7150, IoU: 0.5592, Dice Loss: 0.3066 || Val Loss: 0.2095, Dice: 0.7465, IoU: 0.6011, Dice Loss: 0.2836
+New best model saved at epoch 28 with Val Dice: 0.7465
+Epoch [29/250] | Train Loss: 0.2246, Dice: 0.7206, IoU: 0.5661, Dice Loss: 0.3014 || Val Loss: 0.2249, Dice: 0.7333, IoU: 0.5836, Dice Loss: 0.3040
+Epoch [30/250] | Train Loss: 0.2342, Dice: 0.7136, IoU: 0.5571, Dice Loss: 0.3170 || Val Loss: 0.2463, Dice: 0.7007, IoU: 0.5481, Dice Loss: 0.3320
+Epoch [31/250] | Train Loss: 0.2313, Dice: 0.7184, IoU: 0.5652, Dice Loss: 0.3111 || Val Loss: 0.2271, Dice: 0.7340, IoU: 0.5863, Dice Loss: 0.3076
+Epoch [32/250] | Train Loss: 0.2237, Dice: 0.7211, IoU: 0.5666, Dice Loss: 0.3014 || Val Loss: 0.2338, Dice: 0.7238, IoU: 0.5736, Dice Loss: 0.3153
+Epoch [33/250] | Train Loss: 0.2180, Dice: 0.7221, IoU: 0.5693, Dice Loss: 0.2950 || Val Loss: 0.2082, Dice: 0.7515, IoU: 0.6077, Dice Loss: 0.2816
+New best model saved at epoch 33 with Val Dice: 0.7515
+Epoch [34/250] | Train Loss: 0.2253, Dice: 0.7118, IoU: 0.5556, Dice Loss: 0.3024 || Val Loss: 0.2507, Dice: 0.7030, IoU: 0.5492, Dice Loss: 0.3366
+Epoch [35/250] | Train Loss: 0.2183, Dice: 0.7158, IoU: 0.5627, Dice Loss: 0.2936 || Val Loss: 0.2044, Dice: 0.7530, IoU: 0.6095, Dice Loss: 0.2757
+New best model saved at epoch 35 with Val Dice: 0.7530
+Epoch [36/250] | Train Loss: 0.2255, Dice: 0.7236, IoU: 0.5695, Dice Loss: 0.3036 || Val Loss: 0.2047, Dice: 0.7470, IoU: 0.6017, Dice Loss: 0.2765
+Epoch [37/250] | Train Loss: 0.2205, Dice: 0.7247, IoU: 0.5711, Dice Loss: 0.2974 || Val Loss: 0.2104, Dice: 0.7467, IoU: 0.6023, Dice Loss: 0.2845
+Epoch [38/250] | Train Loss: 0.2302, Dice: 0.7145, IoU: 0.5592, Dice Loss: 0.3092 || Val Loss: 0.2013, Dice: 0.7683, IoU: 0.6275, Dice Loss: 0.2695
+New best model saved at epoch 38 with Val Dice: 0.7683
+Epoch [39/250] | Train Loss: 0.2084, Dice: 0.7359, IoU: 0.5843, Dice Loss: 0.2809 || Val Loss: 0.2088, Dice: 0.7513, IoU: 0.6069, Dice Loss: 0.2802
+Epoch [40/250] | Train Loss: 0.2112, Dice: 0.7307, IoU: 0.5797, Dice Loss: 0.2835 || Val Loss: 0.2157, Dice: 0.7411, IoU: 0.5945, Dice Loss: 0.2902
+Epoch [41/250] | Train Loss: 0.2094, Dice: 0.7356, IoU: 0.5847, Dice Loss: 0.2819 || Val Loss: 0.2007, Dice: 0.7590, IoU: 0.6170, Dice Loss: 0.2705
+Epoch [42/250] | Train Loss: 0.2132, Dice: 0.7347, IoU: 0.5848, Dice Loss: 0.2872 || Val Loss: 0.2287, Dice: 0.7268, IoU: 0.5766, Dice Loss: 0.3073
+Epoch [43/250] | Train Loss: 0.2085, Dice: 0.7374, IoU: 0.5860, Dice Loss: 0.2805 || Val Loss: 0.2099, Dice: 0.7458, IoU: 0.6018, Dice Loss: 0.2830
+Epoch [44/250] | Train Loss: 0.2048, Dice: 0.7472, IoU: 0.5973, Dice Loss: 0.2757 || Val Loss: 0.2019, Dice: 0.7597, IoU: 0.6187, Dice Loss: 0.2725
+Epoch [45/250] | Train Loss: 0.2135, Dice: 0.7363, IoU: 0.5839, Dice Loss: 0.2875 || Val Loss: 0.2133, Dice: 0.7416, IoU: 0.5958, Dice Loss: 0.2867
+Epoch [46/250] | Train Loss: 0.2120, Dice: 0.7339, IoU: 0.5820, Dice Loss: 0.2861 || Val Loss: 0.2217, Dice: 0.7273, IoU: 0.5769, Dice Loss: 0.2967
+Epoch [47/250] | Train Loss: 0.2089, Dice: 0.7406, IoU: 0.5899, Dice Loss: 0.2812 || Val Loss: 0.2209, Dice: 0.7234, IoU: 0.5721, Dice Loss: 0.2940
+Epoch [48/250] | Train Loss: 0.2129, Dice: 0.7340, IoU: 0.5813, Dice Loss: 0.2858 || Val Loss: 0.1956, Dice: 0.7637, IoU: 0.6215, Dice Loss: 0.2647
+Epoch [49/250] | Train Loss: 0.2080, Dice: 0.7426, IoU: 0.5934, Dice Loss: 0.2801 || Val Loss: 0.1905, Dice: 0.7682, IoU: 0.6281, Dice Loss: 0.2557
+Epoch [50/250] | Train Loss: 0.2079, Dice: 0.7432, IoU: 0.5942, Dice Loss: 0.2792 || Val Loss: 0.2000, Dice: 0.7614, IoU: 0.6195, Dice Loss: 0.2687
+Epoch [51/250] | Train Loss: 0.2055, Dice: 0.7490, IoU: 0.6017, Dice Loss: 0.2777 || Val Loss: 0.1994, Dice: 0.7689, IoU: 0.6283, Dice Loss: 0.2697
+New best model saved at epoch 51 with Val Dice: 0.7689
+Epoch [52/250] | Train Loss: 0.2078, Dice: 0.7334, IoU: 0.5823, Dice Loss: 0.2798 || Val Loss: 0.1912, Dice: 0.7725, IoU: 0.6332, Dice Loss: 0.2572
+New best model saved at epoch 52 with Val Dice: 0.7725
+Epoch [53/250] | Train Loss: 0.1979, Dice: 0.7487, IoU: 0.6021, Dice Loss: 0.2666 || Val Loss: 0.2141, Dice: 0.7361, IoU: 0.5885, Dice Loss: 0.2875
+Epoch [54/250] | Train Loss: 0.2080, Dice: 0.7386, IoU: 0.5879, Dice Loss: 0.2797 || Val Loss: 0.2107, Dice: 0.7474, IoU: 0.6022, Dice Loss: 0.2829
+Epoch [55/250] | Train Loss: 0.2030, Dice: 0.7343, IoU: 0.5829, Dice Loss: 0.2733 || Val Loss: 0.2117, Dice: 0.7448, IoU: 0.5986, Dice Loss: 0.2827
+Epoch [56/250] | Train Loss: 0.2054, Dice: 0.7432, IoU: 0.5938, Dice Loss: 0.2764 || Val Loss: 0.2077, Dice: 0.7494, IoU: 0.6043, Dice Loss: 0.2780
+Epoch [57/250] | Train Loss: 0.2129, Dice: 0.7307, IoU: 0.5776, Dice Loss: 0.2841 || Val Loss: 0.2244, Dice: 0.7290, IoU: 0.5796, Dice Loss: 0.3013
+Epoch [58/250] | Train Loss: 0.1985, Dice: 0.7442, IoU: 0.5957, Dice Loss: 0.2681 || Val Loss: 0.2246, Dice: 0.7144, IoU: 0.5622, Dice Loss: 0.2992
+Epoch [59/250] | Train Loss: 0.2210, Dice: 0.7222, IoU: 0.5679, Dice Loss: 0.2969 || Val Loss: 0.1894, Dice: 0.7694, IoU: 0.6303, Dice Loss: 0.2570
+Epoch [60/250] | Train Loss: 0.1991, Dice: 0.7501, IoU: 0.6037, Dice Loss: 0.2675 || Val Loss: 0.1911, Dice: 0.7691, IoU: 0.6296, Dice Loss: 0.2577
+Epoch [61/250] | Train Loss: 0.1964, Dice: 0.7415, IoU: 0.5918, Dice Loss: 0.2635 || Val Loss: 0.2125, Dice: 0.7439, IoU: 0.5977, Dice Loss: 0.2859
+Epoch [62/250] | Train Loss: 0.2107, Dice: 0.7395, IoU: 0.5886, Dice Loss: 0.2832 || Val Loss: 0.1945, Dice: 0.7649, IoU: 0.6247, Dice Loss: 0.2603
+Epoch [63/250] | Train Loss: 0.2074, Dice: 0.7349, IoU: 0.5835, Dice Loss: 0.2793 || Val Loss: 0.2090, Dice: 0.7411, IoU: 0.5947, Dice Loss: 0.2793
+Epoch [64/250] | Train Loss: 0.2063, Dice: 0.7364, IoU: 0.5866, Dice Loss: 0.2775 || Val Loss: 0.2071, Dice: 0.7507, IoU: 0.6076, Dice Loss: 0.2780
+Epoch [65/250] | Train Loss: 0.2086, Dice: 0.7418, IoU: 0.5929, Dice Loss: 0.2817 || Val Loss: 0.2014, Dice: 0.7534, IoU: 0.6102, Dice Loss: 0.2704
+Epoch [66/250] | Train Loss: 0.2038, Dice: 0.7467, IoU: 0.6001, Dice Loss: 0.2747 || Val Loss: 0.2020, Dice: 0.7543, IoU: 0.6100, Dice Loss: 0.2691
+Epoch [67/250] | Train Loss: 0.1964, Dice: 0.7556, IoU: 0.6109, Dice Loss: 0.2651 || Val Loss: 0.1947, Dice: 0.7712, IoU: 0.6316, Dice Loss: 0.2604
+Epoch [68/250] | Train Loss: 0.2029, Dice: 0.7477, IoU: 0.5999, Dice Loss: 0.2705 || Val Loss: 0.1958, Dice: 0.7649, IoU: 0.6240, Dice Loss: 0.2649
+Epoch [69/250] | Train Loss: 0.2012, Dice: 0.7474, IoU: 0.5990, Dice Loss: 0.2711 || Val Loss: 0.2046, Dice: 0.7582, IoU: 0.6155, Dice Loss: 0.2736
+Epoch [70/250] | Train Loss: 0.2015, Dice: 0.7523, IoU: 0.6039, Dice Loss: 0.2713 || Val Loss: 0.2167, Dice: 0.7349, IoU: 0.5863, Dice Loss: 0.2882
+Epoch [71/250] | Train Loss: 0.1992, Dice: 0.7478, IoU: 0.6006, Dice Loss: 0.2686 || Val Loss: 0.1943, Dice: 0.7649, IoU: 0.6241, Dice Loss: 0.2616
+Epoch [72/250] | Train Loss: 0.1990, Dice: 0.7443, IoU: 0.5954, Dice Loss: 0.2674 || Val Loss: 0.1861, Dice: 0.7748, IoU: 0.6371, Dice Loss: 0.2502
+New best model saved at epoch 72 with Val Dice: 0.7748
+Epoch [73/250] | Train Loss: 0.1965, Dice: 0.7549, IoU: 0.6086, Dice Loss: 0.2648 || Val Loss: 0.2081, Dice: 0.7416, IoU: 0.5943, Dice Loss: 0.2773
+Epoch [74/250] | Train Loss: 0.1959, Dice: 0.7510, IoU: 0.6037, Dice Loss: 0.2632 || Val Loss: 0.1831, Dice: 0.7769, IoU: 0.6389, Dice Loss: 0.2457
+New best model saved at epoch 74 with Val Dice: 0.7769
+Epoch [75/250] | Train Loss: 0.2030, Dice: 0.7370, IoU: 0.5868, Dice Loss: 0.2732 || Val Loss: 0.1857, Dice: 0.7707, IoU: 0.6320, Dice Loss: 0.2496
+Epoch [76/250] | Train Loss: 0.1945, Dice: 0.7538, IoU: 0.6084, Dice Loss: 0.2608 || Val Loss: 0.2067, Dice: 0.7419, IoU: 0.5945, Dice Loss: 0.2768
+Epoch [77/250] | Train Loss: 0.2027, Dice: 0.7418, IoU: 0.5927, Dice Loss: 0.2734 || Val Loss: 0.2096, Dice: 0.7443, IoU: 0.5986, Dice Loss: 0.2778
+Epoch [78/250] | Train Loss: 0.2030, Dice: 0.7384, IoU: 0.5883, Dice Loss: 0.2715 || Val Loss: 0.1909, Dice: 0.7742, IoU: 0.6360, Dice Loss: 0.2568
+Epoch [79/250] | Train Loss: 0.1893, Dice: 0.7559, IoU: 0.6102, Dice Loss: 0.2550 || Val Loss: 0.2005, Dice: 0.7538, IoU: 0.6099, Dice Loss: 0.2682
+Epoch [80/250] | Train Loss: 0.1964, Dice: 0.7554, IoU: 0.6105, Dice Loss: 0.2647 || Val Loss: 0.1910, Dice: 0.7715, IoU: 0.6332, Dice Loss: 0.2561
+Epoch [81/250] | Train Loss: 0.1990, Dice: 0.7509, IoU: 0.6044, Dice Loss: 0.2665 || Val Loss: 0.1867, Dice: 0.7743, IoU: 0.6348, Dice Loss: 0.2507
+Epoch [82/250] | Train Loss: 0.1919, Dice: 0.7583, IoU: 0.6136, Dice Loss: 0.2586 || Val Loss: 0.1969, Dice: 0.7589, IoU: 0.6165, Dice Loss: 0.2608
+Epoch [83/250] | Train Loss: 0.2016, Dice: 0.7452, IoU: 0.5964, Dice Loss: 0.2717 || Val Loss: 0.2012, Dice: 0.7556, IoU: 0.6114, Dice Loss: 0.2695
+Epoch [84/250] | Train Loss: 0.1987, Dice: 0.7459, IoU: 0.5985, Dice Loss: 0.2661 || Val Loss: 0.1834, Dice: 0.7796, IoU: 0.6428, Dice Loss: 0.2464
+New best model saved at epoch 84 with Val Dice: 0.7796
+Epoch [85/250] | Train Loss: 0.1893, Dice: 0.7590, IoU: 0.6134, Dice Loss: 0.2534 || Val Loss: 0.2114, Dice: 0.7350, IoU: 0.5875, Dice Loss: 0.2780
+Epoch [86/250] | Train Loss: 0.1997, Dice: 0.7488, IoU: 0.6021, Dice Loss: 0.2696 || Val Loss: 0.2036, Dice: 0.7465, IoU: 0.6016, Dice Loss: 0.2711
+Epoch [87/250] | Train Loss: 0.1951, Dice: 0.7581, IoU: 0.6132, Dice Loss: 0.2627 || Val Loss: 0.1960, Dice: 0.7667, IoU: 0.6256, Dice Loss: 0.2600
+Epoch [88/250] | Train Loss: 0.1947, Dice: 0.7554, IoU: 0.6087, Dice Loss: 0.2612 || Val Loss: 0.2145, Dice: 0.7312, IoU: 0.5825, Dice Loss: 0.2835
+Epoch [89/250] | Train Loss: 0.1925, Dice: 0.7526, IoU: 0.6055, Dice Loss: 0.2593 || Val Loss: 0.1978, Dice: 0.7665, IoU: 0.6263, Dice Loss: 0.2640
+Epoch [90/250] | Train Loss: 0.1945, Dice: 0.7510, IoU: 0.6050, Dice Loss: 0.2617 || Val Loss: 0.1942, Dice: 0.7655, IoU: 0.6234, Dice Loss: 0.2619
+Epoch [91/250] | Train Loss: 0.1946, Dice: 0.7581, IoU: 0.6128, Dice Loss: 0.2609 || Val Loss: 0.2058, Dice: 0.7474, IoU: 0.6028, Dice Loss: 0.2745
+Epoch [92/250] | Train Loss: 0.1896, Dice: 0.7530, IoU: 0.6066, Dice Loss: 0.2556 || Val Loss: 0.2061, Dice: 0.7510, IoU: 0.6063, Dice Loss: 0.2748
+Epoch [93/250] | Train Loss: 0.1942, Dice: 0.7618, IoU: 0.6184, Dice Loss: 0.2610 || Val Loss: 0.1935, Dice: 0.7603, IoU: 0.6167, Dice Loss: 0.2580
+Epoch [94/250] | Train Loss: 0.2008, Dice: 0.7467, IoU: 0.5985, Dice Loss: 0.2704 || Val Loss: 0.1929, Dice: 0.7699, IoU: 0.6297, Dice Loss: 0.2581
+Epoch [95/250] | Train Loss: 0.1926, Dice: 0.7548, IoU: 0.6096, Dice Loss: 0.2589 || Val Loss: 0.1976, Dice: 0.7593, IoU: 0.6166, Dice Loss: 0.2644
+Epoch [96/250] | Train Loss: 0.1998, Dice: 0.7552, IoU: 0.6093, Dice Loss: 0.2692 || Val Loss: 0.2330, Dice: 0.7123, IoU: 0.5594, Dice Loss: 0.3048
+Epoch [97/250] | Train Loss: 0.2067, Dice: 0.7345, IoU: 0.5830, Dice Loss: 0.2768 || Val Loss: 0.1973, Dice: 0.7597, IoU: 0.6168, Dice Loss: 0.2640
+Epoch [98/250] | Train Loss: 0.1950, Dice: 0.7470, IoU: 0.6000, Dice Loss: 0.2627 || Val Loss: 0.1995, Dice: 0.7597, IoU: 0.6170, Dice Loss: 0.2666
+Epoch [99/250] | Train Loss: 0.1949, Dice: 0.7445, IoU: 0.5967, Dice Loss: 0.2610 || Val Loss: 0.2068, Dice: 0.7480, IoU: 0.6013, Dice Loss: 0.2746
+Epoch [100/250] | Train Loss: 0.1908, Dice: 0.7616, IoU: 0.6177, Dice Loss: 0.2578 || Val Loss: 0.1869, Dice: 0.7707, IoU: 0.6315, Dice Loss: 0.2506
+Epoch [101/250] | Train Loss: 0.1871, Dice: 0.7649, IoU: 0.6215, Dice Loss: 0.2517 || Val Loss: 0.1933, Dice: 0.7617, IoU: 0.6199, Dice Loss: 0.2573
+Epoch [102/250] | Train Loss: 0.1867, Dice: 0.7614, IoU: 0.6177, Dice Loss: 0.2513 || Val Loss: 0.2224, Dice: 0.7255, IoU: 0.5744, Dice Loss: 0.2956
+Epoch [103/250] | Train Loss: 0.1928, Dice: 0.7537, IoU: 0.6073, Dice Loss: 0.2594 || Val Loss: 0.2004, Dice: 0.7499, IoU: 0.6040, Dice Loss: 0.2667
+Epoch [104/250] | Train Loss: 0.1820, Dice: 0.7651, IoU: 0.6216, Dice Loss: 0.2444 || Val Loss: 0.2016, Dice: 0.7576, IoU: 0.6144, Dice Loss: 0.2696
+Epoch [105/250] | Train Loss: 0.1891, Dice: 0.7602, IoU: 0.6178, Dice Loss: 0.2541 || Val Loss: 0.1955, Dice: 0.7654, IoU: 0.6239, Dice Loss: 0.2597
+Epoch [106/250] | Train Loss: 0.1880, Dice: 0.7649, IoU: 0.6218, Dice Loss: 0.2534 || Val Loss: 0.1933, Dice: 0.7642, IoU: 0.6241, Dice Loss: 0.2579
+Epoch [107/250] | Train Loss: 0.1935, Dice: 0.7591, IoU: 0.6143, Dice Loss: 0.2607 || Val Loss: 0.2059, Dice: 0.7455, IoU: 0.5997, Dice Loss: 0.2739
+Epoch [108/250] | Train Loss: 0.1925, Dice: 0.7562, IoU: 0.6123, Dice Loss: 0.2588 || Val Loss: 0.1897, Dice: 0.7733, IoU: 0.6344, Dice Loss: 0.2532
+Epoch [109/250] | Train Loss: 0.1845, Dice: 0.7679, IoU: 0.6257, Dice Loss: 0.2479 || Val Loss: 0.1857, Dice: 0.7749, IoU: 0.6363, Dice Loss: 0.2505
+Early stopping triggered after 25 epochs without improvement. Best epoch: 84
+Fold 2 training time: 84.22 minutes (5053.4 seconds)
+Fold 3/3
+Epoch [1/250] | Train Loss: 0.6231, Dice: 0.2163, IoU: 0.1291, Dice Loss: 0.8724 || Val Loss: 0.5439, Dice: 0.3433, IoU: 0.2119, Dice Loss: 0.7482
+New best model saved at epoch 1 with Val Dice: 0.3433
+Epoch [2/250] | Train Loss: 0.5050, Dice: 0.4029, IoU: 0.2568, Dice Loss: 0.6866 || Val Loss: 0.4131, Dice: 0.4917, IoU: 0.3326, Dice Loss: 0.5643
+New best model saved at epoch 2 with Val Dice: 0.4917
+Epoch [3/250] | Train Loss: 0.4022, Dice: 0.5274, IoU: 0.3610, Dice Loss: 0.5469 || Val Loss: 0.3457, Dice: 0.5622, IoU: 0.3986, Dice Loss: 0.4630
+New best model saved at epoch 3 with Val Dice: 0.5622
+Epoch [4/250] | Train Loss: 0.3763, Dice: 0.5447, IoU: 0.3791, Dice Loss: 0.5140 || Val Loss: 0.3479, Dice: 0.5740, IoU: 0.4091, Dice Loss: 0.4664
+New best model saved at epoch 4 with Val Dice: 0.5740
+Epoch [5/250] | Train Loss: 0.3509, Dice: 0.5849, IoU: 0.4188, Dice Loss: 0.4760 || Val Loss: 0.3354, Dice: 0.5755, IoU: 0.4081, Dice Loss: 0.4495
+New best model saved at epoch 5 with Val Dice: 0.5755
+Epoch [6/250] | Train Loss: 0.3421, Dice: 0.5885, IoU: 0.4215, Dice Loss: 0.4655 || Val Loss: 0.2920, Dice: 0.6302, IoU: 0.4668, Dice Loss: 0.3920
+New best model saved at epoch 6 with Val Dice: 0.6302
+Epoch [7/250] | Train Loss: 0.3137, Dice: 0.6285, IoU: 0.4618, Dice Loss: 0.4241 || Val Loss: 0.2894, Dice: 0.6276, IoU: 0.4644, Dice Loss: 0.3832
+Epoch [8/250] | Train Loss: 0.3110, Dice: 0.6259, IoU: 0.4601, Dice Loss: 0.4219 || Val Loss: 0.3012, Dice: 0.6242, IoU: 0.4611, Dice Loss: 0.4055
+Epoch [9/250] | Train Loss: 0.2927, Dice: 0.6529, IoU: 0.4900, Dice Loss: 0.3985 || Val Loss: 0.2881, Dice: 0.6397, IoU: 0.4765, Dice Loss: 0.3831
+New best model saved at epoch 9 with Val Dice: 0.6397
+Epoch [10/250] | Train Loss: 0.2946, Dice: 0.6481, IoU: 0.4848, Dice Loss: 0.3977 || Val Loss: 0.2584, Dice: 0.6641, IoU: 0.5023, Dice Loss: 0.3439
+New best model saved at epoch 10 with Val Dice: 0.6641
+Epoch [11/250] | Train Loss: 0.2883, Dice: 0.6552, IoU: 0.4900, Dice Loss: 0.3909 || Val Loss: 0.2598, Dice: 0.6733, IoU: 0.5155, Dice Loss: 0.3484
+New best model saved at epoch 11 with Val Dice: 0.6733
+Epoch [12/250] | Train Loss: 0.2950, Dice: 0.6570, IoU: 0.4923, Dice Loss: 0.3983 || Val Loss: 0.2554, Dice: 0.6724, IoU: 0.5129, Dice Loss: 0.3426
+Epoch [13/250] | Train Loss: 0.2655, Dice: 0.6979, IoU: 0.5394, Dice Loss: 0.3615 || Val Loss: 0.2415, Dice: 0.6910, IoU: 0.5342, Dice Loss: 0.3232
+New best model saved at epoch 13 with Val Dice: 0.6910
+Epoch [14/250] | Train Loss: 0.2749, Dice: 0.6827, IoU: 0.5222, Dice Loss: 0.3731 || Val Loss: 0.2428, Dice: 0.6960, IoU: 0.5405, Dice Loss: 0.3271
+New best model saved at epoch 14 with Val Dice: 0.6960
+Epoch [15/250] | Train Loss: 0.2649, Dice: 0.6845, IoU: 0.5266, Dice Loss: 0.3599 || Val Loss: 0.2359, Dice: 0.7000, IoU: 0.5459, Dice Loss: 0.3138
+New best model saved at epoch 15 with Val Dice: 0.7000
+Epoch [16/250] | Train Loss: 0.2566, Dice: 0.7019, IoU: 0.5418, Dice Loss: 0.3464 || Val Loss: 0.2640, Dice: 0.6488, IoU: 0.4858, Dice Loss: 0.3447
+Epoch [17/250] | Train Loss: 0.2650, Dice: 0.6795, IoU: 0.5208, Dice Loss: 0.3572 || Val Loss: 0.2461, Dice: 0.6867, IoU: 0.5305, Dice Loss: 0.3270
+Epoch [18/250] | Train Loss: 0.2692, Dice: 0.6831, IoU: 0.5228, Dice Loss: 0.3637 || Val Loss: 0.2583, Dice: 0.6757, IoU: 0.5142, Dice Loss: 0.3440
+Epoch [19/250] | Train Loss: 0.2855, Dice: 0.6568, IoU: 0.4939, Dice Loss: 0.3867 || Val Loss: 0.2245, Dice: 0.7115, IoU: 0.5572, Dice Loss: 0.3004
+New best model saved at epoch 19 with Val Dice: 0.7115
+Epoch [20/250] | Train Loss: 0.2512, Dice: 0.7068, IoU: 0.5489, Dice Loss: 0.3392 || Val Loss: 0.2385, Dice: 0.6926, IoU: 0.5384, Dice Loss: 0.3164
+Epoch [21/250] | Train Loss: 0.2454, Dice: 0.7088, IoU: 0.5526, Dice Loss: 0.3316 || Val Loss: 0.2242, Dice: 0.7069, IoU: 0.5522, Dice Loss: 0.2970
+Epoch [22/250] | Train Loss: 0.2480, Dice: 0.7065, IoU: 0.5499, Dice Loss: 0.3363 || Val Loss: 0.2265, Dice: 0.7016, IoU: 0.5464, Dice Loss: 0.3011
+Epoch [23/250] | Train Loss: 0.2407, Dice: 0.7056, IoU: 0.5488, Dice Loss: 0.3263 || Val Loss: 0.2230, Dice: 0.7055, IoU: 0.5512, Dice Loss: 0.2950
+Epoch [24/250] | Train Loss: 0.2407, Dice: 0.7233, IoU: 0.5692, Dice Loss: 0.3254 || Val Loss: 0.2395, Dice: 0.6951, IoU: 0.5391, Dice Loss: 0.3183
+Epoch [25/250] | Train Loss: 0.2425, Dice: 0.7175, IoU: 0.5616, Dice Loss: 0.3288 || Val Loss: 0.2127, Dice: 0.7176, IoU: 0.5653, Dice Loss: 0.2827
+New best model saved at epoch 25 with Val Dice: 0.7176
+Epoch [26/250] | Train Loss: 0.2385, Dice: 0.7202, IoU: 0.5651, Dice Loss: 0.3226 || Val Loss: 0.2121, Dice: 0.7192, IoU: 0.5672, Dice Loss: 0.2813
+New best model saved at epoch 26 with Val Dice: 0.7192
+Epoch [27/250] | Train Loss: 0.2337, Dice: 0.7302, IoU: 0.5777, Dice Loss: 0.3165 || Val Loss: 0.2209, Dice: 0.7071, IoU: 0.5540, Dice Loss: 0.2928
+Epoch [28/250] | Train Loss: 0.2255, Dice: 0.7366, IoU: 0.5850, Dice Loss: 0.3052 || Val Loss: 0.2220, Dice: 0.7124, IoU: 0.5604, Dice Loss: 0.2926
+Epoch [29/250] | Train Loss: 0.2303, Dice: 0.7308, IoU: 0.5773, Dice Loss: 0.3113 || Val Loss: 0.2100, Dice: 0.7276, IoU: 0.5774, Dice Loss: 0.2781
+New best model saved at epoch 29 with Val Dice: 0.7276
+Epoch [30/250] | Train Loss: 0.2317, Dice: 0.7158, IoU: 0.5605, Dice Loss: 0.3125 || Val Loss: 0.2092, Dice: 0.7233, IoU: 0.5731, Dice Loss: 0.2798
+Epoch [31/250] | Train Loss: 0.2316, Dice: 0.7194, IoU: 0.5654, Dice Loss: 0.3136 || Val Loss: 0.2339, Dice: 0.6902, IoU: 0.5363, Dice Loss: 0.3077
+Epoch [32/250] | Train Loss: 0.2373, Dice: 0.7209, IoU: 0.5661, Dice Loss: 0.3206 || Val Loss: 0.2119, Dice: 0.7225, IoU: 0.5721, Dice Loss: 0.2816
+Epoch [33/250] | Train Loss: 0.2339, Dice: 0.7262, IoU: 0.5720, Dice Loss: 0.3166 || Val Loss: 0.2057, Dice: 0.7339, IoU: 0.5865, Dice Loss: 0.2739
+New best model saved at epoch 33 with Val Dice: 0.7339
+Epoch [34/250] | Train Loss: 0.2351, Dice: 0.7185, IoU: 0.5646, Dice Loss: 0.3193 || Val Loss: 0.2074, Dice: 0.7223, IoU: 0.5731, Dice Loss: 0.2740
+Epoch [35/250] | Train Loss: 0.2222, Dice: 0.7264, IoU: 0.5742, Dice Loss: 0.2975 || Val Loss: 0.2005, Dice: 0.7403, IoU: 0.5942, Dice Loss: 0.2657
+New best model saved at epoch 35 with Val Dice: 0.7403
+Epoch [36/250] | Train Loss: 0.2334, Dice: 0.7184, IoU: 0.5637, Dice Loss: 0.3159 || Val Loss: 0.2141, Dice: 0.7199, IoU: 0.5698, Dice Loss: 0.2868
+Epoch [37/250] | Train Loss: 0.2397, Dice: 0.7129, IoU: 0.5587, Dice Loss: 0.3247 || Val Loss: 0.2174, Dice: 0.7275, IoU: 0.5774, Dice Loss: 0.2889
+Epoch [38/250] | Train Loss: 0.2301, Dice: 0.7205, IoU: 0.5668, Dice Loss: 0.3109 || Val Loss: 0.2117, Dice: 0.7238, IoU: 0.5741, Dice Loss: 0.2818
+Epoch [39/250] | Train Loss: 0.2293, Dice: 0.7295, IoU: 0.5774, Dice Loss: 0.3111 || Val Loss: 0.2042, Dice: 0.7295, IoU: 0.5813, Dice Loss: 0.2721
+Epoch [40/250] | Train Loss: 0.2257, Dice: 0.7332, IoU: 0.5823, Dice Loss: 0.3047 || Val Loss: 0.2062, Dice: 0.7290, IoU: 0.5811, Dice Loss: 0.2737
+Epoch [41/250] | Train Loss: 0.2274, Dice: 0.7354, IoU: 0.5851, Dice Loss: 0.3078 || Val Loss: 0.2309, Dice: 0.7014, IoU: 0.5487, Dice Loss: 0.3052
+Epoch [42/250] | Train Loss: 0.2283, Dice: 0.7283, IoU: 0.5763, Dice Loss: 0.3092 || Val Loss: 0.2107, Dice: 0.7170, IoU: 0.5667, Dice Loss: 0.2801
+Epoch [43/250] | Train Loss: 0.2284, Dice: 0.7250, IoU: 0.5716, Dice Loss: 0.3092 || Val Loss: 0.2077, Dice: 0.7281, IoU: 0.5792, Dice Loss: 0.2779
+Epoch [44/250] | Train Loss: 0.2296, Dice: 0.7276, IoU: 0.5754, Dice Loss: 0.3110 || Val Loss: 0.1997, Dice: 0.7338, IoU: 0.5838, Dice Loss: 0.2671
+Epoch [45/250] | Train Loss: 0.2242, Dice: 0.7329, IoU: 0.5807, Dice Loss: 0.3030 || Val Loss: 0.2106, Dice: 0.7160, IoU: 0.5656, Dice Loss: 0.2805
+Epoch [46/250] | Train Loss: 0.2159, Dice: 0.7365, IoU: 0.5865, Dice Loss: 0.2901 || Val Loss: 0.1987, Dice: 0.7363, IoU: 0.5882, Dice Loss: 0.2640
+Epoch [47/250] | Train Loss: 0.2170, Dice: 0.7399, IoU: 0.5891, Dice Loss: 0.2941 || Val Loss: 0.1915, Dice: 0.7454, IoU: 0.6003, Dice Loss: 0.2546
+New best model saved at epoch 47 with Val Dice: 0.7454
+Epoch [48/250] | Train Loss: 0.2183, Dice: 0.7422, IoU: 0.5935, Dice Loss: 0.2948 || Val Loss: 0.2036, Dice: 0.7270, IoU: 0.5760, Dice Loss: 0.2722
+Epoch [49/250] | Train Loss: 0.2182, Dice: 0.7335, IoU: 0.5816, Dice Loss: 0.2954 || Val Loss: 0.1940, Dice: 0.7448, IoU: 0.5998, Dice Loss: 0.2581
+Epoch [50/250] | Train Loss: 0.2290, Dice: 0.7221, IoU: 0.5675, Dice Loss: 0.3099 || Val Loss: 0.2067, Dice: 0.7259, IoU: 0.5780, Dice Loss: 0.2766
+Epoch [51/250] | Train Loss: 0.2215, Dice: 0.7346, IoU: 0.5847, Dice Loss: 0.3004 || Val Loss: 0.1962, Dice: 0.7434, IoU: 0.5973, Dice Loss: 0.2600
+Epoch [52/250] | Train Loss: 0.2169, Dice: 0.7411, IoU: 0.5914, Dice Loss: 0.2935 || Val Loss: 0.2057, Dice: 0.7335, IoU: 0.5859, Dice Loss: 0.2757
+Epoch [53/250] | Train Loss: 0.2124, Dice: 0.7444, IoU: 0.5959, Dice Loss: 0.2859 || Val Loss: 0.1927, Dice: 0.7471, IoU: 0.6028, Dice Loss: 0.2536
+New best model saved at epoch 53 with Val Dice: 0.7471
+Epoch [54/250] | Train Loss: 0.2099, Dice: 0.7455, IoU: 0.5965, Dice Loss: 0.2830 || Val Loss: 0.1949, Dice: 0.7423, IoU: 0.5959, Dice Loss: 0.2596
+Epoch [55/250] | Train Loss: 0.2044, Dice: 0.7489, IoU: 0.6018, Dice Loss: 0.2767 || Val Loss: 0.2004, Dice: 0.7346, IoU: 0.5890, Dice Loss: 0.2658
+Epoch [56/250] | Train Loss: 0.2081, Dice: 0.7431, IoU: 0.5946, Dice Loss: 0.2806 || Val Loss: 0.2072, Dice: 0.7305, IoU: 0.5830, Dice Loss: 0.2738
+Epoch [57/250] | Train Loss: 0.2126, Dice: 0.7525, IoU: 0.6058, Dice Loss: 0.2872 || Val Loss: 0.2033, Dice: 0.7350, IoU: 0.5880, Dice Loss: 0.2706
+Epoch [58/250] | Train Loss: 0.2092, Dice: 0.7561, IoU: 0.6112, Dice Loss: 0.2830 || Val Loss: 0.2040, Dice: 0.7353, IoU: 0.5865, Dice Loss: 0.2717
+Epoch [59/250] | Train Loss: 0.2068, Dice: 0.7529, IoU: 0.6067, Dice Loss: 0.2790 || Val Loss: 0.1963, Dice: 0.7400, IoU: 0.5929, Dice Loss: 0.2598
+Epoch [60/250] | Train Loss: 0.2197, Dice: 0.7300, IoU: 0.5779, Dice Loss: 0.2972 || Val Loss: 0.2113, Dice: 0.7328, IoU: 0.5849, Dice Loss: 0.2830
+Epoch [61/250] | Train Loss: 0.2117, Dice: 0.7470, IoU: 0.5979, Dice Loss: 0.2867 || Val Loss: 0.2251, Dice: 0.7028, IoU: 0.5497, Dice Loss: 0.2949
+Epoch [62/250] | Train Loss: 0.2080, Dice: 0.7530, IoU: 0.6059, Dice Loss: 0.2805 || Val Loss: 0.2074, Dice: 0.7285, IoU: 0.5796, Dice Loss: 0.2735
+Epoch [63/250] | Train Loss: 0.2190, Dice: 0.7417, IoU: 0.5925, Dice Loss: 0.2950 || Val Loss: 0.1949, Dice: 0.7437, IoU: 0.5982, Dice Loss: 0.2591
+Epoch [64/250] | Train Loss: 0.2083, Dice: 0.7514, IoU: 0.6053, Dice Loss: 0.2819 || Val Loss: 0.1933, Dice: 0.7456, IoU: 0.6014, Dice Loss: 0.2569
+Epoch [65/250] | Train Loss: 0.2097, Dice: 0.7443, IoU: 0.5956, Dice Loss: 0.2831 || Val Loss: 0.2011, Dice: 0.7407, IoU: 0.5947, Dice Loss: 0.2669
+Epoch [66/250] | Train Loss: 0.2136, Dice: 0.7408, IoU: 0.5910, Dice Loss: 0.2892 || Val Loss: 0.1934, Dice: 0.7478, IoU: 0.6025, Dice Loss: 0.2589
+New best model saved at epoch 66 with Val Dice: 0.7478
+Epoch [67/250] | Train Loss: 0.2065, Dice: 0.7466, IoU: 0.5999, Dice Loss: 0.2781 || Val Loss: 0.2063, Dice: 0.7241, IoU: 0.5737, Dice Loss: 0.2733
+Epoch [68/250] | Train Loss: 0.2102, Dice: 0.7399, IoU: 0.5909, Dice Loss: 0.2846 || Val Loss: 0.1985, Dice: 0.7412, IoU: 0.5941, Dice Loss: 0.2635
+Epoch [69/250] | Train Loss: 0.2038, Dice: 0.7507, IoU: 0.6045, Dice Loss: 0.2760 || Val Loss: 0.1897, Dice: 0.7491, IoU: 0.6041, Dice Loss: 0.2523
+New best model saved at epoch 69 with Val Dice: 0.7491
+Epoch [70/250] | Train Loss: 0.2103, Dice: 0.7522, IoU: 0.6055, Dice Loss: 0.2829 || Val Loss: 0.1959, Dice: 0.7461, IoU: 0.6007, Dice Loss: 0.2624
+Epoch [71/250] | Train Loss: 0.2104, Dice: 0.7451, IoU: 0.5959, Dice Loss: 0.2845 || Val Loss: 0.2159, Dice: 0.7223, IoU: 0.5725, Dice Loss: 0.2858
+Epoch [72/250] | Train Loss: 0.2082, Dice: 0.7425, IoU: 0.5935, Dice Loss: 0.2818 || Val Loss: 0.1979, Dice: 0.7335, IoU: 0.5851, Dice Loss: 0.2620
+Epoch [73/250] | Train Loss: 0.2054, Dice: 0.7528, IoU: 0.6044, Dice Loss: 0.2771 || Val Loss: 0.1900, Dice: 0.7546, IoU: 0.6120, Dice Loss: 0.2536
+New best model saved at epoch 73 with Val Dice: 0.7546
+Epoch [74/250] | Train Loss: 0.2002, Dice: 0.7555, IoU: 0.6108, Dice Loss: 0.2703 || Val Loss: 0.1931, Dice: 0.7484, IoU: 0.6033, Dice Loss: 0.2566
+Epoch [75/250] | Train Loss: 0.2035, Dice: 0.7433, IoU: 0.5966, Dice Loss: 0.2740 || Val Loss: 0.2061, Dice: 0.7300, IoU: 0.5831, Dice Loss: 0.2722
+Epoch [76/250] | Train Loss: 0.2106, Dice: 0.7591, IoU: 0.6146, Dice Loss: 0.2849 || Val Loss: 0.1907, Dice: 0.7403, IoU: 0.5942, Dice Loss: 0.2524
+Epoch [77/250] | Train Loss: 0.2137, Dice: 0.7524, IoU: 0.6068, Dice Loss: 0.2884 || Val Loss: 0.1997, Dice: 0.7462, IoU: 0.6012, Dice Loss: 0.2670
+Epoch [78/250] | Train Loss: 0.2064, Dice: 0.7525, IoU: 0.6059, Dice Loss: 0.2793 || Val Loss: 0.1878, Dice: 0.7488, IoU: 0.6032, Dice Loss: 0.2493
+Epoch [79/250] | Train Loss: 0.2067, Dice: 0.7562, IoU: 0.6102, Dice Loss: 0.2802 || Val Loss: 0.1978, Dice: 0.7408, IoU: 0.5950, Dice Loss: 0.2606
+Epoch [80/250] | Train Loss: 0.2097, Dice: 0.7410, IoU: 0.5913, Dice Loss: 0.2827 || Val Loss: 0.2002, Dice: 0.7409, IoU: 0.5962, Dice Loss: 0.2642
+Epoch [81/250] | Train Loss: 0.2076, Dice: 0.7527, IoU: 0.6057, Dice Loss: 0.2803 || Val Loss: 0.1899, Dice: 0.7526, IoU: 0.6096, Dice Loss: 0.2528
+Epoch [82/250] | Train Loss: 0.1985, Dice: 0.7630, IoU: 0.6187, Dice Loss: 0.2684 || Val Loss: 0.1982, Dice: 0.7489, IoU: 0.6056, Dice Loss: 0.2631
+Epoch [83/250] | Train Loss: 0.2055, Dice: 0.7518, IoU: 0.6044, Dice Loss: 0.2772 || Val Loss: 0.1978, Dice: 0.7454, IoU: 0.5999, Dice Loss: 0.2624
+Epoch [84/250] | Train Loss: 0.2040, Dice: 0.7483, IoU: 0.6008, Dice Loss: 0.2755 || Val Loss: 0.1899, Dice: 0.7500, IoU: 0.6051, Dice Loss: 0.2501
+Epoch [85/250] | Train Loss: 0.2019, Dice: 0.7652, IoU: 0.6220, Dice Loss: 0.2731 || Val Loss: 0.1808, Dice: 0.7613, IoU: 0.6201, Dice Loss: 0.2410
+New best model saved at epoch 85 with Val Dice: 0.7613
+Epoch [86/250] | Train Loss: 0.1994, Dice: 0.7582, IoU: 0.6132, Dice Loss: 0.2695 || Val Loss: 0.1857, Dice: 0.7540, IoU: 0.6105, Dice Loss: 0.2467
+Epoch [87/250] | Train Loss: 0.1998, Dice: 0.7552, IoU: 0.6090, Dice Loss: 0.2695 || Val Loss: 0.2034, Dice: 0.7351, IoU: 0.5880, Dice Loss: 0.2666
+Epoch [88/250] | Train Loss: 0.2081, Dice: 0.7444, IoU: 0.5959, Dice Loss: 0.2802 || Val Loss: 0.1957, Dice: 0.7490, IoU: 0.6057, Dice Loss: 0.2599
+Epoch [89/250] | Train Loss: 0.2069, Dice: 0.7513, IoU: 0.6051, Dice Loss: 0.2801 || Val Loss: 0.2038, Dice: 0.7311, IoU: 0.5827, Dice Loss: 0.2709
+Epoch [90/250] | Train Loss: 0.2029, Dice: 0.7623, IoU: 0.6179, Dice Loss: 0.2739 || Val Loss: 0.1827, Dice: 0.7585, IoU: 0.6167, Dice Loss: 0.2401
+Epoch [91/250] | Train Loss: 0.1949, Dice: 0.7655, IoU: 0.6217, Dice Loss: 0.2633 || Val Loss: 0.1898, Dice: 0.7494, IoU: 0.6062, Dice Loss: 0.2501
+Epoch [92/250] | Train Loss: 0.1987, Dice: 0.7639, IoU: 0.6206, Dice Loss: 0.2680 || Val Loss: 0.1961, Dice: 0.7417, IoU: 0.5965, Dice Loss: 0.2583
+Epoch [93/250] | Train Loss: 0.2032, Dice: 0.7591, IoU: 0.6141, Dice Loss: 0.2737 || Val Loss: 0.1955, Dice: 0.7497, IoU: 0.6048, Dice Loss: 0.2592
+Epoch [94/250] | Train Loss: 0.1964, Dice: 0.7677, IoU: 0.6253, Dice Loss: 0.2659 || Val Loss: 0.1922, Dice: 0.7529, IoU: 0.6095, Dice Loss: 0.2541
+Epoch [95/250] | Train Loss: 0.1953, Dice: 0.7613, IoU: 0.6170, Dice Loss: 0.2632 || Val Loss: 0.1942, Dice: 0.7345, IoU: 0.5866, Dice Loss: 0.2556
+Epoch [96/250] | Train Loss: 0.1988, Dice: 0.7558, IoU: 0.6097, Dice Loss: 0.2675 || Val Loss: 0.1883, Dice: 0.7581, IoU: 0.6171, Dice Loss: 0.2484
+Epoch [97/250] | Train Loss: 0.1988, Dice: 0.7563, IoU: 0.6106, Dice Loss: 0.2689 || Val Loss: 0.1872, Dice: 0.7517, IoU: 0.6083, Dice Loss: 0.2495
+Epoch [98/250] | Train Loss: 0.1882, Dice: 0.7723, IoU: 0.6306, Dice Loss: 0.2545 || Val Loss: 0.1777, Dice: 0.7675, IoU: 0.6275, Dice Loss: 0.2340
+New best model saved at epoch 98 with Val Dice: 0.7675
+Epoch [99/250] | Train Loss: 0.1967, Dice: 0.7655, IoU: 0.6220, Dice Loss: 0.2659 || Val Loss: 0.1913, Dice: 0.7487, IoU: 0.6049, Dice Loss: 0.2531
+Epoch [100/250] | Train Loss: 0.1981, Dice: 0.7627, IoU: 0.6191, Dice Loss: 0.2673 || Val Loss: 0.1979, Dice: 0.7489, IoU: 0.6054, Dice Loss: 0.2604
+Epoch [101/250] | Train Loss: 0.2060, Dice: 0.7513, IoU: 0.6051, Dice Loss: 0.2775 || Val Loss: 0.1992, Dice: 0.7345, IoU: 0.5876, Dice Loss: 0.2637
+Epoch [102/250] | Train Loss: 0.2031, Dice: 0.7505, IoU: 0.6031, Dice Loss: 0.2741 || Val Loss: 0.1988, Dice: 0.7319, IoU: 0.5860, Dice Loss: 0.2641
+Epoch [103/250] | Train Loss: 0.1872, Dice: 0.7702, IoU: 0.6278, Dice Loss: 0.2534 || Val Loss: 0.1863, Dice: 0.7538, IoU: 0.6103, Dice Loss: 0.2468
+Epoch [104/250] | Train Loss: 0.1949, Dice: 0.7660, IoU: 0.6243, Dice Loss: 0.2627 || Val Loss: 0.1900, Dice: 0.7479, IoU: 0.6035, Dice Loss: 0.2510
+Epoch [105/250] | Train Loss: 0.2048, Dice: 0.7522, IoU: 0.6048, Dice Loss: 0.2754 || Val Loss: 0.1924, Dice: 0.7386, IoU: 0.5891, Dice Loss: 0.2516
+Epoch [106/250] | Train Loss: 0.1987, Dice: 0.7592, IoU: 0.6142, Dice Loss: 0.2688 || Val Loss: 0.1920, Dice: 0.7490, IoU: 0.6041, Dice Loss: 0.2547
+Epoch [107/250] | Train Loss: 0.2027, Dice: 0.7591, IoU: 0.6137, Dice Loss: 0.2725 || Val Loss: 0.2098, Dice: 0.7289, IoU: 0.5814, Dice Loss: 0.2788
+Epoch [108/250] | Train Loss: 0.1982, Dice: 0.7654, IoU: 0.6224, Dice Loss: 0.2682 || Val Loss: 0.1937, Dice: 0.7504, IoU: 0.6070, Dice Loss: 0.2575
+Epoch [109/250] | Train Loss: 0.1993, Dice: 0.7539, IoU: 0.6091, Dice Loss: 0.2692 || Val Loss: 0.1897, Dice: 0.7534, IoU: 0.6105, Dice Loss: 0.2519
+Epoch [110/250] | Train Loss: 0.1941, Dice: 0.7631, IoU: 0.6189, Dice Loss: 0.2618 || Val Loss: 0.1844, Dice: 0.7573, IoU: 0.6144, Dice Loss: 0.2426
+Epoch [111/250] | Train Loss: 0.1977, Dice: 0.7599, IoU: 0.6155, Dice Loss: 0.2676 || Val Loss: 0.1901, Dice: 0.7534, IoU: 0.6105, Dice Loss: 0.2533
+Epoch [112/250] | Train Loss: 0.1924, Dice: 0.7656, IoU: 0.6231, Dice Loss: 0.2596 || Val Loss: 0.1836, Dice: 0.7631, IoU: 0.6220, Dice Loss: 0.2422
+Epoch [113/250] | Train Loss: 0.2008, Dice: 0.7592, IoU: 0.6143, Dice Loss: 0.2700 || Val Loss: 0.1887, Dice: 0.7564, IoU: 0.6152, Dice Loss: 0.2512
+Epoch [114/250] | Train Loss: 0.1923, Dice: 0.7633, IoU: 0.6195, Dice Loss: 0.2605 || Val Loss: 0.1886, Dice: 0.7538, IoU: 0.6129, Dice Loss: 0.2503
+Epoch [115/250] | Train Loss: 0.1864, Dice: 0.7747, IoU: 0.6336, Dice Loss: 0.2520 || Val Loss: 0.1842, Dice: 0.7618, IoU: 0.6201, Dice Loss: 0.2421
+Epoch [116/250] | Train Loss: 0.1925, Dice: 0.7660, IoU: 0.6227, Dice Loss: 0.2595 || Val Loss: 0.1872, Dice: 0.7544, IoU: 0.6115, Dice Loss: 0.2480
+Epoch [117/250] | Train Loss: 0.1865, Dice: 0.7772, IoU: 0.6388, Dice Loss: 0.2512 || Val Loss: 0.1917, Dice: 0.7534, IoU: 0.6102, Dice Loss: 0.2513
+Epoch [118/250] | Train Loss: 0.1936, Dice: 0.7661, IoU: 0.6232, Dice Loss: 0.2607 || Val Loss: 0.1804, Dice: 0.7681, IoU: 0.6283, Dice Loss: 0.2400
+New best model saved at epoch 118 with Val Dice: 0.7681
+Epoch [119/250] | Train Loss: 0.1968, Dice: 0.7605, IoU: 0.6155, Dice Loss: 0.2660 || Val Loss: 0.1849, Dice: 0.7565, IoU: 0.6133, Dice Loss: 0.2453
+Epoch [120/250] | Train Loss: 0.1949, Dice: 0.7618, IoU: 0.6176, Dice Loss: 0.2636 || Val Loss: 0.1836, Dice: 0.7584, IoU: 0.6162, Dice Loss: 0.2410
+Epoch [121/250] | Train Loss: 0.1961, Dice: 0.7617, IoU: 0.6181, Dice Loss: 0.2633 || Val Loss: 0.1777, Dice: 0.7635, IoU: 0.6218, Dice Loss: 0.2338
+Epoch [122/250] | Train Loss: 0.1948, Dice: 0.7643, IoU: 0.6218, Dice Loss: 0.2636 || Val Loss: 0.1897, Dice: 0.7529, IoU: 0.6070, Dice Loss: 0.2477
+Epoch [123/250] | Train Loss: 0.1936, Dice: 0.7709, IoU: 0.6294, Dice Loss: 0.2605 || Val Loss: 0.1829, Dice: 0.7599, IoU: 0.6184, Dice Loss: 0.2424
+Epoch [124/250] | Train Loss: 0.1946, Dice: 0.7565, IoU: 0.6121, Dice Loss: 0.2625 || Val Loss: 0.1847, Dice: 0.7592, IoU: 0.6176, Dice Loss: 0.2442
+Epoch [125/250] | Train Loss: 0.1889, Dice: 0.7642, IoU: 0.6212, Dice Loss: 0.2551 || Val Loss: 0.1865, Dice: 0.7512, IoU: 0.6084, Dice Loss: 0.2468
+Epoch [126/250] | Train Loss: 0.1999, Dice: 0.7674, IoU: 0.6250, Dice Loss: 0.2705 || Val Loss: 0.1836, Dice: 0.7658, IoU: 0.6255, Dice Loss: 0.2416
+Epoch [127/250] | Train Loss: 0.1921, Dice: 0.7695, IoU: 0.6277, Dice Loss: 0.2597 || Val Loss: 0.1826, Dice: 0.7579, IoU: 0.6166, Dice Loss: 0.2397
+Epoch [128/250] | Train Loss: 0.1925, Dice: 0.7608, IoU: 0.6160, Dice Loss: 0.2591 || Val Loss: 0.1883, Dice: 0.7573, IoU: 0.6146, Dice Loss: 0.2500
+Epoch [129/250] | Train Loss: 0.1916, Dice: 0.7574, IoU: 0.6153, Dice Loss: 0.2581 || Val Loss: 0.1847, Dice: 0.7539, IoU: 0.6114, Dice Loss: 0.2457
+Epoch [130/250] | Train Loss: 0.1900, Dice: 0.7711, IoU: 0.6291, Dice Loss: 0.2572 || Val Loss: 0.1907, Dice: 0.7585, IoU: 0.6151, Dice Loss: 0.2520
+Epoch [131/250] | Train Loss: 0.1947, Dice: 0.7668, IoU: 0.6239, Dice Loss: 0.2615 || Val Loss: 0.1826, Dice: 0.7588, IoU: 0.6176, Dice Loss: 0.2416
+Epoch [132/250] | Train Loss: 0.1908, Dice: 0.7661, IoU: 0.6239, Dice Loss: 0.2580 || Val Loss: 0.1860, Dice: 0.7573, IoU: 0.6159, Dice Loss: 0.2489
+Epoch [133/250] | Train Loss: 0.1962, Dice: 0.7673, IoU: 0.6243, Dice Loss: 0.2652 || Val Loss: 0.1868, Dice: 0.7597, IoU: 0.6161, Dice Loss: 0.2412
+Epoch [134/250] | Train Loss: 0.1888, Dice: 0.7691, IoU: 0.6281, Dice Loss: 0.2545 || Val Loss: 0.1838, Dice: 0.7590, IoU: 0.6164, Dice Loss: 0.2430
+Epoch [135/250] | Train Loss: 0.2005, Dice: 0.7554, IoU: 0.6107, Dice Loss: 0.2701 || Val Loss: 0.1969, Dice: 0.7499, IoU: 0.6069, Dice Loss: 0.2606
+Epoch [136/250] | Train Loss: 0.1913, Dice: 0.7736, IoU: 0.6329, Dice Loss: 0.2586 || Val Loss: 0.1824, Dice: 0.7623, IoU: 0.6219, Dice Loss: 0.2419
+Epoch [137/250] | Train Loss: 0.1860, Dice: 0.7834, IoU: 0.6452, Dice Loss: 0.2507 || Val Loss: 0.1976, Dice: 0.7455, IoU: 0.6016, Dice Loss: 0.2602
+Epoch [138/250] | Train Loss: 0.1906, Dice: 0.7677, IoU: 0.6252, Dice Loss: 0.2572 || Val Loss: 0.1875, Dice: 0.7573, IoU: 0.6161, Dice Loss: 0.2495
+Epoch [139/250] | Train Loss: 0.1934, Dice: 0.7777, IoU: 0.6380, Dice Loss: 0.2619 || Val Loss: 0.1818, Dice: 0.7622, IoU: 0.6215, Dice Loss: 0.2385
+Epoch [140/250] | Train Loss: 0.1940, Dice: 0.7674, IoU: 0.6252, Dice Loss: 0.2616 || Val Loss: 0.1845, Dice: 0.7612, IoU: 0.6198, Dice Loss: 0.2451
+Epoch [141/250] | Train Loss: 0.1840, Dice: 0.7790, IoU: 0.6403, Dice Loss: 0.2487 || Val Loss: 0.1853, Dice: 0.7547, IoU: 0.6132, Dice Loss: 0.2439
+Epoch [142/250] | Train Loss: 0.1919, Dice: 0.7680, IoU: 0.6261, Dice Loss: 0.2582 || Val Loss: 0.1803, Dice: 0.7683, IoU: 0.6292, Dice Loss: 0.2389
+New best model saved at epoch 142 with Val Dice: 0.7683
+Epoch [143/250] | Train Loss: 0.1898, Dice: 0.7713, IoU: 0.6303, Dice Loss: 0.2556 || Val Loss: 0.1900, Dice: 0.7491, IoU: 0.6064, Dice Loss: 0.2494
+Epoch [144/250] | Train Loss: 0.1878, Dice: 0.7727, IoU: 0.6309, Dice Loss: 0.2531 || Val Loss: 0.1885, Dice: 0.7502, IoU: 0.6079, Dice Loss: 0.2493
+Epoch [145/250] | Train Loss: 0.1883, Dice: 0.7745, IoU: 0.6343, Dice Loss: 0.2544 || Val Loss: 0.1904, Dice: 0.7535, IoU: 0.6098, Dice Loss: 0.2497
+Epoch [146/250] | Train Loss: 0.1859, Dice: 0.7639, IoU: 0.6212, Dice Loss: 0.2505 || Val Loss: 0.1849, Dice: 0.7493, IoU: 0.6057, Dice Loss: 0.2451
+Epoch [147/250] | Train Loss: 0.1877, Dice: 0.7767, IoU: 0.6373, Dice Loss: 0.2532 || Val Loss: 0.1885, Dice: 0.7466, IoU: 0.6033, Dice Loss: 0.2494
+Epoch [148/250] | Train Loss: 0.1859, Dice: 0.7748, IoU: 0.6343, Dice Loss: 0.2510 || Val Loss: 0.1809, Dice: 0.7578, IoU: 0.6161, Dice Loss: 0.2382
+Epoch [149/250] | Train Loss: 0.1775, Dice: 0.7833, IoU: 0.6461, Dice Loss: 0.2395 || Val Loss: 0.1846, Dice: 0.7597, IoU: 0.6193, Dice Loss: 0.2428
+Epoch [150/250] | Train Loss: 0.1871, Dice: 0.7682, IoU: 0.6264, Dice Loss: 0.2527 || Val Loss: 0.1806, Dice: 0.7651, IoU: 0.6239, Dice Loss: 0.2371
+Epoch [151/250] | Train Loss: 0.1870, Dice: 0.7724, IoU: 0.6310, Dice Loss: 0.2530 || Val Loss: 0.1847, Dice: 0.7590, IoU: 0.6181, Dice Loss: 0.2446
+Epoch [152/250] | Train Loss: 0.1854, Dice: 0.7700, IoU: 0.6282, Dice Loss: 0.2503 || Val Loss: 0.1820, Dice: 0.7578, IoU: 0.6153, Dice Loss: 0.2419
+Epoch [153/250] | Train Loss: 0.1841, Dice: 0.7778, IoU: 0.6381, Dice Loss: 0.2489 || Val Loss: 0.1839, Dice: 0.7566, IoU: 0.6123, Dice Loss: 0.2425
+Epoch [154/250] | Train Loss: 0.1906, Dice: 0.7655, IoU: 0.6220, Dice Loss: 0.2566 || Val Loss: 0.1819, Dice: 0.7629, IoU: 0.6229, Dice Loss: 0.2412
+Epoch [155/250] | Train Loss: 0.1896, Dice: 0.7770, IoU: 0.6376, Dice Loss: 0.2552 || Val Loss: 0.1848, Dice: 0.7625, IoU: 0.6209, Dice Loss: 0.2429
+Epoch [156/250] | Train Loss: 0.1880, Dice: 0.7706, IoU: 0.6288, Dice Loss: 0.2538 || Val Loss: 0.1804, Dice: 0.7648, IoU: 0.6251, Dice Loss: 0.2370
+Epoch [157/250] | Train Loss: 0.1918, Dice: 0.7674, IoU: 0.6248, Dice Loss: 0.2589 || Val Loss: 0.1922, Dice: 0.7415, IoU: 0.5967, Dice Loss: 0.2547
+Epoch [158/250] | Train Loss: 0.1817, Dice: 0.7771, IoU: 0.6382, Dice Loss: 0.2449 || Val Loss: 0.1780, Dice: 0.7660, IoU: 0.6251, Dice Loss: 0.2351
+Epoch [159/250] | Train Loss: 0.1858, Dice: 0.7701, IoU: 0.6282, Dice Loss: 0.2506 || Val Loss: 0.1839, Dice: 0.7621, IoU: 0.6209, Dice Loss: 0.2411
+Epoch [160/250] | Train Loss: 0.1808, Dice: 0.7768, IoU: 0.6385, Dice Loss: 0.2437 || Val Loss: 0.1772, Dice: 0.7638, IoU: 0.6242, Dice Loss: 0.2345
+Epoch [161/250] | Train Loss: 0.1830, Dice: 0.7814, IoU: 0.6435, Dice Loss: 0.2469 || Val Loss: 0.1903, Dice: 0.7591, IoU: 0.6172, Dice Loss: 0.2516
+Epoch [162/250] | Train Loss: 0.1865, Dice: 0.7790, IoU: 0.6401, Dice Loss: 0.2520 || Val Loss: 0.1817, Dice: 0.7634, IoU: 0.6232, Dice Loss: 0.2375
+Epoch [163/250] | Train Loss: 0.1819, Dice: 0.7814, IoU: 0.6438, Dice Loss: 0.2441 || Val Loss: 0.1804, Dice: 0.7630, IoU: 0.6230, Dice Loss: 0.2384
+Epoch [164/250] | Train Loss: 0.1916, Dice: 0.7644, IoU: 0.6219, Dice Loss: 0.2580 || Val Loss: 0.1801, Dice: 0.7663, IoU: 0.6263, Dice Loss: 0.2396
+Epoch [165/250] | Train Loss: 0.1883, Dice: 0.7720, IoU: 0.6310, Dice Loss: 0.2547 || Val Loss: 0.1846, Dice: 0.7600, IoU: 0.6188, Dice Loss: 0.2439
+Epoch [166/250] | Train Loss: 0.1894, Dice: 0.7743, IoU: 0.6342, Dice Loss: 0.2556 || Val Loss: 0.1870, Dice: 0.7509, IoU: 0.6082, Dice Loss: 0.2442
+Epoch [167/250] | Train Loss: 0.1860, Dice: 0.7739, IoU: 0.6337, Dice Loss: 0.2511 || Val Loss: 0.1822, Dice: 0.7610, IoU: 0.6196, Dice Loss: 0.2412
+Early stopping triggered after 25 epochs without improvement. Best epoch: 142
+Fold 3 training time: 129.00 minutes (7739.8 seconds)
+Fold 1: Best Validation Dice: 0.7460 | Training Time: 82.71 min
+Fold 2: Best Validation Dice: 0.7796 | Training Time: 84.22 min
+Fold 3: Best Validation Dice: 0.7683 | Training Time: 129.00 min
+
+Total training time for 3 folds: 295.93 minutes (17755.8 seconds)
+Test dataset size: 50
+Dice: 0.8453 | IoU: 0.7320 | Acc: 0.9823 | Sen: 0.9357 | Spec: 0.9848 | Prec: 0.7708 | MCC: 0.8404 | AUC: 0.9964 | MSE: 0.0151
+Dice: 0.7523 | IoU: 0.6030 | Acc: 0.9749 | Sen: 0.6523 | Spec: 0.9949 | Prec: 0.8885 | MCC: 0.7492 | AUC: 0.9878 | MSE: 0.0214
+Dice: 0.8807 | IoU: 0.7868 | Acc: 0.9955 | Sen: 0.9514 | Spec: 0.9963 | Prec: 0.8197 | MCC: 0.8809 | AUC: 0.9995 | MSE: 0.0038
+Dice: 0.6682 | IoU: 0.5018 | Acc: 0.9656 | Sen: 0.7357 | Spec: 0.9770 | Prec: 0.6121 | MCC: 0.6533 | AUC: 0.9862 | MSE: 0.0295
+Dice: 0.7074 | IoU: 0.5473 | Acc: 0.9857 | Sen: 0.6665 | Spec: 0.9942 | Prec: 0.7537 | MCC: 0.7015 | AUC: 0.9932 | MSE: 0.0117
+Dice: 0.7758 | IoU: 0.6338 | Acc: 0.9830 | Sen: 0.8385 | Spec: 0.9883 | Prec: 0.7219 | MCC: 0.7694 | AUC: 0.9936 | MSE: 0.0152
+Dice: 0.8414 | IoU: 0.7263 | Acc: 0.8886 | Sen: 0.7930 | Spec: 0.9454 | Prec: 0.8962 | MCC: 0.7594 | AUC: 0.9620 | MSE: 0.0881
+Dice: 0.6952 | IoU: 0.5328 | Acc: 0.8956 | Sen: 0.5723 | Spec: 0.9805 | Prec: 0.8852 | MCC: 0.6577 | AUC: 0.9588 | MSE: 0.0923
+Dice: 0.9155 | IoU: 0.8442 | Acc: 0.9692 | Sen: 0.8989 | Spec: 0.9853 | Prec: 0.9328 | MCC: 0.8970 | AUC: 0.9941 | MSE: 0.0241
+Dice: 0.7324 | IoU: 0.5778 | Acc: 0.8565 | Sen: 0.6047 | Spec: 0.9776 | Prec: 0.9286 | MCC: 0.6678 | AUC: 0.9596 | MSE: 0.1239
+Dice: 0.7061 | IoU: 0.5458 | Acc: 0.9510 | Sen: 0.5971 | Spec: 0.9897 | Prec: 0.8639 | MCC: 0.6942 | AUC: 0.9863 | MSE: 0.0443
+Dice: 0.8456 | IoU: 0.7325 | Acc: 0.9845 | Sen: 0.7511 | Spec: 0.9985 | Prec: 0.9673 | MCC: 0.8450 | AUC: 0.9975 | MSE: 0.0136
+Dice: 0.7714 | IoU: 0.6278 | Acc: 0.9691 | Sen: 0.6920 | Spec: 0.9917 | Prec: 0.8713 | MCC: 0.7608 | AUC: 0.9818 | MSE: 0.0258
+Dice: 0.8165 | IoU: 0.6900 | Acc: 0.9231 | Sen: 0.8699 | Spec: 0.9361 | Prec: 0.7694 | MCC: 0.7704 | AUC: 0.9716 | MSE: 0.0639
+Dice: 0.7989 | IoU: 0.6651 | Acc: 0.9795 | Sen: 0.7923 | Spec: 0.9897 | Prec: 0.8055 | MCC: 0.7881 | AUC: 0.9936 | MSE: 0.0172
+Dice: 0.9072 | IoU: 0.8301 | Acc: 0.9891 | Sen: 0.8456 | Spec: 0.9987 | Prec: 0.9783 | MCC: 0.9041 | AUC: 0.9959 | MSE: 0.0101
+Dice: 0.8113 | IoU: 0.6825 | Acc: 0.9092 | Sen: 0.6984 | Spec: 0.9910 | Prec: 0.9678 | MCC: 0.7709 | AUC: 0.9762 | MSE: 0.0803
+Dice: 0.8309 | IoU: 0.7107 | Acc: 0.9587 | Sen: 0.8612 | Spec: 0.9717 | Prec: 0.8026 | MCC: 0.8080 | AUC: 0.9877 | MSE: 0.0349
+Dice: 0.8184 | IoU: 0.6927 | Acc: 0.9884 | Sen: 0.7532 | Spec: 0.9969 | Prec: 0.8960 | MCC: 0.8158 | AUC: 0.9935 | MSE: 0.0101
+Dice: 0.7411 | IoU: 0.5887 | Acc: 0.7608 | Sen: 0.7273 | Spec: 0.7906 | Prec: 0.7554 | MCC: 0.5193 | AUC: 0.8390 | MSE: 0.1905
+Dice: 0.8267 | IoU: 0.7046 | Acc: 0.8237 | Sen: 0.8610 | Spec: 0.7880 | Prec: 0.7951 | MCC: 0.6500 | AUC: 0.9119 | MSE: 0.1392
+Dice: 0.7744 | IoU: 0.6318 | Acc: 0.9096 | Sen: 0.8027 | Spec: 0.9352 | Prec: 0.7479 | MCC: 0.7186 | AUC: 0.9579 | MSE: 0.0756
+Dice: 0.8864 | IoU: 0.7959 | Acc: 0.9950 | Sen: 0.8044 | Spec: 0.9997 | Prec: 0.9869 | MCC: 0.8887 | AUC: 0.9997 | MSE: 0.0045
+Dice: 0.8466 | IoU: 0.7340 | Acc: 0.9933 | Sen: 0.9814 | Spec: 0.9935 | Prec: 0.7443 | MCC: 0.8517 | AUC: 0.9995 | MSE: 0.0061
+Dice: 0.8427 | IoU: 0.7282 | Acc: 0.9571 | Sen: 0.9216 | Spec: 0.9621 | Prec: 0.7762 | MCC: 0.8221 | AUC: 0.9890 | MSE: 0.0335
+Dice: 0.4471 | IoU: 0.2879 | Acc: 0.9217 | Sen: 0.5532 | Spec: 0.9441 | Prec: 0.3752 | MCC: 0.4156 | AUC: 0.9256 | MSE: 0.0696
+Dice: 0.7669 | IoU: 0.6220 | Acc: 0.9557 | Sen: 0.8076 | Spec: 0.9704 | Prec: 0.7301 | MCC: 0.7436 | AUC: 0.9838 | MSE: 0.0373
+Dice: 0.9100 | IoU: 0.8349 | Acc: 0.9720 | Sen: 0.9341 | Spec: 0.9788 | Prec: 0.8872 | MCC: 0.8939 | AUC: 0.9939 | MSE: 0.0232
+Dice: 0.5760 | IoU: 0.4045 | Acc: 0.9002 | Sen: 0.7377 | Spec: 0.9167 | Prec: 0.4725 | MCC: 0.5392 | AUC: 0.9378 | MSE: 0.0826
+Dice: 0.6471 | IoU: 0.4783 | Acc: 0.9833 | Sen: 0.6814 | Spec: 0.9902 | Prec: 0.6161 | MCC: 0.6394 | AUC: 0.9924 | MSE: 0.0149
+Dice: 0.7671 | IoU: 0.6221 | Acc: 0.9736 | Sen: 0.7063 | Spec: 0.9911 | Prec: 0.8392 | MCC: 0.7563 | AUC: 0.9812 | MSE: 0.0225
+Dice: 0.7886 | IoU: 0.6510 | Acc: 0.9833 | Sen: 0.7946 | Spec: 0.9910 | Prec: 0.7827 | MCC: 0.7800 | AUC: 0.9942 | MSE: 0.0145
+Dice: 0.7142 | IoU: 0.5554 | Acc: 0.8295 | Sen: 0.5754 | Spec: 0.9789 | Prec: 0.9412 | MCC: 0.6396 | AUC: 0.9514 | MSE: 0.1531
+Dice: 0.7500 | IoU: 0.6000 | Acc: 0.9584 | Sen: 0.7623 | Spec: 0.9759 | Prec: 0.7380 | MCC: 0.7274 | AUC: 0.9840 | MSE: 0.0355
+Dice: 0.7671 | IoU: 0.6222 | Acc: 0.9801 | Sen: 0.7296 | Spec: 0.9919 | Prec: 0.8086 | MCC: 0.7578 | AUC: 0.9864 | MSE: 0.0170
+Dice: 0.8278 | IoU: 0.7062 | Acc: 0.9711 | Sen: 0.8154 | Spec: 0.9856 | Prec: 0.8406 | MCC: 0.8122 | AUC: 0.9930 | MSE: 0.0245
+Dice: 0.8078 | IoU: 0.6776 | Acc: 0.9741 | Sen: 0.7208 | Spec: 0.9948 | Prec: 0.9187 | MCC: 0.8009 | AUC: 0.9866 | MSE: 0.0228
+Dice: 0.7698 | IoU: 0.6258 | Acc: 0.9893 | Sen: 0.9115 | Spec: 0.9908 | Prec: 0.6663 | MCC: 0.7743 | AUC: 0.9975 | MSE: 0.0094
+Dice: 0.5163 | IoU: 0.3480 | Acc: 0.8625 | Sen: 0.4910 | Spec: 0.9278 | Prec: 0.5443 | MCC: 0.4372 | AUC: 0.8431 | MSE: 0.1166
+Dice: 0.5654 | IoU: 0.3941 | Acc: 0.9597 | Sen: 0.7117 | Spec: 0.9692 | Prec: 0.4690 | MCC: 0.5583 | AUC: 0.9734 | MSE: 0.0337
+Dice: 0.7237 | IoU: 0.5670 | Acc: 0.9845 | Sen: 0.7510 | Spec: 0.9910 | Prec: 0.6983 | MCC: 0.7162 | AUC: 0.9931 | MSE: 0.0130
+Dice: 0.3551 | IoU: 0.2159 | Acc: 0.9818 | Sen: 0.6015 | Spec: 0.9850 | Prec: 0.2519 | MCC: 0.3818 | AUC: 0.9799 | MSE: 0.0164
+Dice: 0.5662 | IoU: 0.3949 | Acc: 0.9480 | Sen: 0.5402 | Spec: 0.9753 | Prec: 0.5949 | MCC: 0.5393 | AUC: 0.9696 | MSE: 0.0463
+Dice: 0.7293 | IoU: 0.5739 | Acc: 0.9898 | Sen: 0.8169 | Spec: 0.9928 | Prec: 0.6586 | MCC: 0.7285 | AUC: 0.9960 | MSE: 0.0092
+Dice: 0.7017 | IoU: 0.5405 | Acc: 0.9769 | Sen: 0.9802 | Spec: 0.9768 | Prec: 0.5465 | MCC: 0.7228 | AUC: 0.9970 | MSE: 0.0187
+Dice: 0.6416 | IoU: 0.4723 | Acc: 0.9937 | Sen: 0.7536 | Spec: 0.9955 | Prec: 0.5586 | MCC: 0.6458 | AUC: 0.9965 | MSE: 0.0055
+Dice: 0.5640 | IoU: 0.3928 | Acc: 0.9803 | Sen: 0.4953 | Spec: 0.9931 | Prec: 0.6549 | MCC: 0.5598 | AUC: 0.9803 | MSE: 0.0172
+Dice: 0.5244 | IoU: 0.3554 | Acc: 0.9777 | Sen: 0.7676 | Spec: 0.9811 | Prec: 0.3982 | MCC: 0.5434 | AUC: 0.9868 | MSE: 0.0194
+Dice: 0.7772 | IoU: 0.6356 | Acc: 0.9431 | Sen: 0.7330 | Spec: 0.9760 | Prec: 0.8270 | MCC: 0.7465 | AUC: 0.9720 | MSE: 0.0476
+Dice: 0.5898 | IoU: 0.4183 | Acc: 0.9798 | Sen: 0.6280 | Spec: 0.9881 | Prec: 0.5561 | MCC: 0.5806 | AUC: 0.9807 | MSE: 0.0173
+
+Average Dice: 0.7367
+Average IoU: 0.5968
+Average Accuracy: 0.9512
+Average Sensitivity (Recall): 0.7522
+Average Specificity: 0.9722
+Average Precision: 0.7462
+Average MCC: 0.7125
+Average AUC: 0.9758
+Average MSE: 0.0413
+
+Program finished with exit code 0 
+

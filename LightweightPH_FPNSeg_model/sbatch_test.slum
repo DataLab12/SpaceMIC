@@ -1,0 +1,45 @@
+#!/bin/bash
+#SBATCH --job-name=test
+#SBATCH --partition=gpu1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=1
+#SBATCH --nodes=1
+#SBATCH --mem=240Gb
+#SBATCH --time=14-00:00:00
+#SBATCH --output=job_model_test_output.txt
+#SBATCH --error=job_model_test_error.txt
+
+echo ""
+echo "Starting at `date`"
+echo "Running on hosts: $SLURM_NODELIST"
+echo "Running on $SLURM_NNODES nodes."
+echo "Running on $SLURM_NPROCS processors."
+
+module purge
+module load gcc/11.2.0
+module load python3
+module load cuda11.8/blas/11.8.0
+module load cuda11.8/fft/11.8.0
+module load cuda11.8/toolkit/11.8.0
+#module load cuda/12.1
+
+#source ~/env_tf/bin/activate
+unset XLA_FLAGS
+export LD_LIBRARY_PATH=$(echo "$LD_LIBRARY_PATH" | sed -e "s|:*$HOME/cudnn/cudnn-linux-x86_64-8.9.4.25_cuda11-archive/lib||g")
+
+source ~/pytorch_env/bin/activate
+
+
+# path to the correct directory
+cd ./
+
+echo "Current working directory is `pwd`"
+
+python3 test.py
+
+echo ""
+echo "Program finished with exit code $? at: `date`"
+echo ""
+
+
+
