@@ -114,79 +114,20 @@ Test set size: 50, Test loader: 50 batches
 Evaluating model from fold 1: ./best_corrosion_model_fold1.pth
 Creating SegmentationModel
 Loading model weights from ./best_corrosion_model_fold1.pth
-Loaded model weights from ./best_corrosion_model_fold1.pth
-Saved test plot: ./test_plots/fold_1_batch_1_test_images.png
-Saved test plot: ./test_plots/fold_1_batch_2_test_images.png
-Saved test plot: ./test_plots/fold_1_batch_3_test_images.png
+
 Fold 1 - Test Dice: 0.8266, IoU: 0.7109, Sensitivity: 0.8489, Specificity: 0.9777, F1: 0.8266, AUC: 0.9859, Accuracy: 0.9696
 
 Evaluating model from fold 2: ./best_corrosion_model_fold2.pth
 Creating SegmentationModel
 Loading model weights from ./best_corrosion_model_fold2.pth
-Loaded model weights from ./best_corrosion_model_fold2.pth
-Saved test plot: ./test_plots/fold_2_batch_1_test_images.png
-Saved test plot: ./test_plots/fold_2_batch_2_test_images.png
-Saved test plot: ./test_plots/fold_2_batch_3_test_images.png
+
 Fold 2 - Test Dice: 0.8292, IoU: 0.7131, Sensitivity: 0.8495, Specificity: 0.9821, F1: 0.8292, AUC: 0.9816, Accuracy: 0.9681
 
 Evaluating model from fold 3: ./best_corrosion_model_fold3.pth
 Creating SegmentationModel
 Loading model weights from ./best_corrosion_model_fold3.pth
-Loaded model weights from ./best_corrosion_model_fold3.pth
-Saved test plot: ./test_plots/fold_3_batch_1_test_images.png
-Saved test plot: ./test_plots/fold_3_batch_2_test_images.png
-Saved test plot: ./test_plots/fold_3_batch_3_test_images.png
+
 Fold 3 - Test Dice: 0.8329, IoU: 0.7186, Sensitivity: 0.8747, Specificity: 0.9692, F1: 0.8329, AUC: 0.9845, Accuracy: 0.9672
-Saved predicted mask: ./test_predicted_masks/Flight_1BL_0003_avg.png
-Saved predicted mask: ./test_predicted_masks/Flight_1CI_0015_avg.png
-Saved predicted mask: ./test_predicted_masks/Flight_2BA_0076_avg.png
-Saved predicted mask: ./test_predicted_masks/Flight_2BA_0124_avg.png
-Saved predicted mask: ./test_predicted_masks/Flight_2BA_0147_avg.png
-Saved predicted mask: ./test_predicted_masks/Flight_2CJ_SS_0001_avg.png
-Saved predicted mask: ./test_predicted_masks/Flight_3BC_0038_avg.png
-Saved predicted mask: ./test_predicted_masks/Flight_3BH_0012_avg.png
-Saved predicted mask: ./test_predicted_masks/Flight_3BH_0057_avg.png
-Saved predicted mask: ./test_predicted_masks/Flight_3BI_0004_avg.png
-Saved predicted mask: ./test_predicted_masks/Flight_3BI_0005_avg.png
-Saved predicted mask: ./test_predicted_masks/Flight_3BI_0017_avg.png
-Saved predicted mask: ./test_predicted_masks/Flight_3BI_0038_avg.png
-Saved predicted mask: ./test_predicted_masks/Flight_3BJ_0015_avg.png
-Saved predicted mask: ./test_predicted_masks/Flight_3BJ_0016_avg.png
-Saved predicted mask: ./test_predicted_masks/Flight_3BJ_0020_avg.png
-Saved predicted mask: ./test_predicted_masks/Flight_3BK_0013_avg.png
-Saved predicted mask: ./test_predicted_masks/Flight_3BL_0002_avg.png
-Saved predicted mask: ./test_predicted_masks/Flight_3BL_0003_avg.png
-Saved predicted mask: ./test_predicted_masks/Flight_3BL_0016_avg.png
-Saved predicted mask: ./test_predicted_masks/Flight_3BL_0030_avg.png
-Saved predicted mask: ./test_predicted_masks/Flight_3BL_0031_avg.png
-Saved predicted mask: ./test_predicted_masks/Flight_3CA_0001_avg.png
-Saved predicted mask: ./test_predicted_masks/Flight_3CA_0002_avg.png
-Saved predicted mask: ./test_predicted_masks/Flight_3CA_0003_avg.png
-Saved predicted mask: ./test_predicted_masks/Flight_3CC_0001_avg.png
-Saved predicted mask: ./test_predicted_masks/Flight_3CC_0003_avg.png
-Saved predicted mask: ./test_predicted_masks/Flight_3CH_0003_avg.png
-Saved predicted mask: ./test_predicted_masks/Flight_3CI_0001_avg.png
-Saved predicted mask: ./test_predicted_masks/Flight_3CI_0002_avg.png
-Saved predicted mask: ./test_predicted_masks/Ground_1BA_0015_avg.png
-Saved predicted mask: ./test_predicted_masks/Ground_1BA_0042_avg.png
-Saved predicted mask: ./test_predicted_masks/Ground_1BA_0051_avg.png
-Saved predicted mask: ./test_predicted_masks/Ground_1BD_0001_avg.png
-Saved predicted mask: ./test_predicted_masks/Ground_1BD_0003_avg.png
-Saved predicted mask: ./test_predicted_masks/Ground_1BF_0001_avg.png
-Saved predicted mask: ./test_predicted_masks/Ground_1BG_0001_avg.png
-Saved predicted mask: ./test_predicted_masks/Ground_1CB_0002_avg.png
-Saved predicted mask: ./test_predicted_masks/Ground_1CB_0011_avg.png
-Saved predicted mask: ./test_predicted_masks/Ground_1CB_0012_avg.png
-Saved predicted mask: ./test_predicted_masks/Ground_1CC_0002_avg.png
-Saved predicted mask: ./test_predicted_masks/Ground_1CF_0003_avg.png
-Saved predicted mask: ./test_predicted_masks/Ground_1CF_0008_avg.png
-Saved predicted mask: ./test_predicted_masks/Ground_1TCB_0002_avg.png
-Saved predicted mask: ./test_predicted_masks/Ground_1TCC_0006_avg.png
-Saved predicted mask: ./test_predicted_masks/Ground_1TCC_0007_avg.png
-Saved predicted mask: ./test_predicted_masks/Ground_1TCD_0005_avg.png
-Saved predicted mask: ./test_predicted_masks/Ground_1TCE_0003_avg.png
-Saved predicted mask: ./test_predicted_masks/Ground_1TCL_0010_avg.png
-Saved predicted mask: ./test_predicted_masks/Ground_3CF_0010_avg.png
 
 Final Test Results (Averaged across 3 models):
 Average Test Dice: 0.8295 ± 0.0026
