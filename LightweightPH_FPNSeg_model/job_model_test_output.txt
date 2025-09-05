@@ -1,0 +1,145 @@
+
+Starting 
+Running on hosts: gpu1-004
+Running on 1 nodes.
+Running on 1 processors.
+
+=========================================================================================================
+Layer (type:depth-idx)                                  Output Shape              Param #
+=========================================================================================================
+SegmentationModel                                       [1, 1, 512, 512]          --
+├─PromptEncoder: 1-1                                    [1, 256]                  527,360
+│    └─Linear: 2-1                                      [1, 256]                  1,280
+│    └─Linear: 2-2                                      [1, 256]                  512
+│    └─TransformerEncoder: 2-3                          [1, 1, 256]               --
+│    │    └─ModuleList: 3-1                             --                        527,104
+│    └─AdaptiveAvgPool1d: 2-4                           [1, 256, 1]               --
+│    └─Sequential: 2-5                                  [1, 256, 16, 16]          --
+│    │    └─Conv2d: 3-2                                 [1, 256, 16, 16]          65,792
+│    │    └─BatchNorm2d: 3-3                            [1, 256, 16, 16]          512
+│    │    └─ReLU: 3-4                                   [1, 256, 16, 16]          --
+├─PH_FPNEncoder: 1-2                                    [1, 256, 128, 128]        4,194,304
+│    └─SimpleConvFeatureExtractor: 2-6                  [1, 96, 128, 128]         --
+│    │    └─ModuleList: 3-5                             --                        10,545,120
+│    └─ModuleList: 2-16                                 --                        (recursive)
+│    │    └─Conv2d: 3-6                                 [1, 256, 128, 128]        24,832
+│    └─ModuleList: 2-17                                 --                        (recursive)
+│    │    └─Identity: 3-7                               [1, 256, 128, 128]        --
+│    └─ModuleList: 2-18                                 --                        (recursive)
+│    │    └─AttentionConvBlock: 3-8                     [1, 16384, 256]           2,519,331
+│    └─ModuleList: 2-16                                 --                        (recursive)
+│    │    └─Conv2d: 3-9                                 [1, 256, 64, 64]          49,408
+│    └─ModuleList: 2-17                                 --                        (recursive)
+│    │    └─Identity: 3-10                              [1, 256, 64, 64]          --
+│    └─ModuleList: 2-18                                 --                        (recursive)
+│    │    └─AttentionConvBlock: 3-11                    [1, 4096, 256]            2,519,331
+│    └─ModuleList: 2-16                                 --                        (recursive)
+│    │    └─Conv2d: 3-12                                [1, 384, 32, 32]          147,840
+│    └─ModuleList: 2-17                                 --                        (recursive)
+│    │    └─Conv2d: 3-13                                [1, 256, 32, 32]          98,560
+│    └─ModuleList: 2-18                                 --                        (recursive)
+│    │    └─AttentionConvBlock: 3-14                    [1, 1024, 256]            2,519,331
+│    └─ModuleList: 2-16                                 --                        (recursive)
+│    │    └─Conv2d: 3-15                                [1, 384, 16, 16]          295,296
+│    └─ModuleList: 2-17                                 --                        (recursive)
+│    │    └─Conv2d: 3-16                                [1, 256, 16, 16]          98,560
+│    └─ModuleList: 2-18                                 --                        (recursive)
+│    │    └─AttentionConvBlock: 3-17                    [1, 256, 256]             2,519,331
+│    └─ModuleList: 2-19                                 --                        --
+│    │    └─Linear: 3-18                                [1, 256]                  65,792
+│    │    └─Linear: 3-19                                [1, 256]                  65,792
+│    │    └─Linear: 3-20                                [1, 256]                  65,792
+│    │    └─Linear: 3-21                                [1, 256]                  65,792
+│    └─ModuleList: 2-20                                 --                        --
+│    │    └─Sequential: 3-22                            [1, 256, 16, 16]          590,592
+│    │    └─Sequential: 3-23                            [1, 256, 32, 32]          590,592
+│    │    └─Sequential: 3-24                            [1, 256, 64, 64]          590,592
+│    │    └─Sequential: 3-25                            [1, 256, 128, 128]        590,592
+│    └─ModuleList: 2-21                                 --                        --
+│    │    └─Sequential: 3-26                            [1, 256, 128, 128]        590,592
+│    │    └─Sequential: 3-27                            [1, 256, 64, 64]          590,592
+│    │    └─Sequential: 3-28                            [1, 256, 32, 32]          590,592
+│    └─ModuleList: 2-22                                 --                        --
+│    │    └─Sequential: 3-29                            [1, 256, 128, 128]        66,304
+│    │    └─Sequential: 3-30                            [1, 256, 64, 64]          66,304
+│    │    └─Sequential: 3-31                            [1, 256, 32, 32]          66,304
+├─Decoder: 1-3                                          [1, 1, 512, 512]          8,224
+│    └─ModuleList: 2-31                                 --                        (recursive)
+│    │    └─Sequential: 3-32                            [1, 256, 32, 32]          590,592
+│    └─ModuleList: 2-30                                 --                        (recursive)
+│    │    └─Conv2d: 3-33                                [1, 256, 32, 32]          65,792
+│    └─ModuleList: 2-31                                 --                        (recursive)
+│    │    └─Sequential: 3-34                            [1, 128, 64, 64]          295,296
+│    └─ModuleList: 2-30                                 --                        (recursive)
+│    │    └─Conv2d: 3-35                                [1, 128, 64, 64]          32,896
+│    └─ModuleList: 2-31                                 --                        (recursive)
+│    │    └─Sequential: 3-36                            [1, 64, 128, 128]         73,920
+│    └─ModuleList: 2-30                                 --                        (recursive)
+│    │    └─Conv2d: 3-37                                [1, 64, 128, 128]         16,448
+│    └─ModuleList: 2-31                                 --                        (recursive)
+│    │    └─Sequential: 3-38                            [1, 64, 256, 256]         37,056
+│    └─ModuleList: 2-30                                 --                        (recursive)
+│    │    └─Conv2d: 3-39                                [1, 64, 256, 256]         16,448
+│    └─ModuleList: 2-31                                 --                        (recursive)
+│    │    └─Sequential: 3-40                            [1, 32, 512, 512]         18,528
+│    └─Conv2d: 2-32                                     [1, 1, 512, 512]          33
+│    └─Sequential: 2-33                                 [1, 1, 512, 512]          --
+│    │    └─Conv2d: 3-41                                [1, 16, 512, 512]         304
+│    │    └─BatchNorm2d: 3-42                           [1, 16, 512, 512]         32
+│    │    └─ReLU: 3-43                                  [1, 16, 512, 512]         --
+│    │    └─Conv2d: 3-44                                [1, 1, 512, 512]          17
+=========================================================================================================
+Total params: 32,405,614
+Trainable params: 32,405,614
+Non-trainable params: 0
+Total mult-adds (G): 43.17
+=========================================================================================================
+Input size (MB): 3.15
+Forward/backward pass size (MB): 656.84
+Params size (MB): 71.10
+Estimated Total Size (MB): 731.09
+=========================================================================================================
+Found 281 train images, 50 test images
+Total train pairs: 281, test pairs: 50
+Using device: cuda
+Starting evaluation on test set
+Device: cuda, Device type: cuda
+PyTorch version: 2.3.1+cu118
+CUDA available: True
+Model path exists: True
+Model path exists: True
+Model path exists: True
+Test set size: 50, Test loader: 50 batches
+
+
+Evaluating model from fold 1: ./best_corrosion_model_fold1.pth
+Creating SegmentationModel
+Loading model weights from ./best_corrosion_model_fold1.pth
+
+Fold 1 - Test Dice: 0.8266, IoU: 0.7109, Sensitivity: 0.8489, Specificity: 0.9777, F1: 0.8266, AUC: 0.9859, Accuracy: 0.9696
+
+Evaluating model from fold 2: ./best_corrosion_model_fold2.pth
+Creating SegmentationModel
+Loading model weights from ./best_corrosion_model_fold2.pth
+
+Fold 2 - Test Dice: 0.8292, IoU: 0.7131, Sensitivity: 0.8495, Specificity: 0.9821, F1: 0.8292, AUC: 0.9816, Accuracy: 0.9681
+
+Evaluating model from fold 3: ./best_corrosion_model_fold3.pth
+Creating SegmentationModel
+Loading model weights from ./best_corrosion_model_fold3.pth
+
+Fold 3 - Test Dice: 0.8329, IoU: 0.7186, Sensitivity: 0.8747, Specificity: 0.9692, F1: 0.8329, AUC: 0.9845, Accuracy: 0.9672
+
+
+Final Test Results (Averaged across 3 models):
+Average Test Dice: 0.8295 ± 0.0026
+Average Test IoU: 0.7142 ± 0.0032
+Average Test Sensitivity: 0.8577 ± 0.0120
+Average Test Specificity: 0.9763 ± 0.0054
+Average Test F1: 0.8295 ± 0.0026
+Average Test AUC: 0.9840 ± 0.0018
+Average Test Accuracy: 0.9683 ± 0.0010
+Total execution time: 0h 0m 16s
+
+Program finished with exit code 
+
