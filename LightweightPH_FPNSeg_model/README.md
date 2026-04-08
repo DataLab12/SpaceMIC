@@ -1,4 +1,4 @@
-# Proposed Lightweight PH_FPNSeg model
+# Proposed Lightweight PH_FPNSeg model 
 
 ### Prerequisites
 The model requires Python 3.9 or later and a CUDA-enabled GPU
