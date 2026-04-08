@@ -27,7 +27,7 @@ That's all.
 
 Note: to use SAM2, you will need Python 3.10.
 
-## Running the MIC-Based Modified SAM2_Model
+## Running the MIC-Based Modified SAM2_Model 
 
 Finally, to run the MIC-based modified SAM2_Model, use the slum script, or just run:
 - For training:
