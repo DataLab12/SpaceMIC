@@ -27,7 +27,16 @@ Dataset access: https://doi.org/10.18738/T8/0LQVXW
 
 ## Results
 
-The enhanced SAM2 and Lightweight PH-FPNSeg provide strong segmentation performance, achieving average Dice and IoU scores of approximately 82% and 70%, respectively.
+Models Performances on MIC segmentation in SEM images:
+
+| Methods                 |	Dice %|	IoU %|
+|------------------------|--------|------|
+|Classical SIFT+Convex Hull	|44.07 |31.40|
+|Classical SIFT+Polygon |37.20 |25.88|
+|DeepLabV3+	|75.76 |62.97|
+|SAM 	|73.67 |59.68|
+|**Enhanced SAM2**	|81.85 |70.31|
+|**Lightweight PH-FPNSeg**	|**82.95** |**71.42**|
 
 ## Repository Structure
 
