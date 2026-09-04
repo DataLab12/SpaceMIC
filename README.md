@@ -71,8 +71,10 @@ url = {https://doi.org/10.18738/T8/0LQVXW}
 }
 
 @article{anonymous2026mic,
-title={Benchmarking Automated MIC Detection: The AI-Ready Space Biology SEM Dataset and Advanced Detection Methods},
+title={Benchmarking automated MIC detection: the AI-ready space biology SEM dataset and advanced detection methods},
 author={Akter Tani, Tanzina and Amber Dowell Busboom and McLean, Robert and Tešić, Jelena},
-journal={Under Review},
-year={2026} }
-(Replace this with the final paper citation and DOI once available.)
+journal={npj Microgravity},
+year={2026}
+doi={https://doi.org/10.1038/s41526-026-00652-7}
+}
+
