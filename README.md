@@ -52,10 +52,6 @@ Models Performances on MIC segmentation in SEM images:
 ## Usage
 Each method is self-contained. Refer to the README file inside folders for instructions.
 
-## Notes
-
-This repository accompanies a manuscript currently under review.
-
 ## Citation
 If you use this repository or dataset, please cite:
 
